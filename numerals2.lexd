@@ -1,9 +1,8 @@
 PATTERNS
 Base
 Teens
-Ten
 Tens
-TensAdd Add Ten
+Tens Add
 Hundred
 Thousand
 
@@ -33,16 +32,10 @@ LEXICON Ten
 цӀуд # 10
 
 LEXICON Tens
-къад # 20
+къа{д} # 20
 яхцӀур # 40
-пудкъад # 60
-кьудкъад # 80
-
-LEXICON TensAdd
-къад:къан # 20
-яхцӀур:яхцӀур # 40
-пудкъад:пудкъан # 60
-кьудкъад:кьудкъан # 80
+пудкъа{д} # 60
+кьудкъа{д} # 80
 
 LEXICON Add
 <add>:ни
