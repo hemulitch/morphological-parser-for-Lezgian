@@ -1,22 +1,15 @@
-.DEFAULT_GOAL := numerals.analizer.hfst
-
-
-numerals.analizer.hfst: numerals.generator.hfst
-	hfst-invert $< -o $@
-
-numerals.generator.hfst: numerals.lexd.hfst numerals.twol.hfst
-	hfst-compose-intersect $^ -o $@
-
-numerals.lexd.hfst: numerals2.lexd
-	lexd $< | hfst-txt2fst -o $@
-
-numerals.twol.hfst: numerals.twol
-	hfst-twolc $< -o $@
-
-test.pass.txt: tests.csv
-	awk -F '$$3 == "pass" {print $$1 ":" $$2}' $^ | sort -u > $@
-check: numerals.generator.hfst test.pass.txt
-	bash compare.sh $< text.pass.txt
-
-test.clean: check
-	rm test.*
+.DEFAULT_GOAL := noun.analizer.hfst
+  
+# generate analizer and generator
+noun.analizer.hfst: noun.generator.hfst
+        hfst-invert $< -o $@
+noun.generator.hfst: noun.morphotactics.hfst noun.twol.hfst
+        hfst-compose-intersect $^ -o $@
+noun.morphotactics.hfst: noun.lexd.hfst noun.morphotactics.twol.hfst
+        hfst-invert $< | hfst-compose-intersect - noun.morphotactics.twol.hfst | hfst-invert -o $@
+noun.lexd.hfst: noun.lexd
+        lexd $< | hfst-txt2fst -o $@
+noun.twol.hfst: noun.twol
+        hfst-twolc $< -o $@
+noun.morphotactics.twol.hfst: noun.morphotactics.twol
+        hfst-twolc $< -o $@
