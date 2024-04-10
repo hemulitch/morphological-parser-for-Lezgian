@@ -1,0 +1,50 @@
+PATTERNS
+Stem [<n>:] (([<abs>] Plural?) | Erg)
+Stem [<n>:] Erg (NounInfl) | (NounInflEssive (Elative | Directive)?)
+
+LEXICON Stem
+
+багъ[Decl2] # сад
+ват[Decl3] # катушка
+викI[Decl3] # ярмо
+гав[Decl5] # тур
+гар[Decl1] # ветер
+дава[Decl2] # лекарство
+кицI[Decl1] # собака
+къум[Decl4] # песок
+лиф[Decl5] # голубь
+пел[Decl1] # лоб
+сал[Decl1] # огород
+тар[Decl2] # дерево
+туьд[Decl3] # горло
+фикир[Decl2] # мысль
+хьур[Decl1] # село
+чиг[Decl4] # роса
+
+LEXICON NounInfl
+<gen>:н
+<dat>:з
+
+LEXICON Erg
+<erg>:{a}[Decl1] # прописать в твол
+<erg>:ди[Decl2]
+<erg>:{уни}[Decl3]
+<erg>:{ади}[Decl4]
+<erg>:{ра}[Decl5]
+<pl><erg>:{ар}и # plural + и
+
+LEXICON Elative
+<elative>:ай
+
+LEXICON Directive
+<directive>:ди
+
+LEXICON NounInflEssive
+<ad><essive>:в
+<post><essive>:хъ
+<sub><essive>:к
+<in><essive>: # прописать в твол
+<super><essive>:л
+
+LEXICON Plural
+<pl>:{ар} # прописать это в твол
