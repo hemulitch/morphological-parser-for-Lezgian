@@ -1,0 +1,12 @@
+Alphabet %<essive%> %<essive%>:0 %<elative%> %<directive%> %<erg%> %<erg%>:0 ;
+  
+Rules
+
+"drop <essive> before <elative>"
+%<essive%>:0 <=> _ %<elative%> ;
+
+"drop <essive> before <directive>"
+%<essive%>:0 <=> _ %directive%> ;
+
+"drop <erg> before any other affix (oblique form)"
+%<erg%>:0 <=> _ ( %<elative%> | %<directive%> | %<gen%> | %<dat%> | %<ad%> | %<post%> | %<sub%> | %<in%> | %<super%> ) ;
