@@ -1,0 +1,33 @@
+PATTERNS
+# склоняются по 1-склонению имен существительных
+Stem [<adj>:] [<abs>] Number
+Stem [<adj>:] Erg (AdjInfl) | (AdjInflEssive (Elative | Directive)?)
+
+LEXICON Stem
+чал # сивый
+куьлуь # мелкий
+
+LEXICON Number
+<sg>:ди
+<pl>:бур
+  
+LEXICON Erg
+<erg>:да
+<erg><pl>:буру
+
+LEXICON AdjInfl
+<dat>:з
+<gen>:н
+
+LEXICON Elative
+<elative>:ай
+
+LEXICON Directive
+<directive>:ди
+
+LEXICON AdjInflEssive
+<ad><essive>:в
+<post><essive>:хъ
+<sub><essive>:к
+<in><essive>:а
+<super><essive>:л
