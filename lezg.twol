@@ -1,16 +1,25 @@
 Alphabet
   а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч I ш щ ъ ы ь э ю я
-  %<essive%> %<essive%>:0 %<elative%> %<directive%> %<erg%> %<erg%>:0 
-  а:0 и:0
+  <%<essive%> %<essive%>:0 %<elative%> %<directive%>
+  %<erg%> %<erg%>:0 %<abs%> %<gen%> %<dat%> %<ad%> %<post%> %<sub%> %<in%> %<super%>
+  у:0 а:0 и:0
 ;
 
 Rules
+
+
+"drop <erg> before any other affix (oblique form)"
+%<erg%>:0 <=> _ ( %<gen%> | %<dat%> | %<ad%> | %<post%> | %<sub%> | %<in%> | %<super%> ) ; 
 
 "drop <essive> before <elative>"
 %<essive%>:0 <=> _ %<elative%> ;
 
 "drop <essive> before <directive>"
-%<essive%>:0 <=> _ %directive%> ;
+%<essive%>:0 <=> _ %<directive%> ;
 
-"drop <erg> before any other affix (oblique form)"
-%<erg%>:0 <=> _ ( %<elative%> | %<directive%> | %<gen%> | %<dat%> | %<ad%> | %<post%> | %<sub%> | %<in%> | %<super%> ) ; 
+"vowel reduction"
+у:0 <=> _ а ;
+"vowel reduction"
+а:0 <=> _ а ;
+"vowel reduction"
+и:0 <=> _ а ;
