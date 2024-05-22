@@ -2,24 +2,6 @@ PATTERNS
 (NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]]
 (NounStem [<n>:] (NounErg | NounErgPlural))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]] (NounInfl) | (NounInflEssive (Elative | Directive)?)
 
-LEXICON NounStem
-багъ[Decl2,Back] # сад
-ват[Decl3,Back] # катушка
-викI[Decl3,NonBack] # ярмо
-гав[Decl5,Back] # тур
-гар[Decl1,Back] # ветер
-дава[Decl2,Back] # лекарство
-кицI[Decl1,NonBack] # собака
-къум[Decl4,Back] # песок
-лиф[Decl5,NonBack] # голубь
-пел[Decl1,NonBack] # лоб
-сал[Decl1,Back] # огород
-тар[Decl2,Back] # дерево
-туьд[Decl3,NonBack,Labial] # горло
-фикир[Decl2,Back] # мысль
-хьур[Decl1,NonBack] # село
-чиг[Decl4,NonBack] # роса
-
 LEXICON NounInfl
 <gen>:н
 <dat>:з
@@ -64,3 +46,23 @@ LEXICON NounInflEssive
 LEXICON NounPlural
 <pl>:ар[Back]
 <pl>:ер[NonBack]
+
+LEXICON NounStem
+багъ[Decl2,Back] # сад
+ват[Decl3,Back] # катушка
+викI[Decl3,NonBack] # ярмо
+гав[Decl5,Back] # тур
+гар[Decl1,Back] # ветер
+дава[Decl2,Back] # лекарство
+кицI[Decl1,NonBack] # собака
+къари[Decl2,Back] # свекровь
+къум[Decl4,Back] # песок
+лиф[Decl5,NonBack] # голубь
+пел[Decl1,NonBack] # лоб
+сал[Decl1,Back] # огород
+тар[Decl2,Back] # дерево
+туьд[Decl3,NonBack,Labial] # горло
+фикир[Decl2,Back] # мысль
+хьур[Decl1,NonBack] # село
+чиг[Decl4,NonBack] # роса
+
