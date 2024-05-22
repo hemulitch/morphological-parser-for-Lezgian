@@ -1,9 +1,8 @@
 PATTERNS
-(Stem [<n>:] (([<abs>] Plural?) | (Erg | ErgPlural)))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]]
-(Stem [<n>:] (Erg | ErgPlural))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]] (NounInfl) | (NounInflEssive (Elative | Directive)?)
+(NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]]
+(NounStem [<n>:] (NounErg | NounErgPlural))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]] (NounInfl) | (NounInflEssive (Elative | Directive)?)
 
-LEXICON Stem
-
+LEXICON NounStem
 багъ[Decl2,Back] # сад
 ват[Decl3,Back] # катушка
 викI[Decl3,NonBack] # ярмо
@@ -25,27 +24,27 @@ LEXICON NounInfl
 <gen>:н
 <dat>:з
 
-LEXICON Erg[Decl1]
+LEXICON NounErg[Decl1]
 <erg>:a[Back]
 <erg>:е[NonBack]
 
-LEXICON Erg[Decl2]
+LEXICON NounErg[Decl2]
 <erg>:ди
 
-LEXICON Erg[Decl3]
+LEXICON NounErg[Decl3]
 <erg>:уни[Back]
 <erg>:ини[NonBack]
 <erg>:уьни[NonBack,Labial]
 
-LEXICON Erg[Decl4]
+LEXICON NounErg[Decl4]
 <erg>:ади[Back]
 <erg>:еди[NonBack]
 
-LEXICON Erg[Decl5]
+LEXICON NounErg[Decl5]
 <erg>:ра[Back]
 <erg>:ре[NonBack]
 
-LEXICON ErgPlural
+LEXICON NounErgPlural
 <pl><erg>:ари[Back]
 <pl><erg>:ери[NonBack]
 
@@ -62,6 +61,6 @@ LEXICON NounInflEssive
 <in><essive>:а 
 <super><essive>:л
 
-LEXICON Plural
+LEXICON NounPlural
 <pl>:ар[Back]
 <pl>:ер[NonBack]
