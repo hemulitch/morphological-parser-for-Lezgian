@@ -1,0 +1,54 @@
+PATTERNS
+(ProperPersPron [<prn>:] ProAbs ProErg?)[^[NonBack,Back]]
+(ProperPersPron [<prn>:] (ProGen | (ProErg ProDat)))[^[NonBack,Back]]
+(ProperPersPron [<prn>:] ProErg PronounInflEssive (Elative | Directive)?)[^[NonBack,Back]]
+FuncPersPron [<prn>:] (FuncAbs | (FuncErg (FuncInfl | (PronounInflEssive (Elative | Directive)?))?)) 
+
+LEXICON ProperPersPron
+з[Back] # я
+в[Back] # ты
+ч[Back] # мы
+к[NonBack] # вы
+
+LEXICON ProAbs
+<abs>:ун[Back]
+<abs>:уьн[NonBack]
+
+LEXICON ProErg
+<erg>:а[Back]
+<erg>:е[NonBack]
+
+LEXICON ProGen
+<gen>:и[Back]
+<gen>:уь[NonBack]
+
+LEXICON ProDat
+<dat>:з
+
+LEXICON Elative
+<elative>:ай
+
+LEXICON Directive
+<directive>:ди
+
+LEXICON PronounInflEssive
+<ad><essive>:в
+<post><essive>:хъ
+<sub><essive>:к
+<in><essive>:а 
+<super><essive>:л
+
+LEXICON FuncPersPron
+а # он, они
+
+LEXICON FuncAbs
+<abs>:м
+<abs>:бур
+
+LEXICON FuncErg
+<erg>:да
+<erg>:буру
+
+LEXICON FuncInfl
+<gen>:н
+<dat>:з
