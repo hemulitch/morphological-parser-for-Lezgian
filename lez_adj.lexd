@@ -3,10 +3,6 @@ PATTERNS
 AdjStem [<adj>:] AdjNumber [<abs>:]
 AdjStem [<adj>:] AdjErg (AdjInfl | (AdjInflEssive (Elative | Directive)?))
 
-LEXICON AdjStem
-чал # сивый
-куьлуь # мелкий
-
 LEXICON AdjNumber
 <sg>:ди
 <pl>:бур
@@ -31,3 +27,8 @@ LEXICON AdjInflEssive
 <sub><essive>:к
 <in><essive>:а
 <super><essive>:л
+
+LEXICON AdjStem
+башму # печальный
+куьлуь # мелкий
+чал # сивый
