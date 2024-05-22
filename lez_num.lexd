@@ -1,7 +1,7 @@
 PATTERNS
-(Base | Teens | Ten | Tens | Thousand) [<num>:] Abs?
-(Base | Teens | Ten | Tens | Thousand) [<num>:] (Erg (NumInfl | (NumInflEssive (Elative | Directive)?))?)?
-TensAdd Add
+(Base | Teens | Ten | Tens | Thousand) [<num>:] NumAbs?
+(Base | Teens | Ten | Tens | Thousand) [<num>:] (NumErg (NumInfl | (NumInflEssive (Elative | Directive)?))?)?
+TensAdd [<num>] Add
 Hundred [<num>]
 
 LEXICON Base
@@ -50,12 +50,12 @@ LEXICON Hundred
 LEXICON Thousand
 агъзур # 1000
 
-LEXICON Abs
-<abs><sg>: 
+LEXICON NumAbs
+<abs>: 
 <abs><pl>:ар
 <abs><pl>:бур
 
-LEXICON Erg
+LEXICON NumErg
 <erg>:а 
 <pl><erg>:ри
 <pl><erg>:буру
