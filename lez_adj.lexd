@@ -1,17 +1,17 @@
 PATTERNS
 # склоняются по 1-склонению имен существительных
-Stem [<adj>:] [<abs>] Number
-Stem [<adj>:] Erg (AdjInfl) | (AdjInflEssive (Elative | Directive)?)
+AdjStem [<adj>:] AdjNumber [<abs>:]
+AdjStem [<adj>:] AdjErg (AdjInfl | (AdjInflEssive (Elative | Directive)?))
 
-LEXICON Stem
+LEXICON AdjStem
 чал # сивый
 куьлуь # мелкий
 
-LEXICON Number
+LEXICON AdjNumber
 <sg>:ди
 <pl>:бур
   
-LEXICON Erg
+LEXICON AdjErg
 <erg>:да
 <erg><pl>:буру
 
