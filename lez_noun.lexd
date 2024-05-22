@@ -48,21 +48,68 @@ LEXICON NounPlural
 <pl>:ер[NonBack]
 
 LEXICON NounStem
+аба[Decl2,Back] # халат
+арабачи[Decl2,Back] # аробщик
 багъ[Decl2,Back] # сад
+вак[Decl1,Back] # свинья
+вал[Decl1,Back] # куст
 ват[Decl3,Back] # катушка
+вах[Decl1,Back] # сестра
 викI[Decl3,NonBack] # ярмо
 гав[Decl5,Back] # тур
 гар[Decl1,Back] # ветер
+гел[Decl1,NonBack] # след
+гьер[Decl1,NonBack] # баран
 дава[Decl2,Back] # лекарство
+дакI[Decl1,Back] # окошко
+дуьгуь[Decl2,Back] # рис
+дуьньйа[Decl2,Back] #  # мир
+иви[Decl2,Back] # кровь
+йикь[Decl1,NonBack] # траур, плач
+йиге[Decl2,Back] # напильник
+йиф[Decl1,NonBack] # ночь
+кач[Decl1,Back] # сука
+каш[Decl1,Back] # голод
+кашу[Decl2,Back] # лента, плетеный ремень
+кек[Decl1,NonBack] # ноготь
+ким[Decl1,NonBack] # годекан
 кицI[Decl1,NonBack] # собака
+къар # грязь
 къари[Decl2,Back] # свекровь
+къвал[Decl1,Back] # бок
+къиб[Decl1,NonBack] # желтая пряжа
 къум[Decl4,Back] # песок
+къуьр[Decl1,NonBack] # заяц
+кьвал[Decl1,Back] # обрыв
+кьвех[Decl1,NonBack] # пах
+кьеж[Decl1,NonBack] # влага
+кьел[Decl1,NonBack] # соль
+кьвер[Decl1,NonBack] # русло
+кьин[Decl1,NonBack] # клятва
+кьун[Decl1,Back] # козел
+кьур[Decl1,Back] # сухость
+кьуш[Decl1,Back] # жир
+кьуьнт[Decl1,NonBack] # локоть
+кIатI[Decl1,Back] # ларь
+кIукI[Decl1,Back] # верх, вершина
+кIуф[Decl1,Back] # морда
+лаз[Decl1,Back] # белок
 лиф[Decl5,NonBack] # голубь
+лув[Decl1,Back] # крыло
+муртI[Decl1,Back] # внутренний угол
+мух[Decl1,Back] # ячмень
+рагъ # солнце
 пел[Decl1,NonBack] # лоб
+палчух # грязь
 сал[Decl1,Back] # огород
+син[Decl1,NonBack] # хребет
 тар[Decl2,Back] # дерево
 туьд[Decl3,NonBack,Labial] # горло
+тIвекв[Decl1,NonBack] # дыра
+тIвехв[Decl1,NonBack] # пятно
 фикир[Decl2,Back] # мысль
+хер[Decl1,NonBack] # рана
 хьур[Decl1,NonBack] # село
 чиг[Decl4,NonBack] # роса
+чил[Decl1,NonBack] # земля, страна
 
