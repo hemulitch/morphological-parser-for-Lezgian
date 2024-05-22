@@ -7,7 +7,6 @@ Alphabet
 
 Rules
 
-
 "drop <erg> before any other affix (oblique form)"
 %<erg%>:0 <=> _ ( %<gen%> | %<dat%> | %<ad%> | %<post%> | %<sub%> | %<in%> | %<super%> ) ; 
 
@@ -17,9 +16,9 @@ Rules
 "drop <essive> before <directive>"
 %<essive%>:0 <=> _ %<directive%> ;
 
-"vowel reduction"
+"vowel reduction in <in><essive> & <in><elative>"
 у:0 <=> _ а ;
-"vowel reduction"
+"vowel reduction in <in><essive> & <in><elative>"
 а:0 <=> _ а ;
-"vowel reduction"
+"vowel reduction in <in><essive> & <in><elative>"
 и:0 <=> _ а ;
