@@ -49,35 +49,81 @@ LEXICON NounPlural
 
 LEXICON NounStem
 аба[Decl2,Back] # халат
+агъ[Decl2,Back] # бязь
+ар[Decl2,Back] # рев
 арабачи[Decl2,Back] # аробщик
+арх[Decl3,Back] # борозда
 багъ[Decl2,Back] # сад
+багъ[Decl3,Back] # фитиль
+бегьер[Decl2,NonBack] # урожай
+бейт[Decl3,NonBack] # строфа
+бицил[Decl2,NonBack] # чугунный котел
+болт[Decl3,Back] # болт
+бурж[Decl3,Back] # долг
+бягьс[Decl3,NonBack] # спор
 вак[Decl1,Back] # свинья
 вал[Decl1,Back] # куст
+ван[Decl2,Back] # голос
+вар[Decl2,Back] # ворота
 ват[Decl3,Back] # катушка
 вах[Decl1,Back] # сестра
+верг[Decl4,NonBack] # крапива
 викI[Decl3,NonBack] # ярмо
+винт[Decl3,NonBack] # винт
+вождь[Decl3,Back] # вождь
 гав[Decl5,Back] # тур
+гам[Decl3,Back] # кавер
 гар[Decl1,Back] # ветер
 гел[Decl1,NonBack] # след
+гиг[Decl3,NonBack] # ось
+гьал[Decl2,Back] # состояние
+гьарф[Decl3,Back] # буква
 гьер[Decl1,NonBack] # баран
+гьерт[Decl3,NonBack] # пояс брюк
+гьуьр[Decl3,NonBack,Labial] # раздражение
+гьуьлягь[Decl2,Back] # змея
+гьуьм[Decl4,NonBack] # мгла
+гъал[Decl3,Back] # нитка
+гъар[Decl2,Back] # борона
+гъел[Decl2,NonBack] # сани
+гъер[Decl4,NonBack] # слюна
 дава[Decl2,Back] # лекарство
 дакI[Decl1,Back] # окошко
 дуьгуь[Decl2,Back] # рис
 дуьньйа[Decl2,Back] #  # мир
-иви[Decl2,Back] # кровь
+жанг[Decl3,Back] # иней
+жем[Decl3,NonBack] # медная кружка
+жив[Decl4,NonBack] # снег
+жинс[Decl3,NonBack] # род
+жуьт[Decl3,NonBack,Labial] # чета, пара
+зегьмет[Decl2,NonBack] # труд
+иви[Decl2,NonBack] # кровь
+ирс[Decl3,NonBack] # наследство
+ич[Decl3,NonBack] # яблоко
 йикь[Decl1,NonBack] # траур, плач
-йиге[Decl2,Back] # напильник
+йиге[Decl2,NonBack] # напильник
+йирф[Decl3,NonBack] # деревянная лопата
 йиф[Decl1,NonBack] # ночь
+капI[Decl3,Back] # молитва
+каф[Decl4,Back] # пена
 кач[Decl1,Back] # сука
 каш[Decl1,Back] # голод
 кашу[Decl2,Back] # лента, плетеный ремень
 кек[Decl1,NonBack] # ноготь
+кем[Decl3,NonBack] # теплый носок
+кеф[Decl3,NonBack] # удовольствие
 ким[Decl1,NonBack] # годекан
+киф[Decl3,NonBack] # коса (женская)
 кицI[Decl1,NonBack] # собака
-къар # грязь
-къари[Decl2,Back] # свекровь
+ккIал[Decl2,Back] # камешек
+ккIам[Decl2,Back] # клещ
+кьар[Decl4,Back] #  # грязь
+# къари[Decl2,Back] # свекровь
 къвал[Decl1,Back] # бок
 къиб[Decl1,NonBack] # желтая пряжа
+къиб[Decl4,NonBack] # желток
+къир[Decl4,NonBack] # смола
+къул[Decl2,Back] # раб
 къум[Decl4,Back] # песок
 къуьр[Decl1,NonBack] # заяц
 кьвал[Decl1,Back] # обрыв
@@ -90,26 +136,74 @@ LEXICON NounStem
 кьур[Decl1,Back] # сухость
 кьуш[Decl1,Back] # жир
 кьуьнт[Decl1,NonBack] # локоть
+кьуьк[Decl3,NonBack,Labial] # вилы
+кьуьл[Decl3,NonBack,Labial] # танец
 кIатI[Decl1,Back] # ларь
 кIукI[Decl1,Back] # верх, вершина
+кIумп[Decl3,Back] # пробка
 кIуф[Decl1,Back] # морда
+кур[Decl3,Back] # чашка
 лаз[Decl1,Back] # белок
 лиф[Decl5,NonBack] # голубь
 лув[Decl1,Back] # крыло
+ляй[Decl2,Back] # ястреб
+марф[Decl4,Back] # дождь
+мурк[Decl4,Back] # дождь
 муртI[Decl1,Back] # внутренний угол
 мух[Decl1,Back] # ячмень
+нагъв[Decl4,Back] # мелкая солома
+наз[Decl2,Back] # кокетство
+нек[Decl4,NonBack] # молоко
+раб[Decl3,Back] # иголка
 рагъ # солнце
-пел[Decl1,NonBack] # лоб
+ракьуцI[Decl2,Back] # шлак
 палчух # грязь
+пел[Decl1,NonBack] # лоб
+полк[Decl3,Back] # полк
+птул[Decl2,Back] # правнук
+пут[Decl3,Back] # пуд
 сал[Decl1,Back] # огород
 син[Decl1,NonBack] # хребет
+сир[Decl2,NonBack] # тайна
+сорт[Decl3,Back] # сорт
+тагв[Decl4,Back] # сурепка
+тай[Decl2,Back] # жеребенок
 тар[Decl2,Back] # дерево
+тарс[Decl3,Back] # урок
+туп[Decl3,Back] # пушка
 туьд[Decl3,NonBack,Labial] # горло
 тIвекв[Decl1,NonBack] # дыра
 тIвехв[Decl1,NonBack] # пятно
+уьлен[Decl2,NonBack] # болото
+уьфт[Decl3,NonBack,Labial] # свист
+фер[Decl2,NonBack] # щель
 фикир[Decl2,Back] # мысль
+хар[Decl4,Back] # град
 хер[Decl1,NonBack] # рана
+хтул[Decl2,Back] # внук
 хьур[Decl1,NonBack] # село
+хъач[Decl4,Back] # травка
+цен[Decl2,NonBack] # подол
+цирк[Decl3,NonBack] # цирк
+циф[Decl4,NonBack] # облако, туча
+цIвекI[Decl4,NonBack] # мякина
+цIирх[Decl3,NonBack] # узкий кусок материала
+цур[Decl2,Back] # медведь
+цуьк[Decl4,NonBack] # цветок
+цуьл[Decl2,NonBack] # сноп
+чеб[Decl4,NonBack] # глина
+чек[Decl3,NonBack] # чек
 чиг[Decl4,NonBack] # роса
 чил[Decl1,NonBack] # земля, страна
+чиргъ[Decl3,NonBack] # заноза
+чит[Decl3,NonBack] # ситец
+чкал[Decl2,Back] # кора
+чIиб[Decl3,NonBack] # пядь
+чIул[Decl3,Back] # ремень
+шем[Decl3,NonBack] # свеча
+ших[Decl3,NonBack] # холст
+шиш[Decl3,NonBack] # вилка
+юкI[Decl3,Back] # метр
+юргъ[Decl4,NonBack] # ливень
+ял[Decl2,Back] # запах
 
