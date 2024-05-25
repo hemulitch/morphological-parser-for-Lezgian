@@ -1,6 +1,6 @@
 PATTERNS
 (Base | Teens | Ten | Tens | Thousand) [<num>:] NumAbs?
-(Base | Teens | Ten | Tens | Thousand) [<num>:] (NumErg (NumInfl | (NumInflEssive (Elative | Directive)?))?)?
+(Base | Teens | Ten | Tens | Thousand) [<num>:] (NumErg (Case | (InflEssive (Elative | Directive)?))?)?
 TensAdd [<num>] Add
 Hundred [<num>]
 
@@ -51,28 +51,11 @@ LEXICON Thousand
 агъзур # 1000
 
 LEXICON NumAbs
-<abs>: 
+<abs>:
 <abs><pl>:ар
 <abs><pl>:бур
 
 LEXICON NumErg
-<erg>:а 
+<erg>:а
 <pl><erg>:ри
 <pl><erg>:буру
-
-LEXICON NumInfl
-<gen>:н
-<dat>:з
-
-LEXICON Elative
-<elative>:ай
-
-LEXICON Directive
-<directive>:ди
-
-LEXICON NumInflEssive
-<ad><essive>:в
-<post><essive>:хъ
-<sub><essive>:к
-<in><essive>:а 
-<super><essive>:л
