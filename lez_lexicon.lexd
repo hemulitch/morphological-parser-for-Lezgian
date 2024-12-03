@@ -1,7 +1,7 @@
 LEXICON NounStem
 аба[Decl2,Back] # халат
 агъ[Decl2,Back] # бязь
-айгъур[Decl2,Back] # жеребец
+айгъур[Decl2,Back] # жеребец 
 амле[Decl2,Back] # дядя
 айал[Decl2,Back] # ребенок
 ар[Decl2,Back] # рев
@@ -16,15 +16,15 @@ LEXICON NounStem
 бала[Decl2,Back] # беда, бедствие
 балкΙан[Decl2,Back] #  лошадь, конь
 балугъ[Decl2,Back] # рыба
-бацΙи[Decl2,Back] # козленок
+бацΙи[Decl2,Back] # козленок  
 бегьер[Decl2,NonBack] # урожай
-беден[Decl2,NonBack] # тело, плоть
+беден[Decl2,NonBack] # тело, плоть 
 бейт[Decl3,NonBack] # строфа
 бицил[Decl2,NonBack] # чугунный котел
 болт[Decl3,Back] # болт
 буба[Decl2,Back] # отец
 бугъа[Decl2,Back] # бык
-булах[Decl2,Back] # пруд, родник, источник, колодец
+булах[Decl2,Back] # пруд, родник, источник, колодец 
 бурж[Decl3,Back] # долг
 бягьс[Decl3,NonBack] # спор
 вак[Decl1,Back] # свинья
@@ -46,7 +46,7 @@ LEXICON NounStem
 гар[Decl1,Back] # ветер
 гел[Decl1,NonBack] # след
 гиг[Decl3,NonBack] # ось
-гум[Decl4,Back] # дым
+гум[Decl4,Back] # дым 
 гургур[Decl2,Back] # водопад
 гьава[Decl2,Back] # воздух
 гьайван[Decl2,Back] # животное
@@ -73,7 +73,7 @@ LEXICON NounStem
 дайи[Decl2,Back] # брат матери, дядя
 дакI[Decl1,Back] # окошко
 далу[Decl2,Back] # спина
-дана[Decl2,Back] # теленок
+дана[Decl2,Back] # теленок 
 деве[Decl2,NonBack] # верблюд
 диде[Decl2,Back] # мама
 дишегьли[Decl2,Back] # женщина
@@ -96,7 +96,7 @@ LEXICON NounStem
 ирс[Decl3,NonBack] # наследство
 итим[Decl2,NonBack] # мужчина
 ич[Decl3,NonBack] # яблоко
-йаргъируш[Decl1,Back] # радуга
+йаргъируш[Decl1,Back] # радуга 
 йац[Decl5,Back] # вол
 йикь[Decl1,NonBack] # траур, плач
 йиге[Decl2,NonBack] # напильник
@@ -132,7 +132,7 @@ LEXICON NounStem
 къир[Decl4,NonBack] # смола
 къул[Decl2,Back] # раб
 къум[Decl4,Back] # песок
-къуш[Decl2,Back] # домашняя птица
+къуш[Decl2,Back] # домашняя птица 
 къуьр[Decl1,NonBack] # заяц
 кьал[Decl3,Back] # стебель
 кьаркьулув[Decl2,Back] #  летучая мышь
@@ -143,7 +143,7 @@ LEXICON NounStem
 кьел[Decl1,NonBack] # соль
 кьвер[Decl1,NonBack] # русло
 кьин[Decl1,NonBack] # клятва
-кьиф[Decl5,NonBack] # мышь, крыса
+кьиф[Decl5,NonBack] # мышь, крыса 
 кьун[Decl1,Back] # козел
 кьур[Decl1,Back] # сухость
 кьуц[Decl3,Back] # ступица
@@ -154,7 +154,7 @@ LEXICON NounStem
 кΙараб[Decl2,Back] # кость
 кΙарас[Decl2,Back] # древесина
 кIатI[Decl1,Back] # ларь
-кIел[Decl1,NonBack] # ягненок
+кIел[Decl1,NonBack] # ягненок  
 кIукI[Decl1,Back] # верх, вершина
 кIумп[Decl3,Back] # пробка
 кIуф[Decl1,Back] # морда
@@ -170,7 +170,7 @@ LEXICON NounStem
 марф[Decl4,Back] # дождь
 мекъер[Decl1,NonBack] # свадьба эрг. с и
 мехъер[Decl1,NonBack] # свадьба
-муг[Decl1,Back] # гнездо
+муг[Decl1,Back] # гнездо 
 мурк[Decl4,Back] # дождь
 муркI[Decl4,Back] # лед
 муртI[Decl1,Back] # внутренний угол
@@ -182,8 +182,8 @@ LEXICON NounStem
 некI[Decl4,NonBack] # молоко
 нет[Decl5,NonBack] # вошь
 несил[Decl2,Back] # потомок
-некягъ[Decl2,Back] # бракосочетание
-никягъ[Decl2,Back] # бракосочетание
+некягъ[Decl2,Back] # бракосочетани е
+никягъ[Decl2,Back] # бракосочетани е
 нуькI[Decl5,NonBack] # воробей
 океан[Decl2,Back] # океан
 раб[Decl3,Back] # иголка
@@ -218,7 +218,7 @@ LEXICON NounStem
 тевле[Decl2,Back] # хлев
 туп[Decl3,Back] # пушка
 туьд[Decl3,NonBack,Labial] # горло
-туьтуькъуш[Decl2,NonBack] # попугай
+туьтуькъуш[Decl2,NonBack] # попугай 
 тIвар[Decl2,Back] # имя
 тIвекв[Decl1,NonBack] # дыра
 тIветI[Decl5,NonBack] # муха
@@ -238,7 +238,7 @@ LEXICON NounStem
 хва # сын
 хван[Decl2,Back] # семья
 хважамжам[Decl2,Back] # радуга
-хвар[Decl1,Back] # кобыла
+хвар[Decl1,Back] # кобыла 
 хендеда[Decl2,Back] # вдова
 хер[Decl1,NonBack] # рана
 хех[Decl3,NonBack] # клещи
@@ -251,8 +251,8 @@ LEXICON NounStem
 цен[Decl2,NonBack] # подол
 цирк[Decl3,NonBack] # цирк
 циф[Decl4,NonBack] # облако, туча
-цицΙиб[Decl2,NonBack] # цыпленок
-цΙайлапан[Decl2,Back] # молния
+цицΙиб[Decl2,NonBack] # цыпленок 
+цΙайлапан[Decl2,Back] # молния 
 цIвекI[Decl4,NonBack] # мякина
 цIегь[Decl5,NonBack] # коза
 цIирх[Decl3,NonBack] # узкий кусок материала
@@ -267,19 +267,19 @@ LEXICON NounStem
 чек[Decl3,NonBack] # чек
 чиг[Decl4,NonBack] # роса
 чил[Decl1,NonBack] # земля, страна
-чинеруг[Decl2,Back] # ястреб, сокол
+чинеруг[Decl2,Back] # ястреб, сокол 
 чиргъ[Decl3,NonBack] # заноза
 чит[Decl3,NonBack] # ситец
 чкал[Decl2,Back] # кора
 чубан[Decl2,Back] # чабан
 чΙар[Decl2,Back] # волос
 чIиб[Decl3,NonBack] # пядь
-чΙиж[Decl5,NonBack] # пчела
+чΙиж[Decl5,NonBack] # пчела 
 чIул[Decl3,Back] # ремень
 чIур[Decl1,Back] # выгон
 чIут[Decl5,Back] # блоха
 чуьл[Deck2,NonBack] # поле, равнина
-шар[Decl2,Back] # червяк, червь
+шар[Decl2,Back] # червяк, червь 
 шарф[Decl3,Back] # шарф
 шараг[Decl2,Back] # ребенок, детеныш
 шем[Decl3,NonBack] # свеча
@@ -292,7 +292,7 @@ LEXICON NounStem
 эме[Decl2,Back] # тетя, сестра отца
 юкI[Decl3,Back] # метр
 юргъ[Decl4,NonBack] # ливень
-яргъируш[Decl1,Back] # радуга
+яргъируш[Decl1,Back] # радуга 
 ял[Decl2,Back] # запах
 яц[Decl5,Back] # бык
 
@@ -303,7 +303,7 @@ LEXICON AdjStem
 амледин #  двоюродный
 артухан # дополнительный
 асант # легкий
-ацΙай # полный
+ацΙай # полный 
 аста # спокойный, тихий / медленный
 багьа # дорогой
 бахтлу # счастливый, радостный
@@ -330,7 +330,7 @@ LEXICON AdjStem
 гъилин # ручной
 гьйаркьуь # широкий
 гъулцин # липовый
-девлетлу # богатый
+девлетлу # богатый 
 дели # безумный
 дерин # глубокий
 дехьненан # давешний
@@ -369,13 +369,13 @@ LEXICON AdjStem
 кьакьан # высокий
 кьацΙай # грязный
 кьежей # мокрый
-кьезил # легкий
+кьезил # легкий 
 кьери # редкий / мелкий
 кьецIи # хромой
 кьуьзуь # старый
 кьурай # сухой
 кьуру # сухой
-къайи # холодный
+къайи # холодный 
 къати # бурный (о море), яркий
 къацу # зеленый
 къени # добропорядочный (о человеке), культурный, садовый (о фруктах)
@@ -384,7 +384,7 @@ LEXICON AdjStem
 къуватсуз # слабый, хилый
 къуьруь #  тупой
 кIанин # низкий, наименьший
-кΙвалин # домашний
+кΙвалин # домашний 
 кIвачин # ножной
 кIеви # крепкий, громкий, жесткий
 ламу # сырой
@@ -421,7 +421,7 @@ LEXICON AdjStem
 турши # кисло-сладкий
 тутун # тутовый
 тΙушунай # мятый, сморщенный
-ужуз # дешевый
+ужуз # дешевый 
 усал # плохой
 уьтквем # смелый
 уьцIуь # соленый
@@ -453,7 +453,7 @@ LEXICON AdjStem
 четин # залан
 чими # теплый
 чинебан # тацный
-чиркин # грязный
+чиркин # грязный 
 чIангьакьан # напрасный, пусторожний
 чIехи # большой, старший
 чIулав # черный
