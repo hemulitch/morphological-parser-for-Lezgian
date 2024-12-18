@@ -1,0 +1,160 @@
+PATTERNS
+(MasdarStem [<verb>:]  MasdarDerived)[^[Strong,Weak]]( Plural | Erg)?
+(ImperfStem [<verb>:] (Infinitive | Hortative | Imperfective | Future | Prohibitive))[^[Strong,Weak]]
+(ImperfStem [<verb>:] ImperfConverb)[^[Strong,Weak]]
+(AoristStem [<verb>:] (AoristConverb | Aorist | (Perfect SecondImperfConverb?)))[^[Strong,Weak]]
+(MasdarStem [<verb>:] MasdarDerived)[^[Strong,Weak]] Erg (MasdarInfl | (MasdarInflEssive (Elative | Directive)?))
+(MasdarStem [<verb>:] Optative)[^[Strong,Weak]]
+(AoristStem [<verb>:] (Aorist | Perfect)) | (ImperfStem [<verb>:] Imperfective)[^[Strong,Weak]] Negative
+Imperative [<verb><imper>:]
+(ImperfStem [<verb>:] ImperfParticiple)[^[Strong,Weak]]
+
+LEXICON MasdarStem
+аву[Strong] # делать
+кат[Weak] # бежать
+кис[Weak] # засыпать
+раху[Strong] # говорить
+фи[Strong] # идти
+хьу[Strong] # стать, быть
+
+LEXICON Plural
+<pl>:ар
+
+LEXICON Erg
+<erg>:и
+<pl><erg>:ри
+
+LEXICON MasdarInfl
+<gen>:н
+<dat>:з
+
+LEXICON SecondImperfConverb
+<imc>:з
+
+LEXICON MasdarInflEssive
+<ad><essive>:в
+<post><essive>:хъ
+<sub><essive>:к
+<in><essive>:а
+<super><essive>:ал
+
+LEXICON Elative
+<elative>:ай
+
+LEXICON Directive
+<directive>:ди
+
+LEXICON MasdarDerived
+<msd>:н[Strong]
+<msd>:ун[Weak]
+
+LEXICON Optative
+<opt>:рай
+<opt>:й[Strong]
+<opt>:уй[Weak]
+
+LEXICON ImperfStem
+аву:ийи[Strong]
+фи:фи[Strong]
+раху:раха[Strong]
+кат:кат[Weak]
+кис:кис[Weak]
+хьу:же[Strong] 
+
+LEXICON Infinitive
+<inf>:з[Strong]
+<inf>:из[Weak]
+
+LEXICON Imperfective
+<imperf>:зва[Strong]
+<imperf>:зава[Weak]
+<contimperf>:зма[Strong]
+<contimperf>:зама[Weak]
+<imperf><imc>:заваз[Strong]
+<imperf><imc>:зваз[Weak]
+
+LEXICON ImperfConverb
+<postr>:далди
+<grad>:рдавай[Strong]
+<grad>:ирдавай[Weak]
+<immant>:замаз[Weak]
+<immant>:змаз[Strong]
+
+LEXICON Hortative
+<hort>:н[Strong]
+<hort>:ин[Weak]
+
+LEXICON Future
+<fut>:да # будущее
+<fut>:ди # будущее неопределенное I
+<fut>:дир # будущее неопределенное Il
+<future><neg>:дач
+
+LEXICON Prohibitive
+<prohib>:мир
+
+LEXICON AoristStem
+кат:кат[Weak]
+кис:кис[Weak]
+раху:раха[Strong]
+фи:фе[Strong]
+хьу:хьа[Strong]
+
+LEXICON Aorist
+<aor>:на # прошедшее определенное
+
+LEXICON Perfect
+<prf>:нва[Strong]
+<prf>:нава[Weak]
+<contprf>:нма[Strong]
+<contprf>:нама[Weak]
+
+LEXICON AoristConverb
+<aoc>:на
+<immant>:нмаз[Strong]
+<immant>:нмазди[Strong]
+<immant>:намаз[Weak]
+<immant>:намазди[Weak]
+
+LEXICON TempConverb
+<temp>:ла # от любого причастия
+
+LEXICON Imperative
+авун:ая
+гатун:гатут # бить
+гатун:гатута # бить
+гудун:гуд # расколоть
+гун:це # дать
+гуьцIун:гуьцI # растереть
+гьахьун:гьахь # влезть
+гьалун:гьал # управлять
+гьалчун:гьалч  # кинуть
+гъвягъун:гвягъ
+гъвягъун:гвягъа
+катун:кат # бежать
+квахьун:квахь # потеряться
+кисун:кис # молчать
+кIасун:кIас # укусить
+кIелун:кIела # читать, учиться
+кьатIун:кьатIа # резать на две части
+кьин:йикь # умереть, убить
+кьун:яхъ # держать
+къун:къугъ  # идти (об осадках)
+рахун:рахух # говорить
+сухун:сух # воткнуть
+тIуьн:неъ # есть
+тун:тур # оставить / вложить
+фин:алад # идти
+хун:хух # рожать, рождаться
+хуьн:хуьх # беречь
+хъун:хъухъ # пить
+хьун:хьухь # быть
+цIугъун:цIугьа # визжать
+шехьун:шехь # плакать
+
+LEXICON Negative
+<neg>:ч
+
+LEXICON ImperfParticiple
+<imperf><ptp>:звай[Strong]
+<imperf><ptp>:завай[Weak]
