@@ -1,5 +1,5 @@
 Alphabet
-  а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч 1 I ш щ ъ ы ь э ю я
+  а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч 1 Ӏ ш щ ъ ы ь э ю я
   <%<essive%> %<essive%>:0 %<elative%> %<directive%>
   %<erg%> %<erg%>:0 %<abs%> %<gen%> %<dat%> %<ad%> %<post%> %<sub%> %<in%> %<super%>
   у:0 а:0 и:0
@@ -8,7 +8,7 @@ Alphabet
 Rules
 
 "palochka"
-1:I <=> _ ;
+1:Ӏ <=> _ ;
 
 "drop <erg> before any other affix (oblique form)"
 %<erg%>:0 <=> _ ( %<gen%> | %<dat%> | %<ad%> | %<post%> | %<sub%> | %<in%> | %<super%> ) ; 
