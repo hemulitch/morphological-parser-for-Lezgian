@@ -9,14 +9,6 @@ PATTERNS
 Imperative [<verb><imper>:]
 (ImperfStem [<verb>:] ImperfParticiple)[^[Strong,Weak]]
 
-LEXICON MasdarStem
-аву[Strong] # делать
-кат[Weak] # бежать
-кис[Weak] # засыпать
-раху[Strong] # говорить
-фи[Strong] # идти
-хьу[Strong] # стать, быть
-
 LEXICON Plural
 <pl>:ар
 
@@ -53,14 +45,6 @@ LEXICON Optative
 <opt>:й[Strong]
 <opt>:уй[Weak]
 
-LEXICON ImperfStem
-аву:ийи[Strong]
-фи:фи[Strong]
-раху:раха[Strong]
-кат:кат[Weak]
-кис:кис[Weak]
-хьу:же[Strong] 
-
 LEXICON Infinitive
 <inf>:з[Strong]
 <inf>:из[Weak]
@@ -93,13 +77,6 @@ LEXICON Future
 LEXICON Prohibitive
 <prohib>:мир
 
-LEXICON AoristStem
-кат:кат[Weak]
-кис:кис[Weak]
-раху:раха[Strong]
-фи:фе[Strong]
-хьу:хьа[Strong]
-
 LEXICON Aorist
 <aor>:на # прошедшее определенное
 
@@ -118,39 +95,6 @@ LEXICON AoristConverb
 
 LEXICON TempConverb
 <temp>:ла # от любого причастия
-
-LEXICON Imperative
-авун:ая
-гатун:гатут # бить
-гатун:гатута # бить
-гудун:гуд # расколоть
-гун:це # дать
-гуьцIун:гуьцI # растереть
-гьахьун:гьахь # влезть
-гьалун:гьал # управлять
-гьалчун:гьалч  # кинуть
-гъвягъун:гвягъ
-гъвягъун:гвягъа
-катун:кат # бежать
-квахьун:квахь # потеряться
-кисун:кис # молчать
-кIасун:кIас # укусить
-кIелун:кIела # читать, учиться
-кьатIун:кьатIа # резать на две части
-кьин:йикь # умереть, убить
-кьун:яхъ # держать
-къун:къугъ  # идти (об осадках)
-рахун:рахух # говорить
-сухун:сух # воткнуть
-тIуьн:неъ # есть
-тун:тур # оставить / вложить
-фин:алад # идти
-хун:хух # рожать, рождаться
-хуьн:хуьх # беречь
-хъун:хъухъ # пить
-хьун:хьухь # быть
-цIугъун:цIугьа # визжать
-шехьун:шехь # плакать
 
 LEXICON Negative
 <neg>:ч
