@@ -2897,6 +2897,248 @@ LEXICON NounStem
 мавгьуматчи[Decl2,Back]
 
 # =========================================================================================================
+# ===================================== NOUNS (SINGULAR ONLY) =============================================
+# =========================================================================================================
+LEXICON NounStemSg
+абуземзем[Decl2,Back] # святая вода
+абукевсер[Decl2,Back] # живая вода, райская вода
+абулейсан[Decl2,Back] # весенний благодатный дождь
+ав[Decl2,Back]
+авамди[Decl1,Back]
+август[Decl2,Back] # август
+авиация[Decl2,Back]
+автол[Decl2,Back]
+агъалар[Decl1,NonBack,I]
+агъзивут[Decl2,Back]
+агъузди[Decl1,Back]
+агъулжув[Decl1,Back]
+адават[Decl2,Back]
+адалат[Decl2,Back]
+агьвал[Decl2,Back] # состояние (имущественное)
+агьузар[Decl2,Back] # стeнание
+аджам[Decl2,Back]
+администрация[Decl2,Back]
+азимушан[Decl2,Back]
+алгьем[Decl2,Back]
+аллагь[Decl2,Back] # Бог
+алпан[Decl2,Back]
+албан[Decl2,Back]
+алупан[Decl2,Back]
+алюмин[Decl2,Back]
+алюминий[Decl2,Back]
+амбар[Decl2,Back]
+амбер[Decl2,Back]
+анбер[Decl2,Back]
+аменту[Decl2,Back]
+апрель[Decl2,Back] # апрель
+ар[Decl2,Back,SgOnly] # стыд
+ансамбль[Decl2,Back]
+аранжув[Decl1,Back]
+аренда[Decl2,Back]
+арифметика[Decl2,Back]
+археология[Decl2,Back]
+аспирант[Decl2,Back]
+аспирантка[Decl2,Back]
+ассимиляция[Decl2,Back]
+асил[Decl2,Back]
+арш[Decl2,Back] # самая высокая точка, зенит
+асул[Decl2,Back] # основа; происхождение
+бажарагъ[Decl2,Back]
+басма[Decl2,Back]
+батин[Decl2]
+батӀулди[Decl2]
+бейхабарди[Decl1,Back]
+бах[Decl2,Back] # мама
+бейгъейрат[Decl2,Back]
+бейгьисаб[Decl2,Back]
+бигер[Decl2,Back] # общественная повинность
+бизнес[Decl2,Back]
+бицӀиди[Decl1,Back]
+ботаника[Decl2,Back]
+брак[Decl2,Back]
+бубасил[Decl2,Back]
+буй[Decl2,Back]
+булама[Decl2,Back]
+буллух[Decl2,Back]
+буракь[Decl1,Back]
+бухгалтерия[Decl2,Back]
+ваба[Decl2,Back] # холера
+валюта[Decl2,Back]
+ватансузди[Decl1,Back]
+вахта[Decl2,Back]
+везин[Decl2,Back] # ритм, такт
+век[Decl2,Back]
+велвела[Decl2,Back] # смятение, переполох, шум
+венера[Decl2,Back]
+верем[Decl2,Back] # туберкулез
+виждан[Decl2,Back] # совесть
+визи[Decl2,Back]
+вирер[Decl1,NonBack,I]
+вири[Decl2] # сумма
+виче[Decl2,Back]
+виш[Decl2]
+власть[Decl2,Back]
+гардероб[Decl2,Back]
+гелкъуьн[Decl1,NonBack,I]
+гецӀ[Decl2,Back]
+гилавар[Decl2,Back]
+гиман[Decl2,Back] # подозрение;
+гимнастика[Decl2,Back]
+гипс[Decl2,Back]
+гирванка[Decl2,Back] # фунт (мера веса)
+гирвенка[Decl2,Back]
+гитӀ[Decl3,NonBack]
+глицерин[Decl2,Back]
+горчица[Decl2,Back]
+гур[Decl2,Back] # могила
+гуьлчимен[Decl2,Back] # цветущее поле
+гъала[Decl2,Back]
+гъалаба[Decl2,Back]
+гъалаб[Decl2,Back] # волнение (душевное)
+гъунугъ[Decl1,NonBack,I]
+гьаваянди[Decl1,Back]
+гьаж[Decl2,Back] # поломничество
+гьалал[Decl2,Back]
+гьалат[Decl2,Back]
+гьарарат[Decl2,Back] # жар
+гьасрет[Decl2,Back] # желание, тоска
+гьахъсузди[Decl1,Back]
+гьахьтинди[Decl1,Back]
+гьая[Decl2,Back] # совесть
+гьаясузди[Decl1,Back]
+гьижри[Decl2,Back]
+гьуьрметлуди[Decl1,Back]
+дав[Decl2,Back]
+дадаш[Decl1,Back]
+дам[Decl3,Back]
+деб[Decl2,Back]
+девлетлуди[Decl1,Back]
+декабрь[Decl2,Back] # декабрь
+дем[Decl2,Back]
+демократизм[Decl2,Back]
+десятин[Decl2,Back]
+диабет[Decl2,Back]
+дикъет[Decl2,Back] # интерес
+дигидайди[Decl1,Back]
+дилбер[Decl2,Back]
+драматургия[Decl2,Back]
+дугърамаж[Decl2,Back]
+дул[Decl2,Back] # окот
+дуланажагъ[Decl2,Back] # быт
+дуст[Decl2,Back]
+дуьзди[Decl1,Back]
+ем[Decl2,Back] # пища
+жагъайди[Decl1,Back]
+жамали[Decl2,Back]
+жесед[Decl2,Back]
+жуванди[Decl1,Back]
+жумартди[Decl1,Back]
+журналистика[Decl2,Back]
+жамал[Decl2,Back] # красота, привлекательность
+жасад[Decl2,Back] # тело
+жузам[Decl2,Back] # проказа
+жуьрэт[Decl2,Back] # смелость. храбрость
+замазка[Decl2,Back]
+замзам[Decl2,Back]
+земзем[Decl2,Back]
+зигьинлубур[Decl1,Back]
+зигьинлуди[Decl1,Back]
+зил[Decl2,Back]
+зоб[Decl2,Back]
+зулжалал[Decl2,Back]
+зурар[Decl1,NonBack,I]
+зурз[Decl3,Back]
+зарб[Decl3,Back] # быстрота;
+зина[Decl2,Back] # прелюбодеяние
+иддя[Decl2,Back] # претензия, притязание
+ипек[Decl2,Back] # шелк
+ирс[Decl3,NonBack] # наследство
+ислам[Decl2,Back] # ислам
+ибей[Decl2,Back]
+иерди[Decl1,Back]
+изад[Decl2,Back]
+илгьам[Decl2,Back]
+иллагьи[Decl2,Back]
+илагьи[Decl2,Back]
+индустрия[Decl2,Back]
+инжи[Decl2]
+ихлас[Decl2,Back]
+иштарак[Decl2,Back]
+камал[Decl2,Back] # разум, совершенство;
+кас[Decl2,Back] # лицо
+кишпир[Decl2,Back] # медь, бронза
+кьибле[Decl2,Back] # юг
+кябе[Decl2,Back] # Кааба
+пек[Decl2,Back] # тряпка
+чап[Decl2,Back] # типография
+электрикламишун[Decl1,NonBack,I]
+эллер[Decl1,NonBack,I]
+эренлар[Decl2,Back]
+эрк[Decl3,NonBack]
+эхирзаман[Decl2,Back]
+ярар[Decl1,NonBack,I] # заря
+юн[Decl2,Back]
+явади[Decl1,Back]
+якъинди[Decl1,Back]
+яргъади[Decl1,Back]
+яруд[Decl1,Back]
+яруди[Decl1,Back]
+яхул[Decl1,Back]
+шагьпаз[Decl1,Back]
+шаддад[Decl2,Back]
+шаква[Decl2,Back]
+шаксузди[Decl1,Back]
+шахар[Decl1,NonBack,I]
+шевриди[Decl1,Back]
+шевро[Decl2,Back]
+шер[Decl2,Back]
+шилесир[Decl2,Back]
+шура[Decl2,Back]
+цӀилер[Decl1,NonBack,I]
+цӀус[Decl4,Back]
+чаради[Decl1,Back]
+чарар[Decl1,NonBack,I]
+чарар[Decl1,NonBack,I]
+част[Decl3,Back]
+чатар[Decl1,NonBack,I]
+четинди[Decl1,Back]
+чустар[Decl1,NonBack,I]
+чӀехиди[Decl1,Back]
+чӀулавди[Decl1,Back]
+чӀурдайди[Decl1,Back]
+цӀехем[Decl2,Back]
+каинат[Decl2,Back]
+калам[Decl2,Back]
+калар[Decl1,NonBack,I]
+катаракта[Decl2,Back]
+кире[Decl2,Back]
+кишран[Decl2,Back]
+коммунизм[Decl2,Back]
+космос[Decl2,Back]
+куквар[Decl1,NonBack,I]
+куьр[Decl2,Back]
+куьре[Decl2,Back]
+къабагъ[Decl2,Back]
+къамм[Decl2,Back]
+кьарай[Decl2,Back]
+кьейиди[Decl1,Back]
+кьилинпацар[Decl1,NonBack,I]
+кьуруди[Decl1,Back]
+кьуьзуьди[Decl1,Back]
+лайихсуз[Decl2]
+лалди[Decl1,Back]
+ланхъ[Decl3,Back]
+легь[Decl2,Back]
+лексикология[Decl2,Back]
+лексикография[Decl2,Back]
+логика[Decl2,Back]
+лукӀар[Decl1,NonBack,I]
+
+# =========================================================================================================
+# ===================================== NOUNS (PLURAL ONLY) ===============================================
+# =========================================================================================================
+
+# =========================================================================================================
 # =============================================== ADJECTIVES ===============================================
 # =========================================================================================================
 
