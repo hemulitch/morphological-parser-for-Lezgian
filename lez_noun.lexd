@@ -1,6 +1,9 @@
 PATTERNS
-(NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]]
-(NounStem [<n>:] (NounErg | NounErgPlural))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial]] (NounInfl) | (NounInflEssive (Elative | Directive)?)
+(NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
+(NounStem [<n>:] (NounErg | NounErgPlural))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]] (NounInfl) | (NounInflEssive (Elative | Directive)?)
+(NounStemSg [<n>:] (NounErg (NounInfl | (NounInflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
+(NounStemPl [<n>:] (NounErgPlural (NounInfl | (NounInflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
+(NounStemPl [<n>:] NounPlural)[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
 
 LEXICON NounInfl
 <gen>:н
