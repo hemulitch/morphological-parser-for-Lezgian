@@ -1895,21 +1895,115 @@ LEXICON NounStem
 нямет[Decl2,Back] # благо
 океан[Decl2,Back] # океан
 октябрь[Decl2,Back] # октябрь
+остров[Decl2,Back] # остров
+отказ[Decl2,Back] # отказ
+отпуск[Decl2,Back] # отпуск
+пӀарла[Decl2,Back] # птенец куропатки или фазана
 пӀатӀ[Decl5,Back] # белая утка
+пӀини[Decl2,Back] # черешня
+пӀир[Decl1,NonBack] # могила святого; святой
+пӀуз[Decl1,Back] # губа
 паб[Decl1,Back] # женщина, жена
+пагьливан[Decl2,Back] # богатырь
+падишагь[Decl2,Back] # падишах, государь; карточный король
 паж[Decl5,Back]
+пайгъамбар[Decl2,Back] # пророк; сорт груши
+пакама[Decl2,Back] # рассвет
+палан[Decl2,Back] # вьючнос седло
+палас[Decl2,Back] # палас
+палту[Decl2,Back] # пальто
 палчух[Decl2,Back] # грязь
+панагь[Decl2,Back] # опора, поддержка
+паркьул[Decl2,Back] # лопух
+партал[Decl2,Back] # одежда
+партахал[Decl2,Back] # апельсин
+пару[Decl2,Back] # забор
+парча[Decl2,Back] # материя
+пахла[Decl2,Back] # боб
+пачагь[Decl2,Back] # король, правитель
+пачагьлугъ[Decl2,Back] # царство
+пачка[Decl2,Back] # пачка
+пая[Decl2,Back] # шест
+пек[Decl3,NonBack] # тряпка
 пел[Decl1,NonBack] # лоб
+пеленг[Decl2,Back] # тигр
+пенжер[Decl2,Back] # окно
+пепе[Decl2,Back] # насекомое, жук
+перде[Decl2,Back] # покров
+перем[Decl2,Back] # сорочка, рубашка
+пери[Decl2,Back] # фея
+перленг[Decl2,Back] # тигр
 пехъ[Decl5,NonBack] # ворона
+пеш[Decl3,NonBack] # лист
+пеше[Decl2,Back] # профессия
+пешекар[Decl2,Back] # специалист
+пи[Decl2,Back] # жир
+пиво[Decl2,Back] # пиво
+пилте[Decl2,Back] # фитиль
+пине[Decl2,Back] # заплата
+пинти[Decl2,Back] # неряха
+пицӀ[Decl3,NonBack] # пуп
+пич[Decl3,NonBack] # печь
+пишкеш[Decl2,Back] # награда
+пияла[Decl2,Back] # чаша, бокал
+плащ[Decl2,Back] # плащ
+подъезд[Decl2,Back] # подъезд
 полк[Decl3,Back] # полк
+порт[Decl3,Back] # гавань, пристань, порт
+порция[Decl2,Back] # порция
+послелог[Decl2,Back] # послелог
+почта[Decl2,Back] # почта
+практика[Decl2,Back] # практика
+прибор[Decl2,Back] # прибор
+приговор[Decl2,Back] # приговор
+проб[Decl2,Back] # проба
+промышленность[Decl2,Back] # промышленность
+процент[Decl2,Back] # процент
 птул[Decl2,Back] # правнук
 пул[Decl2,Back] # деньги
+пульс[Decl2,Back] # пульс
+пун[Decl1,Back] # корень
+пун[Decl2,Back] # корень
+пурни[Decl2,Back] # мята
 пут[Decl3,Back] # пуд
 раб[Decl3,Back] # игла
+раг[Decl1,Back] # скала, утес
+радио[Decl2,Back] # радио
+размер[Decl2,Back] # размер
 ракьуцӀ[Decl2,Back] # шлак
+рамаг[Decl2,Back] # табун
+рамазан[Decl2,Back] # рамадан
+ранг[Decl3,Back] # цвет
+ранда[Decl2,Back] # рубанок
+рапрап[Decl2,Back] # блеск
+рафтар[Decl2,Back] # обхождение, отношение; связь
+рацӀам[Decl2,Back] # бровь
+регъуь[Decl2,Back] # вымя
+регьбер[Decl2,Back] # вождь
+регьим[Decl2,Back] # пощада
+рейгьан[Decl2,Back] # ароматическое растение
+рекъем[Decl2,Back] # цифра
+рехне[Decl2,Back] # порок
+речь[Decl2,Back] # слово
+риваят[Decl2,Back] # преданис, легенда
+ришвет[Decl2,Back] # взятка
+руль[Decl2,Back] # руль
+рутба[Decl2,Back] # степень
+руфун[Decl1,Back,I] # живот
+рухсат[Decl2,Back] # отпуск; каникулы; отсрочка
+руцӀугул[Decl2,Back] # долото
 руш[Decl1,Back] # девушка, дочь
+рушват[Decl2,Back] # взятка
+руьгь[Decl2,NonBack] # дух
+руькуьн[Decl2,Back] # свая, кол
 руьхъ[Decl4,NonBack] # пепел
 руьц[Decl5,NonBack]  # уж
+
+
+
+
+
+сабур[Decl2,Back] # терпение
 сал[Decl1,Back] # сад
 саф[Decl3,Back] # решето
 сев[Decl5,NonBack] # медведь
@@ -3276,7 +3370,10 @@ LEXICON NounStemSg
 намерд[Decl2] # негодяй; мерзавец
 нуфуз[Decl2] # влияние
 образование[Decl2] # образование
+пар[Decl2]
 пек[Decl2,Back] # тряпка
+пер[Decl2] # лопата
+первердигар[Decl2] # бог
 чап[Decl2,Back] # типография
 электрикламишун[Decl1,NonBack,I]
 эллер[Decl1,NonBack,I]
@@ -3375,6 +3472,7 @@ LEXICON NounStemPL
 кӀарасар[Back] # дрова
 мегьежар[Back] # перила
 няни[Back] # вечер
+партал[Back] # одежда
 чаргав[Back] # упряжка
 эфер[Back] # тмин
 эцигун[Back]
