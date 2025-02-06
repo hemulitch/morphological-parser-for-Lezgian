@@ -347,6 +347,7 @@ LEXICON NounStem
 банкрот[Decl2,Back]
 бапӀах[Decl2,Back]
 бапӀахчи[Decl2,Back]
+бапӀиш[Decl2,Back]
 барама[Decl2,Back]
 барби[Decl2,Back]
 барза[Decl2,Back]
@@ -485,6 +486,7 @@ LEXICON NounStem
 бузхана[Decl2,Back]
 буйругъ[Decl2,Back] # наказ
 буйругъчи[Decl2,Back]
+букавул[Decl2,Back]
 букварь[Decl2,Back]
 букӀлук[Decl2,Back]
 букӀуш[Decl2,Back]
@@ -2411,95 +2413,464 @@ LEXICON NounStem
 остров[Decl2,Back] # остров
 отказ[Decl2,Back] # отказ
 отпуск[Decl2,Back] # отпуск
-пӀарла[Decl2,Back] # птенец куропатки или фазана
-пӀатӀ[Decl5,Back] # белая утка
-пӀини[Decl2,Back] # черешня
-пӀир[Decl1,NonBack] # могила святого; святой
-пӀуз[Decl1,Back] # губа
 паб[Decl1,Back] # женщина, жена
 пагьливан[Decl2,Back] # богатырь
+падеж[Decl2,Back]
 падишагь[Decl2,Back] # падишах, государь; карточный король
+паёк[Decl2,Back]
 паж[Decl5,Back]
+пайгар[Decl2,Back]
 пайгъамбар[Decl2,Back] # пророк; сорт груши
+пайдах[Decl2,Back]
+пайдахчи[Decl2,Back]
+пакам[Decl2,Back]
 пакама[Decl2,Back] # рассвет
+пакет[Decl2,Back]
+пал[Decl2,Back]
 палан[Decl2,Back] # вьючнос седло
+палар[Decl2,Back]
 палас[Decl2,Back] # палас
+паласа[Decl2,Back]
+палата[Decl2,Back]
+палдум[Decl2,Back]
+палта[Decl2,Back]
+палтакъуш[Decl2,Back]
 палту[Decl2,Back] # пальто
 палчух[Decl2,Back] # грязь
+пальто[Decl2,Back]
+памазин[Decl2,Back]
+памбаг[Decl2,Back]
+пампаси[Decl2,Back]
+памятник[Decl2,Back]
 панагь[Decl2,Back] # опора, поддержка
+панпаси[Decl2,Back]
+папка[Decl2,Back]
+пара[Decl2,Back]
+параграф[Decl2,Back]
+парад[Decl2,Back]
+парах[Decl2,Back]
+парашют[Decl2,Back]
+паргъа[Decl2,Back]
+парик[Decl2,Back]
+парикмахер[Decl2,Back]
+парикмахерски[Decl2,Back]
+парк[Decl2,Back]
+паркет[Decl2,Back]
+паркут[Decl2,Back]
 паркьул[Decl2,Back] # лопух
+парламент[Decl2,Back]
+парник[Decl2,Back]
+паровоз[Decl2,Back]
+пародия[Decl2,Back]
+пароход[Decl2,Back]
+парс[Decl3,Back]
+парта[Decl2,Back]
 партал[Decl2,Back] # одежда
 партахал[Decl2,Back] # апельсин
+партизан[Decl2,Back]
+партия[Decl2,Back]
+парткӀватӀал[Decl2,Back]
+парторг[Decl2,Back]
 пару[Decl2,Back] # забор
 парча[Decl2,Back] # материя
+пас[Decl4,Back]
+пасенка[Decl2,Back]
+паспорт[Decl2,Back]
+пассажир[Decl2,Back]
+патент[Decl2,Back]
+патефон[Decl2,Back]
+патриот[Decl2,Back]
+патрон[Decl2,Back]
+патрум[Decl2,Back]
+патрондаш[Decl2,Back]
+патрумдаш[Decl2,Back]
+патруль[Decl2,Back]
+патуш[Decl2,Back]
+пауза[Decl2,Back]
 пахла[Decl2,Back] # боб
+пахлава[Decl2,Back]
+пахлахан[Decl2,Back]
+пахмил[Decl2,Back]
+пахта[Decl2,Back]
+пахтачи[Decl2,Back]
 пачагь[Decl2,Back] # король, правитель
 пачагьлугъ[Decl2,Back] # царство
 пачка[Decl2,Back] # пачка
 пая[Decl2,Back] # шест
+паякьул[Decl2,Back]
+пев[Decl2,Back]
+пегьриз[Decl2,Back]
+педагог[Decl2,Back]
+педагогика[Decl2,Back]
+педаль[Decl2,Back]
+пединститут[Decl2,Back]
+педуниверситет[Decl2,Back]
+педучилище[Decl2,Back]
+пезевенг[Decl2,Back]
+пезенаг[Decl2,Back]
 пек[Decl3,NonBack] # тряпка
 пел[Decl1,NonBack] # лоб
+пелеган[Decl2,Back]
 пеленг[Decl2,Back] # тигр
+пемпе[Decl2,Back]
+пемпечи[Decl2,Back]
+пен[Decl2,Back]
+пенал[Decl2,Back]
+пенек[Decl2,Back]
+пенжек[Decl2,Back]
 пенжер[Decl2,Back] # окно
+пенжери[Decl2,Back]
+пенкьв[Decl4,NonBack]
+пенсионер[Decl2,Back]
+пенсия[Decl2,Back]
+пенси[Decl2,Back]
+пенцӀ[Decl3,NonBack]
 пепе[Decl2,Back] # насекомое, жук
+перван[Decl2,Back]
 перде[Decl2,Back] # покров
+пердечи[Decl2,Back]
+перевод[Decl2,Back]
+переводчик[Decl2,Back]
+передача[Decl2,Back]
 перем[Decl2,Back] # сорочка, рубашка
+перепись[Decl2,Back]
+перерыв[Decl2,Back]
+перестройка[Decl2,Back]
 пери[Decl2,Back] # фея
 перленг[Decl2,Back] # тигр
+перпил[Decl2,Back]
+перпилаг[Decl2,Back]
+перрон[Decl2,Back]
+перс[Decl2,NonBack]
+персенг[Decl2,Back]
+персонаж[Decl2,Back]
+перцихъан[Decl2,Back]
+петли[Decl2,Back]
+пехир[Decl2,Back]
+пехуьш[Decl2,Back]
 пехъ[Decl5,NonBack] # ворона
+печ[Decl3,NonBack]
+печать[Decl2,Back]
+печени[Decl2,Back]
 пеш[Decl3,NonBack] # лист
 пеше[Decl2,Back] # профессия
 пешекар[Decl2,Back] # специалист
 пи[Decl2,Back] # жир
+пианист[Decl2,Back]
 пиво[Decl2,Back] # пиво
+пикӀ[Decl3,NonBack]
+пил[Decl3,NonBack]
+пиле[Decl2,Back]
+пилек[Decl2,Back]
 пилте[Decl2,Back] # фитиль
 пине[Decl2,Back] # заплата
+пинечи[Decl2,Back]
 пинти[Decl2,Back] # неряха
+пионер[Decl2,Back]
+пипӀиш[Decl2,Back]
+пирамида[Decl2,Back]
+пирицӀ[Decl2,Back]
+пирлинцӀ[Decl2,Back]
+пириш[Decl2,Back]
+пирлинцӀ[Decl2,Back]
+пирпил[Decl2,Back]
+писатель[Decl2,Back]
+писпи[Decl2,Back]
+писпис[Decl2,Back]
+пистон[Decl2,Back]
+пити[Decl2,Back]
+питик[Decl2,Back]
+питиган[Decl2,Back]
+питомник[Decl2,Back]
+питӀиш[Decl2,Back]
+пих[Decl3,NonBack]
 пицӀ[Decl3,NonBack] # пуп
 пич[Decl3,NonBack] # печь
+пичӀек[Decl2,Back]
 пишкеш[Decl2,Back] # награда
 пияла[Decl2,Back] # чаша, бокал
+пияниска[Decl2,Back]
+пкавул[Decl2,Back]
+плав[Decl2,Back]
+плакат[Decl2,Back]
+план[Decl2,Back]
+планер[Decl2,Back]
+планета[Decl2,Back]
+планет[Decl2,Back]
+планетарий[Decl2,Back]
+плантация[Decl2,Back]
+пластика[Decl2,Back]
+пластинка[Decl2,Back]
+пластырь[Decl2,Back]
+платина[Decl2,Back]
 плащ[Decl2,Back] # плащ
+пленум[Decl2,Back]
+пленка[Decl2,Back]
+пли[Decl2,Back]
+плита[Decl2,Back]
+пломба[Decl2,Back]
+плотина[Decl2,Back]
+плюс[Decl2,Back]
+пляж[Decl2,Back]
+повестка[Decl2,Back]
+повесть[Decl2,Back]
+повидло[Decl2,Back]
+пограничник[Decl2,Back]
+подвал[Decl2,Back]
+подлец[Decl2,Back]
+поднос[Decl2,Back]
+подписка[Decl2,Back]
+подписчик[Decl2,Back]
+подполковник[Decl2,Back]
+подшипник[Decl2,Back]
 подъезд[Decl2,Back] # подъезд
+поезд[Decl2,Back]
+пожар[Decl2,Back]
+пожарник[Decl2,Back]
+пол[Decl2,Back]
+поликлиника[Decl2,Back]
+политик[Decl2,Back]
+политика[Decl2,Back]
+полиция[Decl2,Back]
 полк[Decl3,Back] # полк
+полковник[Decl2,Back]
+полуостров[Decl2,Back]
+полюс[Decl2,Back]
+помещик[Decl2,Back]
+помидор[Decl2,Back]
+памадур[Decl2,Back]
 порт[Decl3,Back] # гавань, пристань, порт
+портфель[Decl2,Back]
 порция[Decl2,Back] # порция
+поршень[Decl2,Back]
+поселок[Decl2,Back]
+посланник[Decl2,Back]
 послелог[Decl2,Back] # послелог
+пособие[Decl2,Back]
+посол[Decl2,Back]
+пост[Decl3,Back]
+посылка[Decl2,Back]
+потолок[Decl2,Back]
+поход[Decl2,Back]
 почта[Decl2,Back] # почта
+почтальон[Decl2,Back]
+поэзия[Decl2,Back]
+поэма[Decl2,Back]
 практика[Decl2,Back] # практика
+практикант[Decl2,Back]
+прапорщик[Decl2,Back]
+предлог[Decl2,Back]
+предмет[Decl2,Back]
+председатель[Decl2,Back]
+презентация[Decl2,Back]
+президент[Decl2,Back]
+президиум[Decl2,Back]
+прейскурант[Decl2,Back]
+премия[Decl2,Back]
+пресс[Decl2,Back]
+пресса[Decl2,Back]
+префикс[Decl2,Back]
 прибор[Decl2,Back] # прибор
+приватизация[Decl2,Back]
 приговор[Decl2,Back] # приговор
+приёмний[Decl2,Back]
+приёмник[Decl2,Back]
+приз[Decl2,Back]
+призёр[Decl2,Back]
+призма[Decl2,Back]
+призывник[Decl2,Back]
+приказ[Decl2,Back]
+приложение[Decl2,Back]
+примус[Decl2,Back]
+принцип[Decl2,Back]
+приставка[Decl2,Back]
+пристань[Decl2,Back]
+прицеп[Decl2,Back]
+причастие[Decl2,Back]
 проб[Decl2,Back] # проба
+проблема[Decl2,Back]
+проводник[Decl2,Back]
+программа[Decl2,Back]
+продукт[Decl2,Back]
+продукция[Decl2,Back]
+проект[Decl2,Back]
+прожектор[Decl2,Back]
+проза[Decl2,Back]
+прозаик[Decl2,Back]
+произведение[Decl2,Back]
+прокурор[Decl2,Back]
+прокуротура[Decl2,Back]
+пролетар[Decl2,Back]
+пролетариат[Decl2,Back]
 промышленность[Decl2,Back] # промышленность
+пропаганда[Decl2,Back]
+пропагандист[Decl2,Back]
+пропорция[Decl2,Back]
+пропуск[Decl2,Back]
+прораб[Decl2,Back]
+простын[Decl2,Back]
+противогаз[Decl2,Back]
+протокол[Decl2,Back]
+профессор[Decl2,Back]
 процент[Decl2,Back] # процент
+прунз[Decl2,Back]
+пряник[Decl2,Back]
+пси[Decl2,Back]
+псис[Decl2,Back]
 птул[Decl2,Back] # правнук
+публицист[Decl2,Back]
+пудра[Decl2,Back]
+пудрат[Decl2,Back]
 пул[Decl2,Back] # деньги
+пулав[Decl2,Back]
+пулар[Decl2,Back]
+пулемет[Decl2,Back]
+пулемётчик[Decl2,Back]
 пульс[Decl2,Back] # пульс
 пун[Decl1,Back] # корень
 пун[Decl2,Back] # корень
+пункт[Decl3,Back]
+пунктуация[Decl2,Back]
 пурни[Decl2,Back] # мята
+пурч[Decl1,Back]
+пуспус[Decl2,Back]
 пут[Decl3,Back] # пуд
+пуф[Decl2,Back]
+пухъ[Decl4,Back]
+пухъац[Decl1,Back]
+пуьнуьгет[Decl2,Back]
+пчиргъан[Decl2,Back]
+пьеса[Decl2,Back]
+пӀагь[Decl2,Back]
+пӀакьракь[Decl2,Back]
+пӀапӀиш[Decl2,Back]
+пӀапӀрус[Decl2,Back]
+пӀарла[Decl2,Back] # птенец куропатки или фазана
+пӀатӀ[Decl5,Back] # белая утка
+пӀатӀнус[Decl2,Back]
+пӀивитӀ[Decl2,Back]
+пӀини[Decl2,Back] # черешня
+пӀир[Decl1,NonBack] # могила святого; святой
+пӀуз[Decl1,Back] # губа
+пӀузар[Decl2,Back]
+пӀузнац[Decl1,Back]
+пӀупӀ[Decl2,Back]
+пӀурниш[Decl2,Back]
+р[Decl2,Back]
 раб[Decl3,Back] # игла
+работник[Decl2,Back]
+рабочий[Decl2,Back]
+рабфак[Decl2,Back]
 раг[Decl1,Back] # скала, утес
+рагъдан[Decl2,Back]
+рагъун[Decl2,Back]
+радиатор[Decl2,Back]
 радио[Decl2,Back] # радио
+радиостанция[Decl2,Back]
+радист[Decl2,Back]
+разведчик[Decl2,Back]
+разма[Decl2,Back]
 размер[Decl2,Back] # размер
+разряд[Decl2,Back]
+райисполком[Decl2,Back]
+райком[Decl2,Back]
+район[Decl2,Back]
+районэгьли[Decl2,Back]
+райпо[Decl2,Back]
+ракета[Decl2,Back]
+ракъиб[Decl2,Back]
 ракьуцӀ[Decl2,Back] # шлак
 рамаг[Decl2,Back] # табун
+рамагбан[Decl2,Back]
 рамазан[Decl2,Back] # рамадан
+рамка[Decl2,Back]
 ранг[Decl3,Back] # цвет
 ранда[Decl2,Back] # рубанок
+рапарган[Decl2,Back]
 рапрап[Decl2,Back] # блеск
+расписание[Decl2,Back]
+расписка[Decl2,Back]
+распоряжение[Decl2,Back]
+рассказ[Decl2,Back]
+растрата[Decl2,Back]
+расход[Decl2,Back]
 рафтар[Decl2,Back] # обхождение, отношение; связь
+рахул[Decl2,Back]
+рахшанд[Decl2,Back]
 рацӀам[Decl2,Back] # бровь
+раят[Decl2,Back]
+ревизия[Decl4,Back]
+ревизор[Decl2,Back]
+революционер[Decl2,Back]
+революция[Decl4,Back]
+регистрация[Decl4,Back]
+регистраци[Decl4,Back]
+регламент[Decl2,Back]
+регъел[Decl2,Back]
 регъуь[Decl2,Back] # вымя
+регъуьхбан[Decl2,Back]
 регьбер[Decl2,Back] # вождь
 регьим[Decl2,Back] # пощада
+регьятхана[Decl2,Back]
+редактор[Decl2,Back]
+редакция[Decl4,Back]
+редиска[Decl2,Back]
+режиссер[Decl2,Back]
+резбе[Decl2,Back]
+резервуар[Decl2,Back]
+резин[Decl2,Back]
+резинка[Decl2,Back]
+резолюция[Decl2,Back]
 рейгьан[Decl2,Back] # ароматическое растение
+рейс[Decl3,NonBack]
+рейтинг[Decl2,Back]
+реклама[Decl2,Back]
+рекомендация[Decl4,Back]
+рекорд[Decl2,Back]
+ректор[Decl2,Back]
+ректорат[Decl2,Back]
+рекьекьул[Decl2,Back]
+рекьуьч[Decl2,Back]
 рекъем[Decl2,Back] # цифра
+ремонт[Decl2,Back]
+рентген[Decl2,Back]
+репертуар[Decl2,Back]
+репитиция[Decl4,Back]
+республика[Decl2,Back]
+рессор[Decl2,Back]
+ресторан[Decl2,Back]
+референдум[Decl2,Back]
+реформа[Decl2,Back]
+реформатор[Decl2,Back]
 рехне[Decl2,Back] # порок
+рецензия[Decl4,Back]
+рецензент[Decl2,Back]
+рецепт[Decl2,Back]
 речь[Decl2,Back] # слово
 риваят[Decl2,Back] # преданис, легенда
+риге[Decl2,Back]
+риза[Decl2,Back]
+рикӀин[Decl2,Back]
+рипе[Decl2,Back]
+ритм[Decl4,Back]
+рифма[Decl2,Back]
+рифт[Decl3,NonBack]
+рицӀ[Decl3,NonBack]
 ришвет[Decl2,Back] # взятка
+ришветбаз[Decl2,Back]
+ришветчи[Decl2,Back]
+роль[Decl2,Back]
+роман[Decl2,Back]
+ромб[Decl2,Back]
+рота[Decl2,Back]
+рояль[Decl2,Back]
+ругул[Decl2,Back]
+ругун[Decl2,Back]
+ругъ[Decl1,Back]
+ругъвал[Decl2,Back]
+ругъвац[Decl1,Back]
+ругъун[Decl2,Back]
+ругьани[Decl2,Back]
 ружа[Decl2,Back]
 руководитель[Decl2,Back]
 руководство[Decl2,Back]
