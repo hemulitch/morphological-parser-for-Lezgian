@@ -2500,46 +2500,112 @@ LEXICON NounStem
 речь[Decl2,Back] # слово
 риваят[Decl2,Back] # преданис, легенда
 ришвет[Decl2,Back] # взятка
+ружа[Decl2,Back]
+руководитель[Decl2,Back]
+руководство[Decl2,Back]
 руль[Decl2,Back] # руль
 рутба[Decl2,Back] # степень
+рутулви[Decl2,Back]
 руфун[Decl1,Back,I] # живот
 рухсат[Decl2,Back] # отпуск; каникулы; отсрочка
 руцӀугул[Decl2,Back] # долото
+ручка[Decl2,Back]
 руш[Decl1,Back] # девушка, дочь
 рушват[Decl2,Back] # взятка
 руьгь[Decl2,NonBack] # дух
 руькуьн[Decl2,Back] # свая, кол
 руьхъ[Decl4,NonBack] # пепел
 руьц[Decl5,NonBack]  # уж
+рэкет[Decl2,Back]
+рэкетир[Decl2,Back]
+рюмка[Decl2,Back]
+рябет[Decl2,Back]
 сабур[Decl2,Back] # терпение
+савадсуз[Decl2,Back]
 саваш[Decl2,Back] # война
 савда[Decl2,Back] # торговля
 савдагар[Decl2,Back] # торговец
+савдачи[Decl2,Back]
 савза[Decl2,Back] # сорт изюма
 савкьват[Decl2,Back] # дар
 саврух[Decl2,Back] # вьюга
 сагъри[Decl2,Back] # круп (лошади)
 сагьиб[Decl2,Back] # хозяин, владелец
+сагълугъ[Decl2,Back]
+сагьибкар[Decl2,Back]
 садакьа[Decl2,Back] # жертва, милостыня
+сажаягъ[Decl2,Back]
+сажень[Decl2,Back]
+саз[Decl2,Back]
+сазандар[Decl2,Back]
 саил[Decl2,Back] # нищий, попрошайка
+сайт[Decl2,Back]
+сакъа[Decl2,Back]
 сал[Decl1,Back] # сад
 салават[Decl2,Back] # молитва
+салагъа[Decl2,Back]
 салам[Decl2,Back] # приветствие
+саларбан[Decl2,Back]
 саласа[Decl2,Back] # вторник
 салат[Decl2,Back] # молитва
+салют[Decl2,Back]
+сам[Decl3,Back]
+самгъал[Decl2,Back]
+самовар[Decl2,Back]
 самолет[Decl2,Back] # самолет
+самоучитель[Decl2,Back]
 сан[Decl2,Back] # число
+санайи[Decl2,Back]
+санаторий[Decl2,Back]
 сандух[Decl2,Back] # сундук
 санжах[Decl2,Back] # булавка
+санжу[Decl2,Back]
+санитар[Decl2,Back]
+санитарка[Decl2,Back]
+санкьу[Decl2,Back]
+санкӀар[Decl2,Back]
 сантиметр[Decl2,Back] # сантиметр
+сарагъуч[Decl2,Back]
+саралух[Decl2,Back]
+сарван[Decl2,Back]
+сардар[Decl2,Back]
+сарма[Decl2,Back]
+сарсах[Decl2,Back]
+сарубугъда[Decl2,Back]
 сас[Decl5,Back] # зуб
+сатин[Decl2,Back]
+сатира[Decl2,Back]
+сатирик[Decl2,Back]
+сатул[Decl2,Back]
+сауна[Decl2,Back]
 саф[Decl3,Back] # решето
 сафа[Decl2,Back] # удовольствие, наслаждение
+сафар[Decl2,Back]
 сафра[Decl2,Back] # желчь
+сафутӀ[Decl2,Back]
+сахават[Decl2,Back]
+сахв[Decl2,Back]
+сахнах[Decl2,Back]
+сахси[Decl2,Back]
+сахсичи[Decl2,Back]
 сахтиян[Decl2,Back] # сафьян
+сахур[Decl2,Back]
+сач[Decl3,Back]
+сачах[Decl2,Back]
 саягъ[Decl2,Back] # способ
+сберкасса[Decl2,Back]
+свал[Decl2,Back]
+свар[Decl2,Back]
+свараг[Decl2,Back]
+сварщик[Decl2,Back]
+свес[Decl2,NonBack]
+сволочь[Decl2,Back]
+сеанс[Decl2,Back]
 себеб[Decl2,Back] # повод
+себебкар[Decl2,Back]
+себет[Decl2,Back]
 себзеват[Decl2,Back] # зелень
+себи[Decl2,Back]
 сев[Decl5,NonBack] # медведь
 севги[Decl2,Back]
 севдуьгуьм[Decl2,Back]
@@ -2547,70 +2613,221 @@ LEXICON NounStem
 сегьер[Decl2,Back] # раннеe утро, рассвет
 сегьне[Decl2,Back]
 седеф[Decl2,Back] # пуговица
+седри[Decl2,Back]
 сезон[Decl2,Back] # сезон
+сейф[Decl3,NonBack]
+секин[Decl2,Back]
+секлем[Decl2,Back]
+секретарь[Decl2,Back]
+секунд[Decl2,Back]
 секуь[Decl2,Back] # цоколь
+секция[Decl5,Back]
 селем[Decl2,Back] # прибыль
+селемчи[Decl2,Back]
+селёдка[Decl2,Back]
 селигъа[Decl2,Back] # порядок; хороший вкус
+сельпо[Decl2,Back]
+сельсовет[Decl2,Back]
+семе[Decl2,Back]
+семена[Decl2,Back]
+семестр[Decl2,Back]
+семечка[Decl2,Back]
+семси[Decl2,Back]
 сенад[Decl2,Back] # опора, подпорка
+сенаж[Decl2,Back]
+сенат[Decl2,Back]
+сенатор[Decl2,Back]
 сенгер[Decl2,Back] # укрепление, вал
 сенебенд[Decl2,Back] # ремень от седла
 сенжефил[Decl2,Back] # имбирь
 сентябрь[Decl2,Back] # сентябрь
 сенят[Decl2,Back] # ремесло, профессия
+сеняткар[Decl2,Back]
+сервет[Decl2,Back]
+сервиз[Decl2,Back]
+сергердан[Decl2,Back]
 сергьят[Decl2,Back] # грань
+серден[Decl2,Back]
 сердер[Decl2,Back] # наместник, предводитель
+серенжем[Decl2,Back]
+сержант[Decl2,Back]
 серин[Decl2,Back] # тень
+серия[Decl2,Back]
 серкер[Decl2,Back] # старший чабан
+серкӀв[Decl5,NonBack]
+сернич[Decl2,Back]
+сертификат[Decl2,Back]
 сес[Decl3,NonBack] # звук
+сессия[Decl5,Back]
+сетка[Decl2,Back]
 сефер[Decl2,Back] # путешествие
+сеферчи[Decl2,Back]
 сефигь[Decl2,Back] # глупец
 сив[Decl1,NonBack,I] # дуло
+сивин[Decl2,Back]
+сигнал[Decl2,Back]
+сидкьи[Decl2,Back]
 сижиф[Decl2,Back] # наличник; ободок; плинтус
 сикӀ[Decl5,NonBack] # лисица
 сил[Decl1,NonBack,I] # рожь
 силис[Decl2,Back] # следствие; разглагольствование
+силиста[Decl2,Back]
+силисчи[Decl2,Back]
+силих[Decl2,Back]
 силле[Decl2,Back] # пощечина, оплеуха
+силос[Decl2,Back]
 сим[Decl3,NonBack] # провод, проволока, струна
+симург[Decl2,Back]
 син[Decl1,NonBack] # хребет
+синагог[Decl2,Back]
+синагъчи[Decl2,Back]
+синебенд[Decl2,Back]
 сини[Decl2,Back] # круглый медный поднос
 синиф[Decl2,Back] # класс
 синих[Decl2,Back] # изъян
+синоним[Decl2,Back]
+синтаксис[Decl2,Back]
+синтӀ[Decl3,NonBack]
+синягъ[Decl2,Back]
 сир[Decl2,NonBack] # секрет
 сиргъа[Decl2,Back] # серьга
+сирдаш[Decl2,Back]
+сирень[Decl2,Back]
+сиристав[Decl2,Back]
+сирих[Decl2,Back]
 сиришта[Decl2,Back] # порядок
 сирке[Decl2,Back] # уксус
-сирдаш[Decl2,Back]
+сирнав[Decl2,Back]
 сихил[Decl2,Back] # род
 сиягь[Decl2,Back] # нeудачник
 сиягьатчи[Decl2,Back]
 сиясат[Decl2,Back] # политика
+сиясатчи[Decl2,Back]
+скамейка[Decl2,Back]
+скелет[Decl2,Back]
+скидка[Decl2,Back]
+склад[Decl2,Back]
+складчи[Decl2,Back]
+скобка[Decl2,Back]
 скульптор[Decl2,Back] # скульптор
+скульптура[Decl2,Back]
+скӀам[Decl2,Back]
+слесарь[Decl2,Back]
+словарь[Decl2,Back]
+слог[Decl2,Back]
+смена[Decl2,Back]
+смета[Decl2,Back]
+собрание[Decl2,Back]
+совет[Decl2,Back]
+совхоз[Decl2,Back]
 солдат[Decl2,Back] # солдат
+солист[Decl2,Back]
+солярка[Decl2,Back]
+сонет[Decl2,Back]
+соревнование[Decl2,Back]
 сорт[Decl3,Back] # сорт
+сотых[Decl2,Back]
+соцсоревнование[Decl2,Back]
+сочинение[Decl2,Back]
+союз[Decl2,Back]
+спектакль[Decl2,Back]
+спекӀ[Decl2,Back]
 спел[Decl2,Back] # ус
+спирт[Decl2,Back]
+список[Decl2,Back]
+спичка[Decl2,Back]
+спонсор[Decl2,Back]
 спорт[Decl2,Back] # спорт
-стӀал[Decl2,Back] # капля
+спортзал[Decl2,Back]
+спортсмен[Decl2,Back]
+справка[Decl2,Back]
+спутник[Decl2,Back]
+спӀра[Decl2,Back]
+стадион[Decl2,Back]
+стаж[Decl2,Back]
+стакан[Decl2,Back]
+сталжем[Decl2,Back]
+стандарт[Decl2,Back]
+станок[Decl2,Back]
+станция[Decl2,Back]
+староста[Decl2,Back]
+статья[Decl2,Back]
+стахановчи[Decl2,Back]
+стачка[Decl2,Back]
+стипендия[Decl2,Back]
 стол[Decl2,Back] # стол
+столица[Decl2,Back]
+страхование[Decl2,Back]
+строфа[Decl2,Back]
+студент[Decl2,Back]
 стул[Decl2,Back] # стул
 стун[Decl2,Back] # колонна
 стха[Decl2,Back] # брат
+стӀал[Decl2,Back] # капля
+стӀалжем[Decl2,Back]
 суал[Decl2,Back] # вопрос, запрос
+субботник[Decl2,Back]
+субсидия[Decl2,Back]
+сув[Decl1,Back]
+суваб[Decl2,Back]
+сувагъ[Decl2,Back]
+сувагъчи[Decl2,Back]
 суд[Decl2,Back] # суд
+суду[Decl2,Back]
+судхана[Decl2,Back]
+судья[Decl2,Back]
 суза[Decl2,Back] # стон, стенание
 сукӀра[Decl2,Back] # пиала
+султан[Decl2,Back]
+сулуф[Decl2,Back]
+сума[Decl2,Back]
 сумаг[Decl2,Back] # ковер, плед
+сумах[Decl2,Back]
 сумбат[Decl2,Back] # наждак
+сумка[Decl2,Back]
 сумра[Decl2,Back] # лицо, физиономия
+суна[Decl2,Back]
+суни[Decl2,Back]
+сунт[Decl3,Back]
+сунтух[Decl2,Back]
+сунухъи[Decl2,Back]
+суп[Decl2,Back]
+супа[Decl2,Back]
+суракь[Decl2,Back]
+сургуч[Decl2,Back]
 сурлумпӀ[Decl2,Back] # кадык
+сутих[Decl2,Back]
+сутка[Decl2,Back]
 суфи[Decl2,Back] # суфий
 суфра[Decl2,Back] # скатерть
+суффикс[Decl2,Back]
 суьгьбет[Decl2,Back] # беседа
+суьгьбетчи[Decl2,Back]
+суьгъуьрчи[Decl2,Back]
 суьгьуьр[Decl2,Back] # волшебство, колдовство
+суьзек[Decl2,Back]
+суьзенек[Decl2,Back]
+суьзме[Decl2,Back]
 суьннет[Decl2,Back] # обрезание
+суьнни[Decl2,Back]
+суьргуьн[Decl2,Back]
+суьре[Decl2,Back]
+суьрегьи[Decl2,Back]
 суьрет[Decl2,Back] # татуировка
+суьрме[Decl2,Back]
+суьрнет[Decl2,Back]
 суьрсет[Decl2,Back] # запас
 суьруь[Decl2,Back] # стадо
+суьсуь[Decl2,Back]
+сухта[Decl2,Back]
+схема[Decl2,Back]
+счёт[Decl2,Back]
+счетовод[Decl2,Back]
+счетчик[Decl2,Back]
+съезд[Decl2,Back]
+сюжет[Decl2,Back]
 сят[Decl2,Back] # час, часы
+сятсаз[Decl2,Back]
 тӀавус[Decl2,Back] # павлин
 тӀал[Decl2,Back] # боль
 тӀалаб[Decl2,Back] # требование, запрос
@@ -2854,19 +3071,57 @@ LEXICON NounStem
 хазина[Decl2,Back] # казна
 хал[Decl2,Back] # родинка
 хала[Decl2,Back] # тетя
+халат[Decl2,Back] # дарованное дорогое платье
 халу[Decl2,Back] # дядя
+хам[Decl3,Back] # кожа
+хандакӀ[Decl2,Back] # ров
+ханлух[Decl2,Back] # царство
 хар[Decl4,Back] # град
+хара[Decl2,Back] # куча
+харапӀа[Decl2,Back] # руина
+харж[Decl3,Back] # дань
+харман[Decl2,Back] # гумно, ток
+хатӀ[Decl3,Back] # почерк
+хата[Decl2,Back] # опасность
+хатур[Decl2,Back] # уважение
+хаш[Decl3,Back] # крест
 хважамжам[Decl2,Back] # радуга
 хван[Decl2,Back] # семья
 хвар[Decl1,Back] # кобыла
+хвешхвеш[Decl2,Back] # мак
+хекендаз[Decl2,Back] # совок
+хемис[Decl2,Back] # четверг
 хендеда[Decl2,Back] # вдова
+хенжел[Decl2,Back] # кинжал
+хенцӀ[Decl3,NonBack] # клещ
 хер[Decl1,NonBack] # рана
+хесет[Decl2,Back] # свойство
 хех[Decl3,NonBack] # щипцы
+хзан[Decl2,Back] # семья
+хизан[Decl2,Back] # семья
+хирде[Decl2,Back] # мелочь
+хирдевут[Decl2,Back] # мелочный товар
+хирхем[Decl2,Back] # щебень
+хиянат[Decl2,Back] # измена
+хкет[Decl2,Back] # сказка, миф
 хтул[Decl2,Back] # внук,внучка
 хуз[Decl5,Back] # оса
+хума[Decl2,Back] # грипп
+хунча[Decl2,Back] # поднос с яствами; изобилие
+хурма[Decl2,Back] # финик
+хуртӀум[Decl2,Back] # хобот
+хушракан[Decl2,Back] # паук
+хуьрек[Decl2,Back] # еда
+хъалхъам[Decl2,Back] # дыра
 хъач[Decl4,Back] # трава
 хъен[Decl2,NonBack] # тень
 хъипрепӀ[Decl2,Back] # ракушка
+хъиткьер[Decl2,Back] # щель
+хъицикь[Decl2,Back] # овчина
+хъутур[Decl2,Back] # чесотка
+хъуцӀур[Decl2,Back] # жир, сало
+хъуьцуьган[Decl2,Back] # подушка
+хьирхьам[Decl2,Back] # десна
 хьур[Decl1,NonBack] # село
 ц[Decl2,Back]
 цавяр[Decl2,Back]
