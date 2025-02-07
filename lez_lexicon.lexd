@@ -2314,9 +2314,11 @@ LEXICON NounStem
 марганец[Decl2,Back]
 маргарин[Decl2,Back]
 маргъал[Decl2,Back] # занос
+маргъв[Decl3,Back] # полоса скошенной, еще не убранной травы"
 маргъузар[Decl2,Back]
 маргъухъан[Decl2,Back]
 маржан[Decl2,Back] # коралл
+марифат[Decl2,Back] # просвeщение, образование; мораль
 марифатчи[Decl2,Back]
 марка[Decl2,Back]
 маркв[Decl3,Back] # стог
@@ -2362,8 +2364,10 @@ LEXICON NounStem
 машинистка[Decl2,Back]
 машинка[Decl2,Back]
 машмаш[Decl2,Back] # абрикос
+мая[Decl2,Back] # средства, капитал
 маяк[Decl2,Back]
 мебель[Decl2,Back]
+мевлид[Decl2,Back] # день рождения пророка Мухаммеда
 мегъверган[Decl2,Back]
 мегъуьнлух[Decl2,Back]
 мегь[Decl4,NonBack]
@@ -3180,6 +3184,7 @@ LEXICON NounStem
 рюмка[Decl2,Back]
 рябет[Decl2,Back]
 сабур[Decl2,Back] # терпение
+савад[Decl2,Back] # грамота, письмо
 савадсуз[Decl2,Back]
 саваш[Decl2,Back] # война
 савда[Decl2,Back] # торговля
@@ -5112,7 +5117,7 @@ LEXICON NounStemPL
 муьгьуьр[Back]
 муьштет[Back]
 мямели[Back]
-мясерм[Back]
+мясер[Back]
 няни[Back] # вечер
 партал[Back] # одежда
 патахъ[Back]
