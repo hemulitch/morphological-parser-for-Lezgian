@@ -2056,37 +2056,72 @@ LEXICON NounStem
 кӀаз[Decl3,Back] # шелкопряд
 кӀакӀ[Decl2,Back]
 кӀакӀам[Decl2,Back] # ресница
+кӀалам[Decl2,Back]
+кӀалтӀи[Decl2,Back]
 кӀалуб[Decl2,Back] # колодка; форма; фигура
 кӀалхан[Decl2,Back] # гортань
+кӀамаш[Decl2,Back]
 кӀамбур[Decl2,Back] # кочка
 кӀанчӀ[Decl3,Back] # пень
+кӀап[Decl3,Back]
 кӀараб[Decl2,Back] # кость
+кӀаркӀар[Decl2,Back]
+кӀару[Decl2,Back]
+кӀас[Decl3,Back]
+кӀах[Decl3,Back]
+кӀах[Decl1,Back]
+кӀачӀичӀлух[Decl2,Back]
+кӀачкӀачӀ[Decl2,Back]
 кӀаш[Decl3,Back] # молот
+кӀашкӀум[Decl2,Back]
 кӀвал[Decl2,Back] # дом, комната
+кӀвалакӀ[Decl2,Back]
 кӀвалах[Decl2,Back] # работа
+кӀвара[Decl2,Back]
+кӀваркӀвалаг[Decl2,Back]
 кӀватӀ[Decl3,Back] # комок
 кӀватӀал[Decl2,Back] #сбор
+кӀватӀаш[Decl2,Back]
+кӀве[Decl2,Back]
 кӀвегь[Decl4,NonBack]
+кӀвенкӀвечи[Decl2,Back]
+кӀев[Decl1,NonBack]
 кӀегьеб[Decl2,Back] # щиколотка
+кӀезри[Decl2,Back]
 кӀек[Decl5,NonBack] # петух
 кӀекӀе[Decl2,Back] # дятел
+кӀекӀец[Decl2,Back]
 кӀел[Decl1,NonBack] # ягненок
+кӀеле[Decl2,Back]
+кӀелербан[Decl2,Back]
 кӀем[Decl3,NonBack] # комок
+кӀеншеб[Decl2,Back]
 кӀеп[Decl3,NonBack] # тестикул
+кӀепӀе[Decl2,Back]
 кӀепӀербан[Decl2,Back] # юла
+кӀеретӀ[Decl2,Back]
 кӀерец[Decl2,Back] # орех
 кӀетӀ[Decl3,NonBack] # клубок
+кӀимпил[Decl2,Back]
+кӀинтӀ[Decl3,NonBack]
 кӀир[Decl3,NonBack] # клык
+кӀири[Decl2,Back]
 кӀул[Decl1,Back] # горб
+кӀулац[Decl1,Back]
 кӀумп[Decl3,Back] # пробка
 кӀунтӀ[Decl3,Back] # гора, холм
 кӀунчӀ[Decl3,Back] # букет
+кӀурт[Decl3,Back]
+кӀурташ[Decl1,Back]
+кӀурукӀ[Decl2,Back]
 кӀус[Decl3,Back] # часть, кусок
 кӀута[Decl2,Back] # молоток
 кӀуф[Decl1,Back] # дуло
 кӀарас[Decl2,Back] # дерево (материал), древесина
 кӀатӀ[Decl1,Back] # ларь
 кӀукӀ[Decl1,Back] # вершина, макушка
+кӀуькуь[Decl2,Back]
+кӀуьтӀкӀуьруьтӀ[Decl2,Back]
 л[Decl2,Back]
 лабаз[Decl2,Back]
 лабар[Decl2,Back] # якорь
@@ -3452,35 +3487,31 @@ LEXICON NounStem
 сюжет[Decl2,Back]
 сят[Decl2,Back] # час, часы
 сятсаз[Decl2,Back]
-тӀавус[Decl2,Back] # павлин
-тӀал[Decl2,Back] # боль
-тӀалаб[Decl2,Back] # требование, запрос
-тӀалакь[Decl2,Back] # развод
-тӀанур[Decl2,Back] # тендир (вид печи)
-тӀапӀахъан[Decl2,Back] # повар
-тӀач[Decl3,Back] # буза
-тӀвал[Decl3,Back] # ветка, узел
-тӀвал[Decl2,Back] # ветка, узел
-тӀвар[Decl2,Back] # название, имя
-тӀварцӀиэвез[Decl2,Back] # местоимение
-тӀвекв[Decl1,NonBack] # дыра
-тӀвехв[Decl1,NonBack] # пятно
-тӀветӀ[Decl5,NonBack] # муха
-тӀебиб[Decl2,Back] # врач, доктор
-тӀегъуьн[Decl2,Back] # чума, мор
-тӀенгир[Decl2,Back] # мать-и-мачеха
-тӀиб[Decl5,NonBack] # сова, филин
-тӀили[Decl2,Back] # капля
-тӀур[Decl3,Back] # сук
-тӀурфан[Decl2,Back] # буря, шторм
-тӀям[Decl2,Back] # вкус, привкус
+таб[Decl3,Back]
+табагъчи[Decl2,Back]
+табель[Decl2,Back]
+табельщик[Decl2,Back]
 таблигъат[Decl2,Back] # пропаганда, агитация
+таблигъатчи[Decl2,Back]
+таблица[Decl2,Back]
+табуретка[Decl2,Back]
 тава[Decl2,Back] # сковорода
+тавакул[Decl2,Back]
+тавакъу[Decl2,Back]
+тавар[Decl2,Back]
+тават[Decl2,Back]
 таврат[Decl2,Back] # библия
+тавхана[Decl2,Back]
 тагв[Decl4,Back]  # сурепка
 тагъ[Decl2,Back] # арка
 тагъ[Decl3,Back] # арка
+тагъар[Decl2,Back]
+тагъма[Decl2,Back]
+тагьким[Decl2,Back]
+тагьсиб[Decl2,Back]
+тагьсил[Decl2,Back]
 тадарак[Decl2,Back] # запас; оборудование
+тади[Decl2,Back]
 таж[Decl3,Back] # зонтик
 таж[Decl2,Back]
 тажир[Decl2,Back] # купец, торговец
@@ -3489,49 +3520,152 @@ LEXICON NounStem
 тазият[Decl2,Back] # похороны
 тай[Decl2,Back] # жеребенок
 тай[Decl3,Back]
+тайга[Decl2,Back]
+тайиф[Decl2,Back]
 тайифа[Decl2,Back] # племя
 тайча[Decl2,Back] # жеребенок
 такабур[Decl2,Back] # гордость, достоинство
+такалту[Decl2,Back]
+такса[Decl2,Back]
+такси[Decl2,Back]
+таксист[Decl2,Back]
+тактика[Decl2,Back]
+такъа[Decl2,Back]
+такъуб[Decl2,Back]
+такьа[Decl2,Back]
 такьат[Decl2,Back] # сила
 тала[Decl2,Back] # поле
+талан[Decl2,Back]
+талант[Decl2,Back]
+таланчи[Decl2,Back]
+талаш[Decl2,Back]
+талба[Decl2,Back]
 талвар[Decl2,Back] # чердак; навес; вышка
+талгу[Decl2,Back]
+талигь[Decl2,Back]
 талим[Decl2,Back] # обучение, воспитание
+тамада[Decl2,Back]
+тамарбан[Decl2,Back]
+тамаскъа[Decl2,Back]
 тамаша[Decl2,Back] # зрелище; забава; спектакль
+тамашачи[Decl2,Back]
+тамухъан[Decl2,Back]
 тан[Decl2,Back] # тело
 танафус[Decl2,Back] # перерыв
+танг[Decl2,Back]
+тангъах[Decl2,Back]
+таниш[Decl2,Back]
 танк[Decl3,Back] # танк
+танкист[Decl2,Back]
+тапан[Decl2,Back]
+тапанчи[Decl2,Back]
 тапархъан[Decl2,Back] # лгун
+тапас[Decl2,Back]
+тапочка[Decl2,Back]
+тапрак[Decl2,Back]
 тапрукь[Decl2,Back] # лгун
+тапус[Decl2,Back]
+тапучка[Decl2,Back]
+тапхур[Decl2,Back]
 тапшуругъ[Decl2,Back] # задание
 тар[Decl2,Back] # дерево; запор, засов
 тар[Decl1,Back] # дерево; запор, засов
+тарагул[Decl2,Back]
+тарагъаж[Decl2,Back]
+таразум[Decl2,Back]
 таракан[Decl2,Back] # таракан
 тараш[Decl2,Back] # грабеж, хищение
+тарашчи[Decl2,Back]
+тарелка[Decl2,Back]
 таржума[Decl2,Back] # перевод, спор
+таржумачи[Decl2,Back]
+тарикъат[Decl2,Back]
 тариф[Decl2,Back] # похвала
 тарих[Decl2,Back] # история
+тарихчи[Decl2,Back]
 таркв[Decl3,Back] # пестик
+таркуц[Decl2,Back]
+тармач[Decl2,Back]
 тарс[Decl3,Back] # урок
+тарта[Decl2,Back]
+таратӀ[Decl2,Back]
+тутажагъар[Decl2,Back]
+тухмач[Decl2,Back]
+тухул[Decl2,Back]
+тушь[Decl2,Back]
+туьквенчи[Decl2,Back]
+туькъвел[Decl2,Back]
+туьмер[Decl2,Back]
+туьрез[Decl2,Back]
+туьрема[Decl2,Back]
+туьтуьтӀ[Decl2,Back]
+тфу[Decl2,Back]
+тха[Decl2,Back]
+тюлень[Decl2,Back]
+тӀакьракь[Decl2,Back]
+тӀалабчи[Decl2,Back]
+тӀама[Decl2,Back]
+тӀанбул[Decl2,Back]
+тӀапӀас[Decl2,Back]
+тӀапӀтӀапӀ[Decl2,Back]
+тӀаратӀ[Decl2,Back]
+тарту[Decl2,Back]
 тарун[Decl2,Back] # таракан
+тарч[Decl3,Back]
+тарчи[Decl2,Back]
+тас[Decl3,Back]
+тасма[Decl2,Back]
 тасмал[Decl2,Back] # полотенце
+тат[Decl2,Back]
 тафават[Decl2,Back] # разность
+тах[Decl3,Back]
+тахаллус[Decl2,Back]
+тахсара[Decl2,Back]
 тахсир[Decl2,Back] # проступок
+тахсиркар[Decl2,Back]
 тахт[Decl3,Back] # трон
+тачка[Decl2,Back]
+таъ[Decl2,Back]
 таъсир[Decl2,Back] # влияниe; впечатление
 таъхир[Decl2,Back] # опаздывание; замедление
+тая[Decl2,Back]
+тварк[Decl3,Back]
 театр[Decl2,Back] # театр
+тебин[Decl2,Back]
 тебрик[Decl2,Back] # приветствие, поздравление
+тебягь[Decl2,Back]
+тебят[Decl2,Back]
 тевле[Decl2,Back] # конюшня, стойло
 тегьенг[Decl2,Back] # лоза
 тегьер[Decl2,Back] # способ
+тегьмезхан[Decl2,Back]
+тегьне[Decl2,Back]
 тедбир[Decl2,Back] # мера, мероприятие; предосторожность
 тежриба[Decl2,Back] # практика
+тезенаг[Decl2,Back]
+теке[Decl2,Back]
+текелиф[Decl2,Back]
 теклиф[Decl2,Back] # приглашение
+текне[Decl2,Back]
+текст[Decl3,NonBack]
+тел[Decl2,NonBack]
 телевидение[Decl2,Back] # телевидение
+телевизор[Decl2,Back]
+телеграмма[Decl2,Back]
 телеграф[Decl2,Back] # телеграф
+телеграфист[Decl2,Back]
+телепередача[Decl2,Back]
+телескоп[Decl2,Back]
 телефон[Decl2,Back] # телефон
+телефонист[Decl2,Back]
+телефонистка[Decl2,Back]
+тема[Decl2,Back]
+тембек[Decl2,Back]
+темен[Decl2,Back]
+темпел[Decl2,Back]
 температура[Decl2,Back] # температура
 темягь[Decl2,Back] # корысть
+темягькар[Decl2,Back]
 тенгерак[Decl2,Back]
 тенгери[Decl2,Back]
 тепе[Decl2,Back] # насыпь
@@ -3624,6 +3758,7 @@ LEXICON NounStem
 тумаж[Decl2,Back] # кожа
 тумбочка[Decl2,Back]
 тун[Decl1,NonBack]
+тунгъал[Decl2,Back]
 туннель[Decl2,Back]
 тунпуз[Decl2,Back]
 тунуг[Decl2,Back]
@@ -3645,6 +3780,7 @@ LEXICON NounStem
 туртур[Decl2,Back] # перепел
 туругун[Decl2,Back]
 турчи[Decl2,Back]
+тут[Decl3,Back]
 туфли[Decl2,Back] # туфель
 тухум[Decl2,Back] # род
 туьгьмет[Decl2,Back] # выговор
@@ -3656,97 +3792,378 @@ LEXICON NounStem
 туьтуьн[Decl2,Back] # табак
 туьтуьх[Decl2,Back] # глотка
 тфенг[Decl2,Back] # ружье
+тӀавус[Decl2,Back] # павлин
+тӀал[Decl2,Back] # боль
+тӀалаб[Decl2,Back] # требование, запрос
+тӀалакь[Decl2,Back] # развод
+тӀампӀ[Decl3,Back]
+тӀанур[Decl2,Back] # тендир (вид печи)
+тӀапӀахъан[Decl2,Back] # повар
+тӀасма[Decl2,Back]
+тӀач[Decl3,Back] # буза
+тӀвал[Decl3,Back] # ветка, узел
+тӀвал[Decl2,Back] # ветка, узел
+тӀвар[Decl2,Back] # название, имя
+тӀварцӀиэвез[Decl2,Back] # местоимение
+тӀвекв[Decl1,NonBack] # дыра
+тӀенкь[Decl2,NonBack]
+тӀвехв[Decl1,NonBack] # пятно
+тӀветӀ[Decl5,NonBack] # муха
+тӀветӀвел[Decl2,Back]
+тӀеам[Decl2,Back]
+тӀебиб[Decl2,Back] # врач, доктор
+тӀегъуьн[Decl2,Back] # чума, мор
+тӀегьри[Decl2,Back]
+тӀекьрекь[Decl2,Back]
+тӀенгир[Decl2,Back] # мать-и-мачеха
+тӀенкьуьл[Decl2,Back]
+тӀерикъат[Decl2,Back]
+тӀиб[Decl5,NonBack] # сова, филин
+тӀили[Decl2,Back] # капля
+тӀирих[Decl2,Back]
+тӀур[Decl3,Back] # сук
+тӀурфан[Decl2,Back] # буря, шторм
+тӀунутӀ[Decl2,Back]
+тӀурутӀум[Decl2,Back]
+тӀуьруькьуьм[Decl2,Back]
+тӀуьгъуьн[Decl2,Back]
+тӀям[Decl2,Back] # вкус, привкус
+у[Decl2,Back]
+уба[Decl2,Back]
+уборщица[Decl2,Back]
+угъраш[Decl2,Back]
 угъри[Decl2,Back] # вор
+ударение[Decl2,Back]
+ударник[Decl2,Back]
+удин[Decl2,Back]
+удостоверение[Decl2,Back]
 ужагъ[Decl2,Back] # угол
+уйдурма[Decl2,Back]
+уймах[Decl2,Back]
+уймах[Decl2,Back]
+указ[Decl2,Back]
+украин[Decl2,Back]
+украинви[Decl2,Back]
+улакь[Decl2,Back]
+улам[Decl2,Back]
+ультиматум[Decl2,Back]
+умаж[Decl2,Back]
 умножение[Decl2,Back] # умножение
+умывальник[Decl2,Back]
 умуд[Decl2,Back] # надeжда, упование
+универмаг[Decl2,Back]
+университет[Decl2,Back]
+управление[Decl2,Back]
+упражнение[Decl2,Back]
+урагъ[Decl2,Back]
+уртабаб[Decl2,Back]
+урукул[Decl2,Back]
+урус[Decl2,Back]
+успат[Decl2,Back]
+уста[Decl2,Back]
 устад[Decl2,Back] # мастер, маэстро
+устӀархана[Decl2,Back]
+усуви[Decl2,Back]
+утагъ[Decl2,Back]
+утанмаз[Decl2,Back]
+уф[Decl2,Back]
+ухьт[Decl2,Back]
+участок[Decl2,Back]
+учебник[Decl2,Back]
+ученик[Decl2,Back]
+ученица[Decl2,Back]
+учёт[Decl2,Back]
+учетчик[Decl2,Back]
+учир[Decl2,Back]
+учитель[Decl2,Back]
+учительница[Decl2,Back]
+учительски[Decl2,Back]
+уюнбаз[Decl2,Back]
+уьзден[Decl1,Back]
+уьзенг[Decl2,Back]
 уьзуьм[Decl2,Back] # виноград
+уьзуьмлух[Decl2,Back]
+уьзуьмчи[Decl2,Back]
+уьзуьр[Decl2,Back]
 уьлгуьч[Decl2,Back] # бритва
 уьлен[Decl2,NonBack] # болото
+уьлже[Decl2,Back]
 уьлкве[Decl2,NonBack] # страна
+уьлуьм[Decl2,Back]
+уьлчи[Decl2,Back]
 уьлчме[Decl2,Back] # единица
+уьлчуь[Decl2,Back]
+уьммет[Decl2,Back]
+уьнуьг[Decl2,Back]
+уьтуь[Decl2,Back]
 уьмуьр[Decl2,Back] # жизнь
 уьндуьшка[Decl2,Back] # индейка
 уьрдег[Decl2,Back] # утка
 уьруьш[Decl2,Back] # пастбище, выгон
 уьфт[Decl3,NonBack,Labial] # свист
 уюн[Decl2,Back] # уловка
+фабрик[Decl2,Back]
+фабрика[Decl2,Back]
 фагьум[Decl2,Back] # рассудок; соображение
+файдачи[Decl2,Back]
+файтун[Decl2,Back]
+файтунчи[Decl2,Back]
+факт[Decl3,Back]
+факультет[Decl2,Back]
 фал[Decl2,Back] # предсказание, прорицание
 фалуж[Decl2,Back] # паралич
+фалчи[Decl2,Back]
 фамилия[Decl2,Back] # фамилия
+фана[Decl2,Back]
 фанус[Decl2,Back] # лампа, фонарь
+фара[Decl2,Back]
 фаракъат[Decl2,Back] # покой
 фарман[Decl2,Back] # указ
+фарфалаг[Decl2,Back]
+фахра[Decl2,Back]
+фахрачи[Decl2,Back]
+фасон[Decl2,Back]
+фашист[Decl2,Back]
+фейжан[Decl2,Back]
 фекьи[Decl2,Back] # мулла, аскет
 фелек[Decl2,Back] # небесная сфера; бог
+фельетон[Decl2,Back]
+фельетонист[Decl2,Back]
 фенд[Decl3,NonBack] # трюк, проделка
+фендигар[Decl2,Back]
 фер[Decl2,NonBack] # щель
+фере[Decl2,Back]
 ферз[Decl3,NonBack] # обязанность
+ферикъат[Decl2,Back]
+ферма[Decl2,Back]
+фермер[Decl2,Back]
+фес[Decl2,Back]
+фестиваль[Decl2,Back]
+физика[Decl2,Back]
+физкультура[Decl2,Back]
+физкультурник[Decl2,Back]
+фийиви[Decl2,Back]
 фикир[Decl2,Back] # идея, понятие
 фил[Decl2,NonBack] # слон
+филиви[Decl2,Back]
+финал[Decl2,Back]
 фири[Decl2,Back] # грива
+фирма[Decl2,Back]
+фирсет[Decl2,Back]
+фирчин[Decl2,Back]
+фите[Decl2,Back]
+фитне[Decl2,Back]
+фитиль[Decl2,Back]
 фитӀил[Decl2,Back] # фитиль
+фитӀре[Decl2,Back]
+флакон[Decl2,Back]
+флот[Decl2,Back]
+фляг[Decl2,Back]
+фляга[Decl2,Back]
+фольклор[Decl2,Back]
+фонарь[Decl2,Back]
+фонд[Decl3,Back]
+форма[Decl2,Back]
+формант[Decl2,Back]
+фотоаппарат[Decl2,Back]
+фотограф[Decl2,Back]
+фронт[Decl2,Back]
+фронтовик[Decl2,Back]
+фукъиран[Decl1,Back]
+фундамент[Decl2,Back]
+фундугъ[Decl2,Back]
 фур[Decl1,Back] # яма
+фуражка[Decl2,Back]
+фургъун[Decl2,Back]
+фургъунчи[Decl2,Back]
+фурма[Decl2,Back]
+фурс[Decl3,Back]
+фурсат[Decl2,Back]
+фурсухъан[Decl2,Back]
+футболист[Decl2,Back]
+футфа[Decl2,Back]
+футфачи[Decl2,Back]
+фуф[Decl2,Back]
+фуфайка[Decl2,Back]
 фяле[Decl2,Back] # рабочий, мастер
 хабар[Decl2,Back] # новость
+хабардар[Decl2,Back]
+хабарчи[Decl2,Back]
 хажалат[Decl2,Back] # беда
 хазина[Decl2,Back] # казна
+хазинадар[Decl2,Back]
+хазиначи[Decl2,Back]
+хаин[Decl2,Back]
+хайма[Decl2,Back]
 хал[Decl2,Back] # родинка
 хала[Decl2,Back] # тетя
 халат[Decl2,Back] # дарованное дорогое платье
+хали[Decl2,Back]
+халифа[Decl2,Back]
 халу[Decl2,Back] # дядя
 хам[Decl3,Back] # кожа
+хаммал[Decl2,Back]
+хамут[Decl2,Back]
+ханадан[Decl2,Back]
 хандакӀ[Decl2,Back] # ров
+ханжакӀ[Decl2,Back]
 ханлух[Decl2,Back] # царство
+ханум[Decl2,Back]
+хапӀа[Decl2,Back]
 хар[Decl4,Back] # град
 хара[Decl2,Back] # куча
+характеристика[Decl2,Back]
+харал[Decl2,Back]
 харапӀа[Decl2,Back] # руина
 харж[Decl3,Back] # дань
+харжи[Decl2,Back]
+харжилух[Decl2,Back]
+харжлух[Decl2,Back]
+хариж[Decl2,Back]
 харман[Decl2,Back] # гумно, ток
-хатӀ[Decl3,Back] # почерк
+харманчи[Decl2,Back]
+харх[Decl3,Back]
+хархар[Decl2,Back]
+хасарат[Decl2,Back]
+хасият[Decl2,Back]
 хата[Decl2,Back] # опасность
+хатакар[Decl2,Back]
+хатрут[Decl2,Back]
 хатур[Decl2,Back] # уважение
+хатӀ[Decl3,Back] # почерк
+хаха[Decl2,Back]
+хахул[Decl2,Back]
 хаш[Decl3,Back] # крест
+хашав[Decl2,Back]
+хашлав[Decl2,Back]
+хашпара[Decl2,Back]
+хашперес[Decl2,Back]
 хважамжам[Decl2,Back] # радуга
+хваларбан[Decl2,Back]
 хван[Decl2,Back] # семья
+хванахва[Decl2,Back]
 хвар[Decl1,Back] # кобыла
+хвацӀ[Decl1,Back]
 хвешхвеш[Decl2,Back] # мак
+хевелаг[Decl2,Back]
+хейрат[Decl2,Back]
 хекендаз[Decl2,Back] # совок
+хелвет[Decl2,Back]
+хемир[Decl2,Back]
+хемирган[Decl2,Back]
 хемис[Decl2,Back] # четверг
 хендеда[Decl2,Back] # вдова
+хенек[Decl2,Back]
 хенжел[Decl2,Back] # кинжал
 хенцӀ[Decl3,NonBack] # клещ
 хер[Decl1,NonBack] # рана
+херек[Decl2,Back]
+херцелаг[Decl2,Back]
 хесет[Decl2,Back] # свойство
 хех[Decl3,NonBack] # щипцы
+хешил[Decl2,Back]
 хзан[Decl2,Back] # семья
+хивеланг[Decl2,Back]
+хивелган[Decl2,Back]
+хивецӀ[Decl2,Back]
 хизан[Decl2,Back] # семья
+хилеш[Decl2,Back]
+хинжал[Decl2,Back]
+хинкӀар[Decl2,Back]
+хипехъан[Decl2,Back]
 хирде[Decl2,Back] # мелочь
 хирдевут[Decl2,Back] # мелочный товар
+хирург[Decl2,Back]
+хитрес[Decl2,Back]
+хифет[Decl2,Back]
+хихи[Decl2,Back]
+хиянаткар[Decl2,Back]
+хиянатчи[Decl2,Back]
+хинкӀ[Decl2,NonBack]
 хирхем[Decl2,Back] # щебень
 хиянат[Decl2,Back] # измена
 хкет[Decl2,Back] # сказка, миф
+хкетчи[Decl2,Back]
+хнуб[Decl2,Back]
+хнуш[Decl2,Back]
+хозяин[Decl2,Back]
+холодильник[Decl2,Back]
+хомут[Decl2,Back]
+хсусият[Decl2,Back]
+хсусиятчи[Decl2,Back]
 хтул[Decl2,Back] # внук,внучка
+худ[Decl2,Back]
+художник[Decl2,Back]
 хуз[Decl5,Back] # оса
+хузаин[Decl2,Back]
+хузайин[Decl2,Back]
+хукац[Decl2,Back]
+хулиган[Decl2,Back]
+хулус[Decl2,Back]
 хума[Decl2,Back] # грипп
+хумул[Decl2,Back]
+хундуз[Decl2,Back]
+хунса[Decl2,Back]
 хунча[Decl2,Back] # поднос с яствами; изобилие
+хупӀ[Decl3,Back]
+хурагь[Decl2,Back]
+хурарган[Decl2,Back]
+хуржин[Decl2,Back]
+хурлинкӀ[Decl2,Back]
 хурма[Decl2,Back] # финик
+хурнаш[Decl1,Back]
 хуртӀум[Decl2,Back] # хобот
+хуру[Decl2,Back]
+хуруган[Decl2,Back]
+хурушум[Decl2,Back]
+хурчар[Decl2,Back]
+хух[Decl2,Back]
+хуш[Decl2,Back]
+хуш[Decl3,Back]
+хушма[Decl2,Back]
 хушракан[Decl2,Back] # паук
 хуьрек[Decl2,Back] # еда
+хуьруьнви[Decl2,Back]
+хуьруьнэгьли[Decl2,Back]
+хче[Decl2,Back]
+хшлав[Decl2,Back]
 хъалхъам[Decl2,Back] # дыра
+хъама[Decl2,Back]
+хъамаш[Decl1,Back]
+хъархъ[Decl3,Back]
 хъач[Decl4,Back] # трава
+хъвалахъ[Decl2,Back]
+хъеме[Decl2,Back]
+хъемп[Decl2,NonBack]
 хъен[Decl2,NonBack] # тень
 хъипрепӀ[Decl2,Back] # ракушка
+хъире[Decl2,Back]
+хъиткъитӀ[Decl2,Back]
 хъиткьер[Decl2,Back] # щель
+хъитрепӀ[Decl2,Back]
 хъицикь[Decl2,Back] # овчина
+хъукьави[Decl2,Back]
+хъулаш[Decl2,Back]
+хъурт[Decl1,Back]
+хъуртамиш[Decl2,Back]
+хъурхъуш[Decl2,Back]
 хъутур[Decl2,Back] # чесотка
+хъутӀал[Decl2,Back]
 хъуцӀур[Decl2,Back] # жир, сало
+хъуькъуьм[Decl2,Back]
+хъуьлуьви[Decl2,Back]
+хъуьруьш[Decl2,Back]
 хъуьцуьган[Decl2,Back] # подушка
+хъуьчен[Decl2,Back]
+хьелчи[Decl2,Back]
+хьиливи[Decl2,Back]
 хьирхьам[Decl2,Back] # десна
+хьрарбан[Decl2,Back]
+хьрахьбан[Decl2,Back]
+хьумур[Decl2,Back]
 хьур[Decl1,NonBack] # село
+хьуртӀун[Decl2,Back]
+хьухь[Decl2,Back]
 ц[Decl2,Back]
 цавяр[Decl2,Back]
 цагъ[Decl4,Back]
@@ -4473,6 +4890,7 @@ LEXICON NounStemSg
 гьуьрметлуди[Decl1,Back]
 дав[Decl2,Back]
 дадаш[Decl1,Back]
+дакӀанди[Decl1,Back]
 дам[Decl3,Back]
 деб[Decl2,Back]
 девлетлуди[Decl1,Back]
@@ -4550,6 +4968,8 @@ LEXICON NounStemSg
 кьуруди[Decl1,Back]
 кьуьзуьди[Decl1,Back]
 кябе[Decl2,Back] # Кааба
+кӀвалевайди[Decl2]
+кӀелдайди[Decl1,Back]
 лайихсуз[Decl2]
 лалди[Decl1,Back]
 ланхъ[Decl3,Back]
@@ -4585,17 +5005,32 @@ LEXICON NounStemSg
 сиратӀал[Decl2]
 социализм[Decl2]
 суй[Decl2]
-тӀебиат[Decl2] # природа, характер
 тазия[Decl2] # скорбь
+такӀанди[Decl1,Back]
+таъсиб[Decl2]
+тей[Decl2]
 тиш[Decl3,NonBack]
 тугъ[Decl4,Back]
 туй[Decl2]
 тундра[Decl2]
 туризм[Decl4,Back] # туризм
+туьтуь[Decl2]
+туьтуья[Decl2]
+тӀа[Decl2]
+тӀебиат[Decl2] # природа, характер
+тӀилисим[Decl2]
+тӀугъвал[Decl2]
+фашизм[Decl2]
 фул[Decl2] # дрожь
+футбол[Decl2]
+хайиди[Decl1,Back]
 харат[Decl2] #столяр
+хизри[Decl2]
+хор[Decl2]
 худа[Decl2] # бог
+худба[Decl2]
 хъул[Decl2] # чесотка
+хьахь[Decl2]
 цӀехем[Decl2,Back]
 цӀилер[Decl1,NonBack,I]
 цӀус[Decl4,Back]
@@ -4692,6 +5127,9 @@ LEXICON NounStemPL
 сечкичи[Back]
 сечки[Back]
 сирсил[Back]
+талукьар[Back]
+татӀилар[Back]
+хъунч[Back]
 хиял[Back] # мысль
 цуьруьхуьм[Back]
 цӀант[Back]
