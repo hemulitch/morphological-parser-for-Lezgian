@@ -25,3 +25,23 @@ Rules
 а:0 <=> _ а ;
 "vowel reduction in <in><essive> & <in><elative>"
 и:0 <=> _ а ;
+
+
+## черновое
+"vowel change in plural suffix"
+%{а1%}:я <=> Vx _ ; where Vx in ( а и у о е уь ) ;
+
+"vowel change in plural suffix"
+%{а1%}:а <=> Cx _ ; where Cx in Consonant ;
+
+"vowel change in plural suffix"
+%{а2%}:й <=> Vx _ ; where Vx in ( а и у о е уь я ) ;
+
+"vowel change in plural suffix"
+%{а2%}:а <=> Cx _ ; where Cx in Consonant ;
+
+"vowel reduction"
+%{а3%}:0 <=> Vx _ ; where Vx in Vowel ;
+
+"vowel reduction"
+%{а3%}:а <=> Vx _ ; where Vx in Consonant ;
