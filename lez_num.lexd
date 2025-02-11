@@ -1,8 +1,13 @@
-PATTERNS
+PATTERN Numerals
 (Base | Teens | Ten | Tens | Thousand) [<num>:] NumAbs?
 (Base | Teens | Ten | Tens | Thousand) [<num>:] (NumErg (Case | (InflEssive (Elative | Directive)?))?)?
 TensAdd [<num>] Add
 Hundred [<num>]
+BaseShort [<num>:]
+
+LEXICON BaseShort
+са # 1
+кьве #  2
 
 LEXICON Base
 сад # 1
