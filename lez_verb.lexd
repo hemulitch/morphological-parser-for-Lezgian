@@ -1,13 +1,34 @@
-PATTERNS
+
+PATTERN Verb
 (MasdarStem [<verb>:]  MasdarDerived)[^[Strong,Weak]]( Plural | Erg)?
 (ImperfStem [<verb>:] (Infinitive | Hortative | Imperfective | Future | Prohibitive))[^[Strong,Weak]]
 (ImperfStem [<verb>:] ImperfConverb)[^[Strong,Weak]]
-(AoristStem [<verb>:] (AoristConverb | Aorist | (Perfect SecondImperfConverb?)))[^[Strong,Weak]]
+(AoristStem [<verb>:] AoristConverb)[^[Strong,Weak]]
+(AoristStem [<verb>:] Aorist)[^[Strong,Weak]]
+(AoristStem [<verb>:] Perfect)[^[Strong,Weak]]
+(AoristStem [<verb>:] Perfect SecondaryImperfectiveConverb)[^[Strong,Weak]]
 (MasdarStem [<verb>:] MasdarDerived)[^[Strong,Weak]] Erg (MasdarInfl | (MasdarInflEssive (Elative | Directive)?))
 (MasdarStem [<verb>:] Optative)[^[Strong,Weak]]
-(AoristStem [<verb>:] (Aorist | Perfect)) | (ImperfStem [<verb>:] Imperfective)[^[Strong,Weak]] Negative
-Imperative [<verb><imper>:]
-(ImperfStem [<verb>:] ImperfParticiple)[^[Strong,Weak]]
+(AoristStem [<verb>:] (Aorist | Perfect)) | (ImperfStem [<verb>:] (Imperfective | Future))[^[Strong,Weak]] Negative
+Imperative [<verb>] [<imper>:]
+(AoristStem (AoristParticiple | PerfParticiple))[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]] # атрибутивная форма
+(AoristStem (AoristParticiple | PerfParticiple) AdjNumber [<abs>:])[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem (AoristParticiple | PerfParticiple) AdjErg (Case | (InflEssive (Elative | Directive)?))?)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem AoristParticiple TempConverb)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+(AoristStem PerfParticiple TempConverb)[^[Strong,Weak]]
+(ImperfStem ImperfParticiple TempConverb)[^[Strong,Weak]]
+(AoristStem AoristParticiple ImmediateAnteriorConverb)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+(AoristStem AoristParticiple ConditionalMood)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+(ImperfStem (Imperfective | Future) ConditionalMood)[^[Strong,Weak]]
+(AoristStem (Aorist | Perfect) ConditionalMood)[^[Strong,Weak]]
+(ImperfStem (Imperfective | Future) InterrogativeMood)[^[Strong,Weak]]
+(AoristStem (Aorist | Perfect) InterrogativeMood)[^[Strong,Weak]]
+(AoristStem AoristParticiple (MannerConverb | CasualConverb))[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+(ImperfStem ImperfParticiple (MannerConverb | CasualConverb))[^[Strong,Weak]]
+(AoristStem PerfParticiple (MannerConverb | CasualConverb))[^[Strong,Weak]]
+(ImperfStem ImperfParticiple)[^[Strong,Weak]] # атрибутивная форма
+(ImperfStem ImperfParticiple AdjNumber [<abs>:])[^[Strong,Weak]]
+(ImperfStem ImperfParticiple AdjErg (Case | (InflEssive (Elative | Directive)?))?)[^[Strong,Weak]]
 
 LEXICON Plural
 <pl>:ар
@@ -19,9 +40,6 @@ LEXICON Erg
 LEXICON MasdarInfl
 <gen>:н
 <dat>:з
-
-LEXICON SecondImperfConverb
-<imc>:з
 
 LEXICON MasdarInflEssive
 <ad><essive>:в
@@ -45,7 +63,7 @@ LEXICON Optative
 <opt>:й[Strong]
 <opt>:уй[Weak]
 
-LEXICON Infinitive
+LEXICON Infinitive # imperfective converb
 <inf>:з[Strong]
 <inf>:из[Weak]
 
@@ -54,8 +72,6 @@ LEXICON Imperfective
 <imperf>:зава[Weak]
 <contimperf>:зма[Strong]
 <contimperf>:зама[Weak]
-<imperf><imc>:заваз[Strong]
-<imperf><imc>:зваз[Weak]
 
 LEXICON ImperfConverb
 <postr>:далди
@@ -70,9 +86,6 @@ LEXICON Hortative
 
 LEXICON Future
 <fut>:да # будущее
-<fut>:ди # будущее неопределенное I
-<fut>:дир # будущее неопределенное Il
-<future><neg>:дач
 
 LEXICON Prohibitive
 <prohib>:мир
@@ -94,11 +107,41 @@ LEXICON AoristConverb
 <immant>:намазди[Weak]
 
 LEXICON TempConverb
-<temp>:ла # от любого причастия
+<temp>:ла
 
 LEXICON Negative
 <neg>:ч
 
+LEXICON AoristParticiple
+<aop><ptp>:ай[Weak]
+<aor><ptp>:р[Exception]
+<aor><ptp>:й[Polysyllabic]
+<aor><ptp>:йи[Monoysyllabic]
+
 LEXICON ImperfParticiple
 <imperf><ptp>:звай[Strong]
 <imperf><ptp>:завай[Weak]
+<fut><ptp>:дай
+
+LEXICON PerfParticiple
+<prf><ptp>:нвай[Strong]
+<prf><ptp>:навай[Weak]
+
+LEXICON ImmediateAnteriorConverb
+<immant>:валди
+
+LEXICON ConditionalMood
+<cnd>:тӀа
+
+LEXICON InterrogativeMood
+<inter>:ни
+
+LEXICON SecondaryImperfectiveConverb
+<imc>:з
+
+LEXICON MannerConverb
+<man>:вал
+
+LEXICON CasualConverb
+<caus>:виляй 
+
