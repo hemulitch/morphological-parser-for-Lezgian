@@ -1,4 +1,4 @@
-PATTERNS
+PATTERN Adjective
 # склоняются по 1-склонению имен существительных
 AdjStem [<adj>:] AdjNumber [<abs>:]
 AdjStem [<adj>:] AdjErg (Case | (InflEssive (Elative | Directive)?))?
