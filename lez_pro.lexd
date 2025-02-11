@@ -1,28 +1,46 @@
-PATTERNS
-(ProperPersonalPronouns [<prn>:] ProAbs ProErg?)[^[NonBack,Back]]
-(ProperPersonalPronouns [<prn>:] (ProGen | (ProErg ProDat)))[^[NonBack,Back]]
-(ProperPersonalPronouns [<prn>:] ProErg InflEssive (Elative | Directive)?)[^[NonBack,Back]]
-FuncPersPron [<prn>:] (FuncAbs | (AdjErg (Case | (InflEssive (Elative | Directive)?))?))
+
+PATTERN Pronoun
+((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] ProAbs)[^[NonBack,Back]]
+ProperPersonalPronounsErg [<prn>:] [<erg>:]
+((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] ProGen)[^[NonBack,Back]]
+((ProperPersonalPronouns | PersonalPronoun_You2) [<prn>:] ProErgObl ProDat)[^[NonBack,Back]]
+((ProperPersonalPronouns | PersonalPronoun_You2) [<prn>:] ProErgObl InflEssive (Elative | Directive)?)[^[NonBack,Back]]
+FuncPersPron [<prn>:] (FuncAbs | (AdjErg (Case | (InflEssive (Elative | Directive)?))?)) 
 ReflPron [<prn>:] [<abs>:]
 ReflPronObl [<prn>:] ([<erg>:] | Case | (InflEssive (Elative | Directive)?))
 QuestionPron [<prn>:] [<abs>:] QuestionPlural?
+QuestionPronSg [<prn>:] [<abs>:]
 QuestionPronObl ([<erg>:] | Case | (InflEssive (Elative | Directive)?))
 NegativeNonInfl [<prn>:] [<abs>:]
 NegativeObl(1) [<prn>:] ([<erg>:] | Case |  (InflEssive (Elative | Directive)?)) NegativeObl(2)
 DetAbs [<prn>:]
+Det [<prn>:]
 Det [<prn>:] AdjErg (Case |  (InflEssive (Elative | Directive)?))?
+Quantifier [<prn>:] [<abs>:]
+Quantifier [<prn>:] AdjErg (Case |  (InflEssive (Elative | Directive)?))?
 
 LEXICON ProperPersonalPronouns
 з[Back] # я
 в[Back] # ты
 ч[Back] # мы
+
+LEXICON PersonalPronoun_You1
 к[NonBack] # вы
+
+LEXICON PersonalPronoun_You2
+кв[NonBack] # вы
 
 LEXICON ProAbs
 <abs>:ун[Back]
 <abs>:уьн[NonBack]
 
-LEXICON ProErg
+LEXICON ProperPersonalPronounsErg
+з:за # я
+в:вуна # ты
+ч:чна # мы
+к:куьне # вы
+
+LEXICON ProErgObl
 <erg>:а[Back]
 <erg>:е[NonBack]
 
@@ -54,12 +72,19 @@ LEXICON QuestionPron
 вуж # кто
 вуч # что
 
+LEXICON QuestionPronSg
+гьи # который
+мус # когда
+шумуд # как много
+вучиз # почему
+
 LEXICON QuestionPlural
 <pl>:ар
 
 LEXICON QuestionPronObl
 вуж:ни
 вуч:куь
+гьи:хи
 
 LEXICON NegativeNonInfl
 касни # никто
@@ -72,9 +97,18 @@ LEXICON NegativeObl(2)
 LEXICON Det
 и # этот
 гьа # тот
+а # тот
 
 LEXICON DetAbs
-и:и<abs>
+а:ам<abs>
+и:им<abs>
 гъа:гъам<abs>
+а:абур<abs><pl>
 и:ибур<abs><pl>
 гьа:гьабур<abs><pl>
+
+LEXICON Quantifier
+вири # все
+гьар # каждый
+муькуь # другой из двух
+
