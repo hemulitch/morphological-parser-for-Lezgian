@@ -1,9 +1,18 @@
-PATTERNS
-(NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
-(NounStem [<n>:] (NounErg | NounErgPlural))[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]] (NounInfl) | (NounInflEssive (Elative | Directive)?)
-(NounStemSg [<n>:] (NounErg (NounInfl | (NounInflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
-(NounStemPl [<n>:] (NounErgPlural (NounInfl | (NounInflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
-(NounStemPl [<n>:] NounPlural)[^[Decl1,Decl2,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I]]
+PATTERN Noun
+NounStem [<n>:] [<abs>:]
+NounStemSg [<n>:] [<abs>:]
+(NounStemPL [<n>:] NounPlural)[^[Back,NonBack,Labial,I,E]]
+(NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
+(NounStem [<n>:] NounErg)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]] (Case | (InflEssive (Elative | Directive)?))
+(NounStem [<n>:] NounErgPlural)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]] (Case | (InflEssive (Elative | Directive)?))
+NounStem Add
+(NounStemSg [<n>:] (NounErg (Case | (InflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
+(NounStemPL [<n>:] (NounErgPlural (Case | (InflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
+(NounStemPL [<n>:] NounPlural)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
+NounExceptionAbs [<n>:] [<abs>:]
+NounExceptionSgObl [<n>:] [<erg>:] (Case | (InflEssive (Elative | Directive)?))?
+(NounExceptionPl [<n>:] NounPlural)[^[Back,NonBack,Labial,I,E]]
+(NounExceptionPl [<n>:] NounErgPlural)[^[Back,NonBack,Labial,I,E]] (Case | (InflEssive (Elative | Directive)?))?
 
 LEXICON NounInfl
 <gen>:н
@@ -11,10 +20,15 @@ LEXICON NounInfl
 
 LEXICON NounErg[Decl1]
 <erg>:a[Back]
-<erg>:е[NonBack]
+<erg>:е[NonBack,E]
+<erg>:и[NonBack,I]
+<erg>:уь[NonBack,Labial]
 
 LEXICON NounErg[Decl2]
 <erg>:ди
+
+LEXICON NounErg[Decl2_1]
+<erg>:ци
 
 LEXICON NounErg[Decl3]
 <erg>:уни[Back]
@@ -43,9 +57,18 @@ LEXICON NounInflEssive
 <ad><essive>:в
 <post><essive>:хъ
 <sub><essive>:к
-<in><essive>:а 
+<in><essive>:{а1}
 <super><essive>:л
 
 LEXICON NounPlural
-<pl>:ар[Back]
-<pl>:ер[NonBack]
+<pl><abs>:ар[Back]
+<pl><abs>:ер[NonBack]
+
+LEXICON NounExceptionAbs
+хва # сын; двоюродный(ая) брат (сестра)
+
+LEXICON NounExceptionSgObl
+хва:хце
+
+LEXICON NounExceptionPl
+хва:рухва[Back]
