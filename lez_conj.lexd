@@ -1,4 +1,4 @@
-PATTERNS
+PATTERN Conjunction
 CConj [<conj>:]
 SConj [<conj>:]
 
