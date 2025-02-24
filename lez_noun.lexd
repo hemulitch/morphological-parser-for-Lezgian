@@ -1,28 +1,42 @@
+
 PATTERN Noun
 NounStem [<n>:] [<abs>:]
-NounStemSg [<n>:] [<abs>:]
-(NounStemPL [<n>:] NounPlural)[^[Back,NonBack,Labial,I,E]]
-(NounStem [<n>:] ((NounPlural?) | (NounErg | NounErgPlural)))[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
-(NounStem [<n>:] NounErg)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]] (Case | (InflEssive (Elative | Directive)?))
-(NounStem [<n>:] NounErgPlural)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]] (Case | (InflEssive (Elative | Directive)?))
+(NounStem [<n>:] NounPlural)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack]]
+(NounStem[Decl1] [<n>:] NounErg[Decl1])[^[Labial,I,E,A,U]] (Case | (InflEssive (Elative | Directive)?))?
+NounStem[Decl2] [<n>:] NounErg[Decl2] (Case | (InflEssive (Elative | Directive)?))?
+NounStem[Decl2_1] [<n>:] NounErg[Decl2_1] (Case | (InflEssive (Elative | Directive)?))?
+(NounStem[Decl3] [<n>:] NounErg[Decl3])[^[Back,NonBack],^[Labial,I,U]] (Case | (InflEssive (Elative | Directive)?))?
+(NounStem[Decl4] [<n>:] NounErg[Decl4])[^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
+(NounStem[Decl5] [<n>:] NounErg[Decl5])[^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
+(NounStem [<n>:] NounErgPlural)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
 NounStem Add
-(NounStemSg [<n>:] (NounErg (Case | (InflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
-(NounStemPL [<n>:] (NounErgPlural (Case | (InflEssive (Elative | Directive)?))?)?)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
-(NounStemPL [<n>:] NounPlural)[^[Decl1,Decl2,Decl2_1,Decl3,Decl4,Decl5],^[Back,NonBack,Labial,I,E]]
 NounExceptionAbs [<n>:] [<abs>:]
 NounExceptionSgObl [<n>:] [<erg>:] (Case | (InflEssive (Elative | Directive)?))?
-(NounExceptionPl [<n>:] NounPlural)[^[Back,NonBack,Labial,I,E]]
-(NounExceptionPl [<n>:] NounErgPlural)[^[Back,NonBack,Labial,I,E]] (Case | (InflEssive (Elative | Directive)?))?
+(NounExceptionPl [<n>:] NounPlural)[^[Back,NonBack]]
+(NounExceptionPl [<n>:] NounErgPlural)[^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
+NounStemSg [<n>:] [<abs>:]
+(NounStemSg[Decl1] [<n>:] NounErg[Decl1])[^[Labial,I,E,A,U]] (Case | (InflEssive (Elative | Directive)?))?
+NounStemSg[Decl2] [<n>:] NounErg[Decl2] (Case | (InflEssive (Elative | Directive)?))?
+NounStemSg[Decl2_1] [<n>:] NounErg[Decl2_1] (Case | (InflEssive (Elative | Directive)?))?
+(NounStemSg[Decl3] [<n>:] NounErg[Decl3])[^[Back,NonBack],^[Labial,I,U]] (Case | (InflEssive (Elative | Directive)?))?
+(NounStemSg[Decl4] [<n>:] NounErg[Decl4])[^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
+(NounStemSg[Decl5] [<n>:] NounErg[Decl5])[^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
+(NounStemPL [<n>:] NounPlural)[^[Back,NonBack]]
+(NounStemPL [<n>:] NounErgPlural)[^[Back,NonBack]] (Case | (InflEssive (Elative | Directive)?))?
+ProperNouns [<n>:] [<abs>:]
+ProperNouns[Decl2] [<n>:] NounErg[Decl2] (Case | (InflEssive (Elative | Directive)?))?
+(ProperNouns[Decl1] [<n>:] NounErg[Decl1])[^[Back],^[A]] (Case | (InflEssive (Elative | Directive)?))?
 
-LEXICON NounInfl
+LEXICON Case
 <gen>:н
 <dat>:з
 
 LEXICON NounErg[Decl1]
-<erg>:a[Back]
-<erg>:е[NonBack,E]
-<erg>:и[NonBack,I]
-<erg>:уь[NonBack,Labial]
+<erg>:а[A]
+<erg>:у[U]
+<erg>:е[E]
+<erg>:и[I]
+<erg>:уь[Labial]
 
 LEXICON NounErg[Decl2]
 <erg>:ди
@@ -31,8 +45,8 @@ LEXICON NounErg[Decl2_1]
 <erg>:ци
 
 LEXICON NounErg[Decl3]
-<erg>:уни[Back]
-<erg>:ини[NonBack]
+<erg>:уни[Back,U]
+<erg>:ини[NonBack,I]
 <erg>:уьни[NonBack,Labial]
 
 LEXICON NounErg[Decl4]
@@ -53,7 +67,7 @@ LEXICON Elative
 LEXICON Directive
 <directive>:ди
 
-LEXICON NounInflEssive
+LEXICON InflEssive
 <ad><essive>:в
 <post><essive>:хъ
 <sub><essive>:к
@@ -65,10 +79,50 @@ LEXICON NounPlural
 <pl><abs>:ер[NonBack]
 
 LEXICON NounExceptionAbs
+дерт # горе
+кар # работа
+мез # язык
+пад # сторона
+рагъ # солнце
+рехъ # тропа
+свас # невеста
+фу # хлеб
 хва # сын; двоюродный(ая) брат (сестра)
+цуьк # цветок
+цӀай # огонь
+экв # свет
+югъ # день
+яб # ухо
 
 LEXICON NounExceptionSgObl
+дерт:дердини
+кар:карди
+мез:меци
+пад:пата
+рагъ:ракьини
+рехъ:рекьи
+рехъ:рекье
+свас:суса
+фу:фа
 хва:хце
+цуьк:цуькведи
+цӀай:цӀу
+экв:экуьни
+югъ:йикъа
+яб:япу
 
 LEXICON NounExceptionPl
+дерт:дерд[NonBack]
+кар:кр[Back]
+мез:мец[NonBack]
+пад:пат[Back]
+рагъ:ракъ[Back]
+рехъ:рекь[NonBack]
+свас:сус[NonBack]
+фу:ф[Back]
 хва:рухва[Back]
+цуьк:цуькв[Back]
+цӀай:цӀа[Back]
+экв:экв[NonBack]
+югъ:йикъа[Back]
+яб:яп[Back]
