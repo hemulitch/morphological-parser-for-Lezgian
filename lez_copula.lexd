@@ -6,7 +6,8 @@ PredCopForms
 LocalCop [<cop>:] [<imperf>:]
 LocalCop [<cop>:] CopForms
 PredCopNeg [<cop>:] [<neg>:] NegCopForms?
-LocalCop [<cop>:] Negative NegCopForms
+LocalCop [<cop>:] Negative NegCopForms?
+LocalCopCont [<cop>:] [<imc>:]
 
 LEXICON PredCop
 я
@@ -26,11 +27,11 @@ LEXICON LocalCop
 ала
 
 LEXICON LocalCopCont
-ава:ама<imc>
-гва:гума<imc>
-гала:галама<imc>
-ква:кума<imc>
-ала:алама<imc>
+ава:ама
+гва:гума
+гала:галама
+ква:кума
+ала:алама
 
 LEXICON NegCopForms
 <prf>:ир
@@ -44,3 +45,4 @@ LEXICON CopForms
 <prf>:й
 <cvb>:з
 <ptp>:й
+
