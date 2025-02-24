@@ -35,7 +35,7 @@ analysis,form,mustpass,source,description
 фикир<n><pl><super><directive>,фикираралди,pass,,noun
 фикир<n><pl><in><essive>,фикирара,pass,,noun
 фикир<n><pl><in><elative>,фикирарай,pass,,noun
-чал<adj><abs>,чалди,pass,,adjective
+чал<adj><sg><abs>,чалди,pass,,adjective
 чал<adj><erg>,чалда,pass,,adjective
 чал<adj><dat>,чалдаз,pass,,adjective
 чал<adj><gen>,чалдан,pass,,adjective
@@ -89,7 +89,7 @@ analysis,form,mustpass,source,description
 пудкъад<num><super><directive>,пудкъадалди,pass,,numeral
 пудкъад<num><in><essive>,пудкъада,pass,,numeral
 пудкъад<num><in><elative>,пудкъадай,pass,,numeral
-пудкъад<num><pl><abs>,пудкъадар,pass,,numeral
+пудкъад<num><abs><pl>,пудкъадар,pass,,numeral
 пудкъад<num><pl><erg>,пудкъадри,pass,,numeral
 пудкъад<num><pl><dat>,пудкъадриз,pass,,numeral
 пудкъад<num><pl><gen>,пудкъадрин,pass,,numeral
@@ -118,7 +118,6 @@ analysis,form,mustpass,source,description
 в<prn><post><elative>,вахъай,pass,,pronoun
 в<prn><post><directive>,вахъди,pass,,pronoun
 в<prn><sub><essive>,вак,pass,,pronoun
-в<prn><sub><elative>,вакай,pass,,pronoun
 в<prn><sub><directive>,вакди,pass,,pronoun
 в<prn><super><essive>,вал,pass,,pronoun
 в<prn><super><elative>,валай,pass,,pronoun
