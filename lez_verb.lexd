@@ -10,20 +10,20 @@ PATTERN Verb
 (MasdarStem [<verb>:] MasdarDerived)[^[Strong,Weak]] Erg (MasdarInfl | (MasdarInflEssive (Elative | Directive)?))
 (MasdarStem [<verb>:] Optative)[^[Strong,Weak]]
 (AoristStem [<verb>:] (Aorist | Perfect)) | (ImperfStem [<verb>:] (Imperfective | Future))[^[Strong,Weak]] Negative
-Imperative [<verb>] [<imper>:]
-(AoristStem (AoristParticiple | PerfParticiple))[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]] # атрибутивная форма
-(AoristStem (AoristParticiple | PerfParticiple) AdjNumber [<abs>:])[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]] # субстантивированная
-(AoristStem (AoristParticiple | PerfParticiple) AdjErg (Case | (InflEssive (Elative | Directive)?))?)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]] # субстантивированная
-(AoristStem AoristParticiple TempConverb)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+Imperative [<verb>:] [<imper>:]
+(AoristStem (AoristParticiple | PerfParticiple))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # атрибутивная форма
+(AoristStem (AoristParticiple | PerfParticiple) AdjNumber [<abs>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem (AoristParticiple | PerfParticiple) AdjErg (Case | (InflEssive (Elative | Directive)?))?)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem AoristParticiple TempConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (AoristStem PerfParticiple TempConverb)[^[Strong,Weak]]
 (ImperfStem ImperfParticiple TempConverb)[^[Strong,Weak]]
-(AoristStem AoristParticiple ImmediateAnteriorConverb)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
-(AoristStem AoristParticiple ConditionalMood)[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+(AoristStem AoristParticiple ImmediateAnteriorConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(AoristStem AoristParticiple ConditionalMood)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (ImperfStem (Imperfective | Future) ConditionalMood)[^[Strong,Weak]]
 (AoristStem (Aorist | Perfect) ConditionalMood)[^[Strong,Weak]]
 (ImperfStem (Imperfective | Future) InterrogativeMood)[^[Strong,Weak]]
 (AoristStem (Aorist | Perfect) InterrogativeMood)[^[Strong,Weak]]
-(AoristStem AoristParticiple (MannerConverb | CasualConverb))[^[Strong,Weak,Polysyllabic,Monosyllabic,Exception]]
+(AoristStem AoristParticiple (MannerConverb | CasualConverb))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (ImperfStem ImperfParticiple (MannerConverb | CasualConverb))[^[Strong,Weak]]
 (AoristStem PerfParticiple (MannerConverb | CasualConverb))[^[Strong,Weak]]
 (ImperfStem ImperfParticiple)[^[Strong,Weak]] # атрибутивная форма
@@ -113,10 +113,10 @@ LEXICON Negative
 <neg>:ч
 
 LEXICON AoristParticiple
-<aop><ptp>:ай[Weak]
-<aor><ptp>:р[Exception]
-<aor><ptp>:й[Polysyllabic]
-<aor><ptp>:йи[Monoysyllabic]
+<aor><ptp>:ай[Weak]
+<aor><ptp>:р[Strong,Exception]
+<aor><ptp>:й[Strong,Polysyllabic]
+<aor><ptp>:йи[Strong,Monosyllabic]
 
 LEXICON ImperfParticiple
 <imperf><ptp>:звай[Strong]
