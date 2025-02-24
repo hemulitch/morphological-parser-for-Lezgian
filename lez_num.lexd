@@ -1,8 +1,9 @@
+
 PATTERN Numerals
 (Base | Teens | Ten | Tens | Thousand) [<num>:] NumAbs?
 (Base | Teens | Ten | Tens | Thousand) [<num>:] (NumErg (Case | (InflEssive (Elative | Directive)?))?)?
-TensAdd [<num>] Add
-Hundred [<num>]
+TensAdd [<num>:] Add
+Hundred [<num>:]
 BaseShort [<num>:]
 
 LEXICON BaseShort
@@ -56,11 +57,12 @@ LEXICON Thousand
 агъзур # 1000
 
 LEXICON NumAbs
-<abs>:
+<abs>: 
 <abs><pl>:ар
 <abs><pl>:бур
 
 LEXICON NumErg
-<erg>:а
+<erg>:а 
 <pl><erg>:ри
 <pl><erg>:буру
+
