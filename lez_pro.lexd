@@ -13,7 +13,8 @@ QuestionPronSg [<prn>:] [<abs>:]
 QuestionPronObl ([<erg>:] | Case | (InflEssive (Elative | Directive)?))
 NegativeNonInfl [<prn>:] [<abs>:]
 NegativeObl(1) [<prn>:] ([<erg>:] | Case |  (InflEssive (Elative | Directive)?)) NegativeObl(2)
-DetAbs [<prn>:]
+DetAbs [<prn>:] [<abs>:]
+DetAbsPl [<prn>:] [<pl>:] [<abs>:]
 Det [<prn>:]
 Det [<prn>:] AdjErg (Case |  (InflEssive (Elative | Directive)?))?
 Quantifier [<prn>:] [<abs>:]
@@ -100,12 +101,14 @@ LEXICON Det
 а # тот
 
 LEXICON DetAbs
-а:ам<abs>
-и:им<abs>
-гъа:гъам<abs>
-а:абур<abs><pl>
-и:ибур<abs><pl>
-гьа:гьабур<abs><pl>
+а:ам
+и:им
+гъа:гъам
+
+LEXICON DetAbsPl
+а:абур
+и:ибур
+гьа:гьабур
 
 LEXICON Quantifier
 вири # все
