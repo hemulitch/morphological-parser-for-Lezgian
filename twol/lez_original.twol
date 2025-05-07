@@ -1,0 +1,55 @@
+Alphabet
+  а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч Ӏ ш щ ъ ы ь э ю я
+  А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ӏ Ш Щ Ъ Ы Ь Э Ю Я
+  1 %> %{а2%}:а %{а2%}:я %{а3%}:а %{а3%}:й %{а3%}:0 
+  а:0 и:0 %{а1%}:е %{а1%}:у %{а1%} 
+  и:а 
+;
+
+Sets
+Vowel = а е ё и о у ь ы э ю я ;
+Consonant = б в г д ж з к л м н п р с т ф х ц ч Ӏ ш щ ;
+ 
+Rules
+
+"clean input text"
+1:Ӏ <=> _ ;
+
+"remove a at end of the stem before In localization"
+а:0 <=> _ %> %{а1%} ;
+
+"remove и at end of the stem before In localization"
+и:0 <=> _ %> %{а1%} ;
+
+"change In localization form to e if stem ends with e or уь"
+%{а1%}:е <=> Cx %> _ ; where Cx in ( е ь ) ;
+
+"change In localization form to у if stem ends with у"
+%{а1%}:у <=> у %> _ ;
+
+"vowel change in the beginning of plural suffix - 1"
+%{а2%}:я <=> Vx %> _ ; where Vx in ( а и у о е уь я ю) ;
+
+"vowel change in the beginning of plural suffix - 2"
+%{а2%}:а <=> Cx %> _ ; where Cx in Consonant ;
+
+"vowel change in the beginning of plural ergative/oblative suffix - 1"
+%{а3%}:й <=> Vx %> _ ; where Vx in Vowel ;
+
+"vowel change in the beginning of plural ergative/oblative suffix - 2"
+%{а3%}:а <=> Cx %> _ ; where Cx in ( б в г д ж з к л м н п с т ф х ц ч Ӏ ш щ ) ;
+
+"vowel change in the beginning of plural ergative/oblative suffix - 3"
+%{а3%}:0 <=> р %> _ ;
+
+"remove the plural ergative/oblative suffix in masdar to form In + (elative | essive) "
+и:0 <=> _ %> а ;
+
+"vowel change at the end of the stem in <super><essive>"
+и:а <=> _ %> л # ;
+
+"vowel change at the end of the stem in <super><directive>"
+и:а <=> _ %> л %> д ;
+
+"vowel change at the end of the plural suffix in <super><elative>"
+и:а <=> р _ %> л %> а ; 
