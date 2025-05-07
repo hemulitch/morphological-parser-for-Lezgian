@@ -1,0 +1,15 @@
+Alphabet
+  а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч Ӏ ш щ ъ ы ь э ю я
+  %{а1%}:а %- %> е:0 у:0
+;
+
+Rules
+
+"delete remains of archiphoneme"
+%{а1%}:а <=> _ ;
+
+"delete the stem end after %{а1%} -> е"
+е:0 <=> _ %> е ;
+
+"delete the stem end after %{а1%} -> у"
+у:0 <=> _ %> у ;
