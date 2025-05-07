@@ -1,8 +1,5 @@
 ## Parser
 
-## Coverage
-[./coverage](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/coverage)
-
 ## CG parser
 [./cg_parser](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/cg_parser)
 
@@ -17,3 +14,7 @@ where `x`:
 - sentence: `make run INPUT="Чуьллера хъваз таза къайи булахар."`
 
 the disambiguated output is saved in `output.txt`
+
+## Coverage
+[./coverage](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/coverage)
+
