@@ -1,11 +1,11 @@
 .DEFAULT_GOAL := run
 INPUT ?= 
 
-run: result.txt 
+run: disambiguated_analysis.txt
 	python3 script.py $^
 	cat "./output.txt"
 
-result.txt: analysis.txt rules.txt
+disambiguated_analysis.txt: analysis.txt rules.txt
 	cat "./analysis.txt" | vislcg3 -g rules.txt | cg-conv -A > $@
 
 analysis.txt:
@@ -17,4 +17,4 @@ analysis.txt:
 	fi
 
 clean:
-	rm -f preprocessed.txt analysis.txt result.txt output.txt
+	rm -f analysis.txt disambiguated_analysis.txt output.txt 
