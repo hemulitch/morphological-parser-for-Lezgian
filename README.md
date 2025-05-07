@@ -1,10 +1,10 @@
 ## Parser
 
 ## Coverage
-folder: {}
+[./coverage](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/coverage)
 
 ## CG parser
-[folder]()
+[./cg_parser](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/cg_parser)
 
 goal: disambiguate the morphological analysis of Lezgian text (sentence)
 
