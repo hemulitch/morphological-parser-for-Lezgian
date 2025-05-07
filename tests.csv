@@ -1,226 +1,210 @@
-analysis,form,mustpass,source,description
-фикир<n><abs>,фикир,pass,Гайдаров и др. (2009),noun
-фикир<n><erg>,фикирди,pass,Гайдаров и др. (2009),noun
-фикир<n><dat>,фикирдиз,pass,Гайдаров и др. (2009),noun
-фикир<n><gen>,фикирдин,pass,Гайдаров и др. (2009),noun
-фикир<n><ad><essive>,фикирдив,pass,Гайдаров и др. (2009),noun
-фикир<n><ad><elative>,фикирдивай,pass,Гайдаров и др. (2009),noun
-фикир<n><ad><directive>,фикирдивди,pass,Гайдаров и др. (2009),noun
-фикир<n><post><essive>,фикирдихъ,pass,Гайдаров и др. (2009),noun
-фикир<n><post><elative>,фикирдихъай,pass,Гайдаров и др. (2009),noun
-фикир<n><post><directive>,фикирдихъди,pass,Гайдаров и др. (2009),noun
-фикир<n><sub><essive>,фикирдик,pass,Гайдаров и др. (2009),noun
-фикир<n><sub><elative>,фикирдикай,pass,Гайдаров и др. (2009),noun
-фикир<n><sub><directive>,фикирдикди,pass,Гайдаров и др. (2009),noun
-фикир<n><super><essive>,фикирдал,pass,Гайдаров и др. (2009),noun
-фикир<n><super><elative>,фикирдилай,pass,Гайдаров и др. (2009),noun
-фикир<n><super><directive>,фикирдалди,pass,Гайдаров и др. (2009),noun
-фикир<n><in><essive>,фикирда,pass,Гайдаров и др. (2009),noun
-фикир<n><in><elative>,фикирдай,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><abs>,фикирар,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><erg>,фикирари,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><dat>,фикирариз,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><gen>,фикирарин,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><ad><essive>,фикирарив,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><ad><elative>,фикираривай,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><ad><directive>,фикираривди,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><post><essive>,фикирарихъ,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><post><elative>,фикирарихъай,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><post><directive>,фикирарихъди,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><sub><essive>,фикирарик,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><sub><elative>,фикирарикай,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><sub><directive>,фикирарикди,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><super><essive>,фикирарал,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><super><elative>,фикираралай,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><super><directive>,фикираралди,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><in><essive>,фикирара,pass,Гайдаров и др. (2009),noun
-фикир<n><pl><in><elative>,фикирарай,pass,Гайдаров и др. (2009),noun
-чал<adj><sg><abs>,чалди,pass,Гайдаров и др. (2009),adjective
-чал<adj><erg>,чалда,pass,Гайдаров и др. (2009),adjective
-чал<adj><dat>,чалдаз,pass,Гайдаров и др. (2009),adjective
-чал<adj><gen>,чалдан,pass,Гайдаров и др. (2009),adjective
-чал<adj><ad><essive>,чалдав,pass,Гайдаров и др. (2009),adjective
-чал<adj><ad><elative>,чалдавай,pass,Гайдаров и др. (2009),adjective
-чал<adj><ad><directive>,чалдавди,pass,Гайдаров и др. (2009),adjective
-чал<adj><post><essive>,чалдахъ,pass,Гайдаров и др. (2009),adjective
-чал<adj><post><elative>,чалдахъай,pass,Гайдаров и др. (2009),adjective
-чал<adj><post><directive>,чалдахъди,pass,Гайдаров и др. (2009),adjective
-чал<adj><sub><essive>,чалдак,pass,Гайдаров и др. (2009),adjective
-чал<adj><sub><elative>,чалдакай,pass,Гайдаров и др. (2009),adjective
-чал<adj><sub><directive>,чалдакди,pass,Гайдаров и др. (2009),adjective
-чал<adj><super><essive>,чалдал,pass,Гайдаров и др. (2009),adjective
-чал<adj><super><elative>,чалдалай,pass,Гайдаров и др. (2009),adjective
-чал<adj><super><directive>,чалдалди,pass,Гайдаров и др. (2009),adjective
-чал<adj><in><essive>,чалда,pass,Гайдаров и др. (2009),adjective
-чал<adj><in><elative>,чалдай,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><abs>,чалбур,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><erg>,чалбуру,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><dat>,чалбуруз,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><gen>,чалбурун,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><ad><essive>,чалбурув,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><ad><elative>,чалбурувай,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><ad><directive>,чалбурувди,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><post><essive>,чалбурухъ,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><post><elative>,чалбурухъай,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><post><directive>,чалбурухъди,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><sub><essive>,чалбурук,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><sub><elative>,чалбурукай,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><sub><directive>,чалбурукди,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><super><essive>,чалбурул,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><super><elative>,чалбурулай,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><super><directive>,чалбурулди,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><in><essive>,чалбуру,pass,Гайдаров и др. (2009),adjective
-чал<adj><pl><in><elative>,чалбуруй,pass,Гайдаров и др. (2009),adjective
-пудкъад<num><abs>,пудкъад,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><erg>,пудкъада,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><gen>,пудкъадан,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><dat>,пудкъадаз,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><ad><essive>,пудкъадав,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><ad><elative>,пудкъадавай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><ad><directive>,пудкъадавди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><post><essive>,пудкъадахъ,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><post><elative>,пудкъадахъай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><post><directive>,пудкъадахъди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><sub><essive>,пудкъадак,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><sub><elative>,пудкъадакай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><sub><directive>,пудкъадакди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><super><essive>,пудкъадал,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><super><elative>,пудкъадалай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><super><directive>,пудкъадалди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><in><essive>,пудкъада,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><in><elative>,пудкъадай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><abs><pl>,пудкъадар,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><erg>,пудкъадри,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><dat>,пудкъадриз,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><gen>,пудкъадрин,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><ad><essive>,пудкъадрив,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><ad><elative>,пудкъадривай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><ad><directive>,пудкъадривди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><post><essive>,пудкъадрихъ,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><post><elative>,пудкъадрихъай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><post><directive>,пудкъадрихъди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><sub><essive>,пудкъадрик,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><sub><elative>,пудкъадрикай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><sub><directive>,пудкъадрикди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><super><essive>,пудкъадрал,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><super><elative>,пудкъадрилай,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><super><directive>,пудкъадраяди,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><in><essive>,пудкъадра,pass,Гайдаров и др. (2009),numeral
-пудкъад<num><pl><in><elative>,пудкъадрай,pass,Гайдаров и др. (2009),numeral
-в<prn><abs>,вун,pass,Гайдаров и др. (2009),pronoun
-в<prn><erg>,вуна,pass,Гайдаров и др. (2009),pronoun
-в<prn><gen>,ви,pass,Гайдаров и др. (2009),pronoun
-в<prn><dat>,ваз,pass,Гайдаров и др. (2009),pronoun
-в<prn><ad><essive>,вав,pass,Гайдаров и др. (2009),pronoun
-в<prn><ad><elative>,вавай,pass,Гайдаров и др. (2009),pronoun
-в<prn><ad><directive>,вавди,pass,Гайдаров и др. (2009),pronoun
-в<prn><post><essive>,вахъ,pass,Гайдаров и др. (2009),pronoun
-в<prn><post><elative>,вахъай,pass,Гайдаров и др. (2009),pronoun
-в<prn><post><directive>,вахъди,pass,Гайдаров и др. (2009),pronoun
-в<prn><sub><essive>,вак,pass,Гайдаров и др. (2009),pronoun
-в<prn><sub><directive>,вакди,pass,Гайдаров и др. (2009),pronoun
-в<prn><super><essive>,вал,pass,Гайдаров и др. (2009),pronoun
-в<prn><super><elative>,валай,pass,Гайдаров и др. (2009),pronoun
-в<prn><super><directive>,валди,pass,Гайдаров и др. (2009),pronoun
-в<prn><in><essive>,ва,pass,Гайдаров и др. (2009),pronoun
-в<prn><in><elative>,вай,pass,Гайдаров и др. (2009),pronoun
-раху<verb><msd>,рахун,pass,Haspelmath 1993,verb
-кис<verb><msd>,кисун,pass,Haspelmath 1993,verb
-раху<verb><msd><pl>,рахунар,pass,Haspelmath 1993,verb
-кис<verb><msd><pl>,кисунар,pass,Haspelmath 1993,verb
-раху<verb><msd><erg>,рахуни,pass,Haspelmath 1993,verb
-кис<verb><msd><erg>,кисуни,pass,Haspelmath 1993,verb
-раху<verb><msd><pl><erg>,рахунри,pass,Haspelmath 1993,verb
-кис<verb><msd><pl><erg>,кисунри,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><gen>,рахунин,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><gen>,кисунин,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><dat>,рахуниз,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><dat>,кисуниз,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><ad><essive>,рахунив,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><ad><essive>,кисунив,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><post><essive>,рахунихъ,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><post><essive>,кисунихъ,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><sub><essive>,рахуник,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><sub><essive>,кисуник,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><in><essive>,рахуна,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><in><essive>,кисуна,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><super><essive>,рахунал,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><super><essive>,кисунал,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><ad><elative>,рахунивай,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><ad><elative>,кисунивай,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><post><elative>,рахунихъай,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><post><elative>,кисунихъай,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><sub><elative>,рахуникай,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><sub><elative>,кисуникай,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><in><elative>,рахунай,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><in><elative>,кисунай,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><super><elative>,рахунлай,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><super><elative>,кисунлай,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><ad><directive>,рахунивди,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><ad><directive>,кисунивди,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><post><directive>,рахунихъди,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><post><directive>,кисунихъди,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><sub><directive>,рахуникди,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><sub><directive>,кисуникди,pass,Haspelmath 1993,verb
-раху<verb><msd><erg><super><directive>,рахуналди,pass,Haspelmath 1993,verb
-кис<verb><msd><erg><super><directive>,кисуналди,pass,Haspelmath 1993,verb
-раха<verb><inf>,рахаз,pass,Haspelmath 1993,verb
-кис<verb><inf>,кисиз,pass,Haspelmath 1993,verb
-раха<verb><hort>,рахан,pass,Haspelmath 1993,verb
-кис<verb><hort>,кисин,pass,Haspelmath 1993,verb
-раха<verb><imperf>,рахазва,pass,Haspelmath 1993,verb
-кис<verb><imperf>,кисзава,pass,Haspelmath 1993,verb
-раха<verb><contimperf>,рахазма,pass,Haspelmath 1993,verb
-кис<verb><contimperf>,кисзама,pass,Haspelmath 1993,verb
-раха<verb><imperf><imc>,рахазаваз,pass,Haspelmath 1993,verb
-кис<verb><imperf><imc>,кисзваз,pass,Haspelmath 1993,verb
-раха<verb><prohib>,рахамир,pass,Haspelmath 1993,verb
-кис<verb><prohib>,кисмир,pass,Haspelmath 1993,verb
-раха<verb><fut>,рахада,pass,Haspelmath 1993,verb
-кис<verb><fut>,кисда,pass,Haspelmath 1993,verb
-раха<verb><fut>,рахади,pass,Haspelmath 1993,verb
-кис<verb><fut>,кисди,pass,Haspelmath 1993,verb
-раха<verb><fut>,рахадир,pass,Haspelmath 1993,verb
-кис<verb><fut>,кисдир,pass,Haspelmath 1993,verb
-раха<verb><fut><neg>,рахадач,pass,Haspelmath 1993,verb
-кис<verb><fut><neg>,кисдач,pass,Haspelmath 1993,verb
-раха<verb><postr>,рахадалди,pass,Haspelmath 1993,verb
-кис<verb><postr>,кисдалди,pass,Haspelmath 1993,verb
-раха<verb><grad>,рахардавай,pass,Haspelmath 1993,verb
-кис<verb><grad>,кисирдавай,pass,Haspelmath 1993,verb
-раха<verb><immant>,рахазмаз,pass,Haspelmath 1993,verb
-кис<verb><immant>,кисзамаз,pass,Haspelmath 1993,verb
-раха<verb><aoc>,рахана,pass,Haspelmath 1993,verb
-кис<verb><aoc>,кисна,pass,Haspelmath 1993,verb
-раха<verb><immant>,раханмаз,pass,Haspelmath 1993,verb
-кис<verb><immant>,киснамаз,pass,Haspelmath 1993,verb
-раха<verb><immant>,раханмазди,pass,Haspelmath 1993,verb
-кис<verb><immant>,киснамазди,pass,Haspelmath 1993,verb
-раха<verb><aor>,рахана,pass,Haspelmath 1993,verb
-кис<verb><aor>,кисна,pass,Haspelmath 1993,verb
-раха<verb><prf>,раханва,pass,Haspelmath 1993,verb
-кис<verb><prf>,киснава,pass,Haspelmath 1993,verb
-раха<verb><contprf>,раханма,pass,Haspelmath 1993,verb
-кис<verb><contprf>,киснама,pass,Haspelmath 1993,verb
-раха<verb><prf><imc>,раханваз,pass,Haspelmath 1993,verb
-кис<verb><prf><imc>,киснаваз,pass,Haspelmath 1993,verb
-раха<verb><contprf><imc>,раханмаз,pass,Haspelmath 1993,verb
-кис<verb><contprf><imc>,киснамаз,pass,Haspelmath 1993,verb
-раху<verb><opt>,рахурай,pass,Haspelmath 1993,verb
-кис<verb><opt>,кисрай,pass,Haspelmath 1993,verb
-раху<verb><opt>,рахуй,pass,Haspelmath 1993,verb
-кис<verb><opt>,кисуй,pass,Haspelmath 1993,verb
-раха<verb><aor><neg>,рахана,pass,Haspelmath 1993,verb
-кис<verb><aor><neg>,кисна,pass,Haspelmath 1993,verb
-раха<verb><prf><neg>,раханвач,pass,Haspelmath 1993,verb
-кис<verb><prf><neg>,киснавач,pass,Haspelmath 1993,verb
-раха<verb><contprf><neg>,раханмач,pass,Haspelmath 1993,verb
-кис<verb><contprf><neg>,киснамач,pass,Haspelmath 1993,verb
-раха<verb><imperf><neg>,рахазвач,pass,Haspelmath 1993,verb
-кис<verb><imperf><neg>,кисзавач,pass,Haspelmath 1993,verb
-раха<verb><contimperf><neg>,рахазмач,pass,Haspelmath 1993,verb
-кис<verb><contimperf><neg>,кисзамач,pass,Haspelmath 1993,verb
-рахун<verb><imper>,рахух,pass,Haspelmath 1993,verb
-кисун<verb><imper>,кис,pass,Haspelmath 1993,verb
-раха<verb><imperf><ptp>,рахазвай,pass,Haspelmath 1993,participle
-кис<verb><imperf><ptp>,кисзавай,pass,Haspelmath 1993,participle
+analysis,form,form_glosses,mustpass,source,description
+фикир<n><abs>,фикир,фикир,pass,Гайдаров и др. (2009),noun
+фикир<n>><erg>,фикирди,фикир-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><dat>,фикирдиз,фикирди-з,pass,Гайдаров и др. (2009),noun
+фикир<n>><gen>,фикирдин,фикирди-н,pass,Гайдаров и др. (2009),noun
+фикир<n>><ad><essive>,фикирдив,фикирди-в,pass,Гайдаров и др. (2009),noun
+фикир<n>><ad>><elative>,фикирдивай,фикирди-в-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><ad>><directive>,фикирдивди,фикирди-в-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><post><essive>,фикирдихъ,фикирди-хъ,pass,Гайдаров и др. (2009),noun
+фикир<n>><post>><elative>,фикирдихъай,фикирди-хъ-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><post>><directive>,фикирдихъди,фикирди-хъ-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><sub><essive>,фикирдик,фикирди-к,pass,Гайдаров и др. (2009),noun
+фикир<n>><sub>><elative>,фикирдикай,фикирди-к-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><sub>><directive>,фикирдикди,фикирди-к-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><super><essive>,фикирдал,фикирда-л,pass,Гайдаров и др. (2009),noun
+фикир<n>><super>><elative>,фикирдилай,фикирди-л-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><super>><directive>,фикирдалди,фикирда-л-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><in><essive>,фикирда,фикирд-а,pass,Гайдаров и др. (2009),noun
+фикир<n>><in>><elative>,фикирдай,фикирд-а-й,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl><abs>,фикирар,фикир-ар,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl><erg>,фикирари,фикир-ари,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><dat>,фикирариз,фикир-ари-з,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><gen>,фикирарин,фикир-ари-н,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><ad><essive>,фикирарив,фикир-ари-в,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><ad>><elative>,фикираривай,фикир-ари-в-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><ad>><directive>,фикираривди,фикир-ари-в-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><post><essive>,фикирарихъ,фикир-ари-хъ,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><post>><elative>,фикирарихъай,фикир-ари-хъ-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><post>><directive>,фикир-ари-хъ-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><sub><essive>,фикирарик,фикир-ари-к,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><sub>><elative>,фикирарикай,фикир-ари-к-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><sub>><directive>,фикирарикди,фикир-ари-к-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><super><essive>,фикирарал,фикир-ара-л,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><super>><elative>,фикираралай,фикир-ара-л-ай,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><super>><directive>,фикираралди,фикир-ара-л-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><in><essive>,фикирара,фикир-ар-а,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><in>><elative>,фикирарай,фикир-ар-а-й,pass,Гайдаров и др. (2009),noun
+чал<adj>><sg><abs>,чалди,чал-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg><erg>,чалда,чал-да,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><dat>,чалдаз,чал-да-з,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><gen>,чалдан,чал-да-н,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><ad><essive>,чалдав,чал-да-в,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><ad>><elative>,чалдавай,чал-да-в-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><ad>><directive>,чалдавди,чал-да-в-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><post><essive>,чалдахъ,чал-да-хъ,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><post>><elative>,чалдахъай,чал-да-хъ-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><post>><directive>,чалдахъди,чал-да-хъ-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><sub><essive>,чалдак,чал-да-к,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><sub>><elative>,чалдакай,чал-да-к-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><sub>><directive>,чалдакди,чал-да-к-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><super><essive>,чалдал,чал-да-л,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><super>><elative>,чалдалай,чал-да-л-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><super>><directive>,чалдалди,чал-да-л-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><in><essive>,чалда,чал-д-а,pass,Гайдаров и др. (2009),adjective
+чал<adj>><sg>><in>><elative>,чалдай,чал-д-а-й,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl><abs>,чалбур,чал-бур,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl><erg>,чалбуру,чал-буру,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><dat>,чалбуруз,чал-буру-з,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><gen>,чалбурун,чал-буру-н,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><ad><essive>,чалбурув,чал-буру-в,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><ad>><elative>,чалбурувай,чал-буру-в-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><ad>><directive>,чалбурувди,чал-буру-в-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><post><essive>,чалбурухъ,чал-буру-хъ,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><post>><elative>,чалбурухъай,чал-буру-хъ-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><post>><directive>,чалбурухъди,чал-буру-хъ-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><sub><essive>,чалбурук,чал-буру-к,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><sub>><elative>,чалбурукай,чал-буру-к-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><sub>><directive>,чалбурукди,чал-буру-к-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><super><essive>,чалбурул,чал-буру-л,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><super>><elative>,чалбурулай,чал-буру-л-ай,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><super>><directive>,чалбурулди,чал-буру-л-ди,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><in><essive>,чалбуру,чал-бур-у,pass,Гайдаров и др. (2009),adjective
+чал<adj>><pl>><in>><elative>,чалбуруй,чал-бур-у-й,pass,Гайдаров и др. (2009),adjective
+вад<num>,вад,вад,pass,Гайдаров и др. (2009),numeral
+вад<num>><erg>,вада,вад-а,pass,Гайдаров и др. (2009),numeral
+вад<num>><gen>,вадан,вада-н,pass,Гайдаров и др. (2009),numeral
+вад<num>><dat>,вадаз,вада-з,pass,Гайдаров и др. (2009),numeral
+вад<num>><ad><essive>,вадав,вада-в,pass,Гайдаров и др. (2009),numeral
+вад<num>><ad>><elative>,вадавай,вада-в-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><ad>><directive>,вадавди,вада-в-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><post><essive>,вадахъ,вада-хъ,pass,Гайдаров и др. (2009),numeral
+вад<num>><post>><elative>,вадахъай,вада-хъ-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><post>><directive>,вадахъди,вада-хъ-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><sub><essive>,вадак,вада-к,pass,Гайдаров и др. (2009),numeral
+вад<num>><sub>><elative>,вадакай,вада-к-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><sub>><directive>,вадакди,вада-к-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><super><essive>,вадал,вада-л,pass,Гайдаров и др. (2009),numeral
+вад<num>><super>><elative>,вадалай,вада-л-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><super>><directive>,вадалди,вада-л-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><in><essive>,вада,вад-а,pass,Гайдаров и др. (2009),numeral
+вад<num>><in>><elative>,вадай,вад-а-й,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl><abs>,вадар,вад-ар,pass,Гайдаров и др. (2009),numeral 
+вад<num>><pl><erg>,вадри,вад-ри,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><dat>,вадриз,вад-ри-з,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><gen>,вадрин,вад-ри-н,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><ad><essive>,вадрив,вад-ри-в,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><ad>><elative>,вадривай,вад-ри-в-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><ad>><directive>,вадривди,вад-ри-в-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><post><essive>,вадрихъ,вад-ри-хъ,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><post>><elative>,вадрихъай,вад-ри-хъ-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><post>><directive>,вадрихъди,вад-ри-хъ-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><sub><essive>,вадрик,вад-ри-к,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><sub>><elative>,вадрикай,вад-ри-к-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><sub>><directive>,вадрикди,вад-ри-к-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><super><essive>,вадрал,вад-ра-л,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><super>><directive>,вадралди,вад-ра-л-ди,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><super>><elative>,вадрилай,вад-ри-л-ай,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><in><essive>,вадра,вад-р-а,pass,Гайдаров и др. (2009),numeral
+вад<num>><pl>><in>><elative>,вадрай,вадр-а-й,pass,Гайдаров и др. (2009),numeral
+в<prn>><abs>,вун,в-ун,pass,Гайдаров и др. (2009),pronoun
+в<prn><erg>,вуна,вун-а,pass,Гайдаров и др. (2009),pronoun
+в<prn>><gen>,ви,в-и,pass,Гайдаров и др. (2009),pronoun
+в<prn>><dat>,ваз,ва-з,pass,Гайдаров и др. (2009),pronoun
+в<prn>><ad><essive>,вав,ва-в,pass,Гайдаров и др. (2009),pronoun
+в<prn>><ad>><elative>,вавай,ва-в-ай,pass,Гайдаров и др. (2009),pronoun
+в<prn>><ad>><directive>,вавди,ва-в-ди,pass,Гайдаров и др. (2009),pronoun
+в<prn>><post><essive>,вахъ,ва-хъ,pass,Гайдаров и др. (2009),pronoun
+в<prn>><post>><elative>,вахъай,ва-хъ-ай,pass,Гайдаров и др. (2009),pronoun
+в<prn>><post>><directive>,вахъди,ва-хъ-ди,pass,Гайдаров и др. (2009),pronoun
+в<prn>><sub><essive>,вак,ва-к,pass,Гайдаров и др. (2009),pronoun
+в<prn>><sub>><directive>,вакди,ва-к-ди,pass,Гайдаров и др. (2009),pronoun
+в<prn>><sub>><elative>,вакай,ва-к-ай,pass,Гайдаров и др. (2009),pronoun
+в<prn>><super><essive>,вал,ва-л,pass,Гайдаров и др. (2009),pronoun
+в<prn>><super>><elative>,валай,ва-л-ай,pass,Гайдаров и др. (2009),pronoun
+в<prn>><super>><directive>,валди,ва-л-ди,pass,Гайдаров и др. (2009),pronoun
+в<prn>><in><essive>,ва,в-а,pass,Гайдаров и др. (2009),pronoun
+в<prn>><in>><elative>,вай,в-а-й,pass,Гайдаров и др. (2009),pronoun
+гу<verb>><msd>,гун,гу-н,pass,Haspelmath 1993,verb
+гу<verb>><msd>><pl>,гунар,гу-н-ар,pass,Haspelmath 1993,verb
+гу<verb>><msd>><erg>,гуни,гу-н-и,pass,Haspelmath 1993,verb
+гу<verb>><msd>><pl><erg>,гунри,гу-н-ри,pass,Haspelmath 1993,verb
+гу<verb>><msd>><gen>,гунин,гу-ни-н,pass,Haspelmath 1993,verb
+гу<verb>><msd>><dat>,гуниз,гу-ни-з,pass,Haspelmath 1993,verb
+гу<verb>><msd>><ad><essive>,гунив,гу-ни-в,pass,Haspelmath 1993,verb
+гу<verb>><msd>><post><essive>,гунихъ,гу-ни-хъ,pass,Haspelmath 1993,verb
+гу<verb>><msd>><sub><essive>,гуник,гу-ни-к,pass,Haspelmath 1993,verb
+гу<verb>><msd>><in><essive>,гуна,гу-н-а,pass,Haspelmath 1993,verb
+гу<verb>><msd>><super><essive>,гунал,гу-н-ал,pass,Haspelmath 1993,verb
+гу<verb>><msd>><post>><elative>,гунихъай,гу-ни-хъ-ай,pass,Haspelmath 1993,verb
+гу<verb>><msd>><in>><elative>,гунай,гу-н-а-й,pass,Haspelmath 1993,verb
+гу<verb>><msd>><sub>><elative>,гуникай,гу-ни-к-ай,pass,Haspelmath 1993,verb
+гу<verb>><msd>><ad>><directive>,гунивди,гу-ни-в-ди,pass,Haspelmath 1993,verb
+гу<verb>><msd>><post>><directive>,гунихъди,гу-ни-хъ-ди,pass,Haspelmath 1993,verb
+гу<verb>><msd>><sub>><directive>,гуникди,гу-ни-к-ди,pass,Haspelmath 1993,verb
+гу<verb>><msd>><super>><directive>,гуналди,гу-н-ал-ди,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>,кӀелун,кӀел-ун,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><pl>,кӀелунар,кӀел-ун-ар,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><erg>,кӀелуни,кӀел-ун-и,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><pl><erg>,кӀелунри,кӀел-ун-ри,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><gen>,кӀелунин,кӀел-уни-н,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><dat>,кӀелуниз,кӀел-уни-з,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><ad><essive>,кӀелунив,кӀел-уни-в,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><post><essive>,кӀелунихъ,кӀел-уни-хъ,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><sub><essive>,кӀелуник,кӀел-уни-к,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><in><essive>,кӀелуна,кӀел-ун-а,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><super><essive>,кӀелунал,кӀел-ун-ал,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><ad>><elative>,кӀелунивай,кӀел-уни-в-ай,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><post>><elative>,кӀелунихъай,кӀел-уни-хъ-ай,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><sub>><elative>,кӀелуникай,кӀел-уни-к-ай,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><in>><elative>,кӀелунай,кӀел-ун-а-й,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><ad>><directive>,кӀелунивди,кӀел-уни-в-ди,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><post>><directive>,кӀелунихъди,кӀел-уни-хъ-ди,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><sub>><directive>,кӀелуникди,кӀел-уни-к-ди,pass,Haspelmath 1993,verb
+кӀел<verb>><msd>><super>><directive>,кӀелуналди,кӀел-ун-ал-ди,pass,Haspelmath 1993,verb
+раха<verb>><inf>,рахаз,раха-з,pass,Haspelmath 1993,verb
+раха<verb>><hort>,рахан,раха-н,pass,Haspelmath 1993,verb
+раха<verb>><imperf>,рахазва,раха-зва,pass,Haspelmath 1993,verb
+раха<verb>><prohib>,рахамир,раха-мир,pass,Haspelmath 1993,verb
+раха<verb>><fut>,рахада,раха-да,pass,Haspelmath 1993,verb
+раха<verb>><fut>><neg>,рахадач,раха-да-ч,pass,Haspelmath 1993,verb
+раха<verb>><aoc>,рахана,раха-на,pass,Haspelmath 1993,verb
+раха<verb>><aor>,рахана,раха-на,pass,Haspelmath 1993,verb
+раха<verb>><prf>,раханва,раха-нва,pass,Haspelmath 1993,verb
+раху<verb>><opt>,рахурай,раху-рай,pass,Haspelmath 1993,verb
+раха<verb>><aor>><neg>,раханач,раха-на-ч,pass,Haspelmath 1993,verb
+раха<verb>><prf>><neg>,раханвач,раха-нва-ч,pass,Haspelmath 1993,verb
+раха<verb>><imperf>><neg>,рахазвач,раха-зва-ч,pass,Haspelmath 1993,verb
+рахун<verb><imper>,рахух,рахух,pass,Haspelmath 1993,verb
+раха><imperf><ptp>,рахазвай,раха-зва-й,pass,Haspelmath 1993,participle
+кат<verb>><inf>,катиз,кат-из,pass,Haspelmath 1993,verb
+кат<verb>><hort>,катин,кат-ин,pass,Haspelmath 1993,verb
+кат<verb>><imperf>,катзава,кат-зава,pass,Haspelmath 1993,verb
+кат<verb>><prohib>,катмир,кат-мир,pass,Haspelmath 1993,verb
+кат<verb>><fut>,катда,кат-да,pass,Haspelmath 1993,verb
+кат<verb>><fut>><neg>,катдач,кат-да-ч,pass,Haspelmath 1993,verb
+кат<verb>><aoc>,катна,кат-на,pass,Haspelmath 1993,verb
+кат<verb>><aor>,катна,кат-на,pass,Haspelmath 1993,verb
+кат<verb>><prf>,катнава,кат-нава,pass,Haspelmath 1993,verb
+кат<verb>><opt>,катрай,кат-рай,pass,Haspelmath 1993,verb
+кат<verb>><aor>><neg>,катнач,кат-на-ч,pass,Haspelmath 1993,verb
+кат<verb>><prf>><neg>,катнавач,кат-нава-ч,pass,Haspelmath 1993,verb
+кат<verb>><imperf>><neg>,катзавач,кат-зава-ч,pass,Haspelmath 1993,verb
+катун<verb><imper>,кат,кат,pass,Haspelmath 1993,verb
+кат><imperf><ptp>,катзавай,кат-зава-й,pass,Haspelmath 1993,participle
+я<cop><imperf>,я,я,pass,Haspelmath 1993,standard copula
+я<cop><prf>,тир,тир,pass,Haspelmath 1993,standard copula
+я<cop>><cvb>,яз,я-з,pass,Haspelmath 1993,standard copula
+я<cop><ptp>,тир,тир,pass,Haspelmath 1993,standard copula
+я<cop><neg>,туш,туш,pass,Haspelmath 1993,standard copula
+я<cop><neg>><prf>,тушир,туш-ир,pass,Haspelmath 1993,standard copula
+я<cop><neg>><cvb>,тушиз,туш-из,pass,Haspelmath 1993,standard copula
+я<cop><neg>><ptp>,тушир,туш-ир,pass,Haspelmath 1993,standard copula
+ава<cop><imperf>,ава,ава,pass,Haspelmath 1993,local copula
+ава<cop>><prf>,авай,ава-й,pass,Haspelmath 1993,local copula
+ава<cop>><cvb>,аваз,ава-з,pass,Haspelmath 1993,local copula
+ава<cop>><ptp>,авай,ава-й,pass,Haspelmath 1993,local copula
+ава<cop>><neg>,авач,ава-ч,pass,Haspelmath 1993,local copula
+ава<cop>><neg>><prf>,авачир,ава-ч-ир,pass,Haspelmath 1993,local copula
+ава<cop>><neg>><cvb>,авачиз,ава-ч-из,pass,Haspelmath 1993,local copula
+ава<cop>><neg>><ptp>,авачир,ава-ч-ир,pass,Haspelmath 1993,local copula
