@@ -1,0 +1,162 @@
+
+PATTERN Verb
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]]( ([>] Plural) | ([>] Erg [<erg>:]))?
+(ImperfStem [<verb>:] [>] (Infinitive | Hortative | Imperfective | Future | Prohibitive))[^[Strong,Weak]]
+(ImperfStem [<verb>:] [>] ImperfConverb)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] AoristConverb)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] Aorist)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] Perfect)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] Perfect [>] SecondaryImperfectiveConverb)[^[Strong,Weak]]
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] InLocalization ([<essive>:] | ([>] Elative))
+(MasdarStem [<verb>:] [>] Optative)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] (Aorist | Perfect))[^[Strong,Weak]] [>] Negative
+(ImperfStem [<verb>:] [>] (Imperfective | Future))[^[Strong,Weak]] [>] Negative
+Imperative [<verb>:] [<imper>:] 
+(AoristStem [>] (AoristParticiple | PerfParticiple))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # атрибутивная форма
+(AoristStem [>] (AoristParticiple | PerfParticiple) [>] AdjNumber [<abs>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem [>] (AoristParticiple | PerfParticiple) [>] AdjObl [<erg>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>](Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]] # субстантивированная
+(AoristStem [>] AoristParticiple [>] TempConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(AoristStem [>] PerfParticiple [>] TempConverb)[^[Strong,Weak]]
+(ImperfStem [>] ImperfParticiple [>] TempConverb)[^[Strong,Weak]]
+(AoristStem [>] AoristParticiple [>] ImmediateAnteriorConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(AoristStem [>] AoristParticiple [>] ConditionalMood)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(ImperfStem [<verb>:] [>] (Imperfective | Future) [>] ConditionalMood)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] (Aorist | Perfect) [>] ConditionalMood)[^[Strong,Weak]]
+(ImperfStem [<verb>:] [>] (Imperfective | Future) [>] InterrogativeMood)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] (Aorist | Perfect) [>] InterrogativeMood)[^[Strong,Weak]]
+(AoristStem [>] AoristParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(ImperfStem [>] ImperfParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak]]
+(AoristStem [>] PerfParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak]]
+(ImperfStem [>] ImperfParticiple)[^[Strong,Weak]] # атрибутивная форма
+(ImperfStem [>] ImperfParticiple [>] AdjNumber [<abs>:])[^[Strong,Weak]]
+(ImperfStem [>] ImperfParticiple [>] AdjObl [<erg>:])[^[Strong,Weak]]
+(ImperfStem [>] ImperfParticiple [>] AdjObl [>] (Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak]]
+
+PATTERN DoVerbPattern
+(DoVerb(1) [<verb>:] [>] (Imperfective | Future) ([>] (ConditionalMood | InterrogativeMood))?)[^[Strong,Weak]] ([>] Negative)?
+(DoVerb(1) [<verb>:] [>] (ImperfConverb | Prohibitive))[^[Strong,Weak]]
+(NegativePrefix [>])? (DoVerb(1) [<verb>:] [>] (Infinitive | Hortative))[^[Strong]] 
+(NegativePrefix [>])? (DoVerb(1) [>] ImperfParticiple ([>] (MannerConverb | CasualConverb))?)[^[Strong]] 
+(DoVerb(2) [<verb>:] [>] Infinitive)[^[Strong,Weak]]
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] (Optative | AoristConverb))[^[Strong,Weak]]
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] (([>] Plural) | ([>] Erg [<erg>:]))?
+(DoVerb(3) [<verb>:] [>] Aorist ([>] (InterrogativeMood | ConditionalMood))?)[^[Strong,Weak]] ([>] Negative)?
+(DoVerb(3) [<verb>:] [>] Perfect ([>] (SecondaryImperfectiveConverb | ConditionalMood | InterrogativeMood))?)[^[Strong,Weak]] ([>] Negative)?
+(NegativePrefix [>])? (DoVerb(3) [>] (AoristParticiple | PerfParticiple) ([>] (TempConverb | MannerConverb | CasualConverb))?)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] AoristParticiple [>] (ImmediateAnteriorConverb | ConditionalMood))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+
+LEXICON Plural
+<pl>:ар
+
+LEXICON Erg
+:и
+<pl>:ри
+
+LEXICON MasdarInfl
+<gen>:н
+<dat>:з
+
+LEXICON MasdarInflEssive
+<ad>:в
+<post>:хъ
+<sub>:к
+<super>:ал
+
+LEXICON MasdarDerived
+<msd>:н[Strong]
+<msd>:ун[Weak]
+
+LEXICON Optative
+<opt>:рай
+<opt>:й[Strong]
+<opt>:уй[Weak]
+
+LEXICON Infinitive # imperfective converb
+<inf>:з[Strong]
+<inf>:из[Weak]
+
+LEXICON Imperfective
+<imperf>:зва[Strong]
+<imperf>:зава[Weak]
+<contimperf>:зма[Strong]
+<contimperf>:зама[Weak]
+
+LEXICON ImperfConverb
+<postr>:далди
+<grad>:рдавай[Strong]
+<grad>:ирдавай[Weak]
+<immant>:замаз[Weak]
+<immant>:змаз[Strong]
+
+LEXICON Hortative
+<hort>:н[Strong]
+<hort>:ин[Weak]
+
+LEXICON Future
+<fut>:да # будущее
+
+LEXICON Prohibitive
+<prohib>:мир
+
+LEXICON Aorist
+<aor>:на # прошедшее определенное
+
+LEXICON Perfect
+<prf>:нва[Strong]
+<prf>:нава[Weak]
+<contprf>:нма[Strong]
+<contprf>:нама[Weak]
+
+LEXICON AoristConverb
+<aoc>:на
+<immant>:нмаз[Strong]
+<immant>:нмазди[Strong]
+<immant>:намаз[Weak]
+<immant>:намазди[Weak]
+
+LEXICON TempConverb
+<temp>:ла
+
+LEXICON Negative
+<neg>:ч
+
+LEXICON NegativePrefix
+<neg>:т
+
+LEXICON AoristParticiple
+<aor><ptp>:ай[Weak]
+<aor><ptp>:р[Strong,Exception]
+<aor><ptp>:й[Strong,Polysyllabic]
+<aor><ptp>:йи[Strong,Monosyllabic]
+
+LEXICON ImperfParticiple
+<imperf>><ptp>:зва>й[Strong]
+<imperf>><ptp>:зава>й[Weak]
+<fut>><ptp>:да>й
+
+LEXICON PerfParticiple
+<prf>><ptp>:нва>й[Strong]
+<prf>><ptp>:нава>й[Weak]
+
+LEXICON ImmediateAnteriorConverb
+<immant>:валди
+
+LEXICON ConditionalMood
+<cnd>:тӀа
+
+LEXICON InterrogativeMood
+<inter>:ни
+
+LEXICON SecondaryImperfectiveConverb
+<imc>:з
+
+LEXICON MannerConverb
+<man>:вал
+
+LEXICON CasualConverb
+<caus>:виляй
+
+LEXICON DoVerb(3) # поступать, делать, работать
+ийи[Strong] и[Strong] аву[Strong,Exception]
