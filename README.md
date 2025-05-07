@@ -4,5 +4,16 @@
 folder: {}
 
 ## CG parser
-folder: {}
-run with `make run INPUT="x"` where `x` is 1) the path to .txt file 2) sentence
+[folder]()
+
+goal: disambiguate the morphological analysis of Lezgian text (sentence)
+
+to start:
+
+`make run INPUT="x"` 
+
+where `x`:
+- the path to .txt file: `make run INPUT="./corpus/nightingale.txt"`
+- sentence: `make run INPUT="Чуьллера хъваз таза къайи булахар."`
+
+the disambiguated output is saved in `output.txt`
