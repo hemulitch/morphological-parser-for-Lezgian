@@ -2,22 +2,22 @@ import sys
 import subprocess
 
 def generate_forms(word, analysis):
-    """
-    generate forms from an analysis using lez_generator_sep.hfstol.
-    """
     analysis = [a.replace("<>", "\\") for a in analysis]
-    outputs = {"word": word, "analysis": []}
-    for a in analysis:
-        proc = subprocess.run(
-            ['hfst-proc', '-q', 'lez_generator_sep.hfstol'],
-            input=a + '\n',
-            text=True,
-            capture_output=True,
-            check=True
-        )
-        output = proc.stdout
-        output = output.split("/")
-        outputs["analysis"].append({"glosses": output[0].replace("^", "").replace("\\", ""), "sep_word":output[1].replace("$\n", "")})
+    if word != "eos":
+        outputs = {"word": word, "analysis": []}
+        for a in analysis:
+            proc = subprocess.run(
+                ['hfst-proc', '-q', 'lez_generator_sep.hfstol'],
+                input=a + '\n',
+                text=True,
+                capture_output=True,
+                check=True
+            )
+            output = proc.stdout
+            output = output.split("/")
+            outputs["analysis"].append({"glosses": output[0].replace("^", "").replace("\\", ""), "sep_word":output[1].replace("$\n", "")})
+    else:
+        outputs = {"word": "", "analysis": [{"glosses":"", "sep_word":""}]}
     return outputs
 
 def process_file(analysis):
