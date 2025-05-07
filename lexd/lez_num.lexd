@@ -1,1 +1,82 @@
 
+
+PATTERN Numerals
+(Base | BaseException(1) | Teens | Ten | Tens | Thousand) [<num>:] ([>] NumAbsPl)?
+(Base | BaseException(1) | Teens | Ten | Tens | Thousand) [<num>:] [>] (NumOblSg | NumOblPl) [<erg>:]
+(Base | BaseException(1) | Teens | Ten | Tens | Thousand) [<num>:] (NumOblSg | ([>] NumOblPl)) [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(Base | BaseException(1) | Teens | Ten | Tens | Thousand) [<num>:] (NumOblSg | ([>] NumOblPl)) [>] InLocalization ([<essive>:] | ([>] Elative))
+TensAdd [<num>:] [>] Add
+Hundred [<num>:]
+BaseException(2) [<num>:] 
+NumeralReduplication ((:Base [>] Base) | (:Teens [>] Teens) | (:Ten [>] Ten)) [<num>:] ([>] NumOblSg [<erg>:])?
+NumeralReduplication ((:Base [>] Base) | (:Teens [>] Teens) | (:Ten [>] Ten)) [<num>:] NumOblSg [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+NumeralReduplication ((:Base [>] Base) | (:Teens [>] Teens) | (:Ten [>] Ten)) [<num>:] NumOblSg [>] InLocalization ([<essive>:] | ([>] Elative))
+NumeralReduplication :BaseException(2) [>] BaseException(1) [<num>:] ([>] NumOblSg [<erg>:])?
+NumeralReduplication :BaseException(2) [>] BaseException(1) [<num>:] NumOblSg [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+NumeralReduplication :BaseException(2) [>] BaseException(1) [<num>:] NumOblSg [>] InLocalization ([<essive>:] | ([>] Elative))
+NumeralReduplication :BaseException(1) [>] BaseException(1) [<num>:] ([>] NumOblSg [<erg>:])?
+NumeralReduplication :BaseException(1) [>] BaseException(1) [<num>:] NumOblSg [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+NumeralReduplication :BaseException(1) [>] BaseException(1) [<num>:] NumOblSg [>] InLocalization ([<essive>:] | ([>] Elative))
+
+LEXICON NumeralReduplication
+<rdp>:
+
+LEXICON BaseException(2)
+сад са # 1
+кьвед кьве # 2
+
+LEXICON Base
+пуд # 3
+кьуд # 4
+вад # 5
+ругуд # 6
+ирид # 7
+муьжуьд # 8
+кӀуьд # 9
+
+LEXICON Teens
+цӀусад # 11
+цӀикьвед # 12
+цӀипуд # 13
+цӀукьуд # 14
+цӀувад # 15
+цӀуругуд # 16
+цӀеирид # 17
+цӀемуьжуьд # 18
+цӀекӀуьд # 19
+
+LEXICON Ten
+цӀуд # 10
+
+LEXICON Tens
+къад # 20
+яхцӀур # 40
+пудкъад # 60
+кьудкъад # 80
+
+LEXICON TensAdd
+къад:къан # 20
+яхцӀур:яхцӀур # 40
+пудкъад:пудкъан # 60
+кьудкъад:кьудкъан # 80
+
+LEXICON Add
+<add>:ни
+
+LEXICON Hundred
+виш #100
+
+LEXICON Thousand
+агъзур # 1000
+
+LEXICON NumAbsPl 
+<pl><abs>:ар # Субстантивное склонение
+<pl><abs>:бур # Адъективное склонение
+
+LEXICON NumOblSg
+:а
+
+LEXICON NumOblPl
+<pl>:ри # Субстантивное склонение
+<pl>:буру # Адъективное склонение
+
