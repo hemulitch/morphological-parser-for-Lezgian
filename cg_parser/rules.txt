@@ -1,14 +1,47 @@
-DELIMITERS = "<$.>\>" ;
+DELIMITERS = "<$.>" ;
 
 LIST NOUN = n;
 LIST VERB = verb;
 LIST NUM = num;
 LIST PART = part;
 LIST ADJ = adj;
-
-SECTION
+LIST EOS = eos;
+LIST COP = cop;
+LIST CONJ = conj;
+LIST ADV = adv;
+LIST COP = cop;
+LIST particle = "хупӀ";
+LIST copulas = "я" "ава";
 
 SELECT NUM IF
         (0 PART)
         (0 ADJ)
         (1 NOUN) ;
+
+SELECT NOUN IF 
+        (0 NOUN) 
+        (0 ADJ)
+        (1 EOS) ;
+
+SELECT COP IF 
+        (0 COP) 
+        (0 PART)
+        (0 CONJ)
+        (1 EOS) ;
+
+SELECT PART IF
+        (0 particle) 
+        (-1 EOS) ;
+
+SELECT COP IF
+        (0 copulas)
+        (-1 ADJ);
+
+SELECT COP IF
+        (0 copulas)
+        (-1 NOUN);
+
+SELECT ADJ IF
+        (0 ADJ)
+        (0 ADV)
+        (1 COP);
