@@ -1,0 +1,15 @@
+
+PATTERN Adjective
+AdjStem [<adj>:] [>] AdjNumber [<abs>:]
+AdjStem [<adj>:] [>] AdjObl [<erg>:]
+AdjStem [<adj>:] [>] AdjObl [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+AdjStem [<adj>:] [>] AdjObl [>] InLocalization ([<essive>:] | ([>] Elative))
+AdjStem [<adj>:]
+
+LEXICON AdjNumber
+<sg>:ди
+<pl>:бур
+
+LEXICON AdjObl
+<sg>:да
+<pl>:буру
