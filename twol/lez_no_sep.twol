@@ -1,0 +1,9 @@
+Alphabet
+ а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч 1 Ӏ ш щ ъ ы ь э ю я
+ %>:0
+;
+
+Rules
+
+"to make the transducer where no separators in surface form are present"
+%>:0 <=> _ ; 
