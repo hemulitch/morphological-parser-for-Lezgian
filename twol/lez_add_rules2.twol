@@ -1,0 +1,15 @@
+Alphabet
+  а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч Ӏ ш щ ъ ы ь э ю я
+  а:0 %- %>
+;
+
+Rules
+
+"change Elative form when In localization form is а to avoid vowel hiatus"
+а:0 <=> а %> _ й ;
+
+"change Elative form when In localization form is е to avoid vowel hiatus"
+а:0 <=> е %> _ й ;
+
+"change Elative form when In localization form is у to avoid vowel hiatus"
+а:0 <=> у %> _ й ;
