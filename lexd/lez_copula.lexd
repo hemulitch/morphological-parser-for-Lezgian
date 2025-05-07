@@ -1,0 +1,47 @@
+
+PATTERN Copula
+PredCop [<cop>:] [<imperf>:]
+PredCopForms 
+PredCop [<cop>:] [>] CopConverb
+LocalCop [<cop>:] [<imperf>:]
+LocalCop [<cop>:] [>] CopForms 
+PredCopNeg [<cop>:] [<neg>:] ([>] NegCopForms)?
+LocalCop [<cop>:] [>] Negative ([>] NegCopForms)?
+LocalCopCont [<cop>:] [<imc>:] (([>] Negative) | ([>] CopForms))?
+
+LEXICON PredCop
+я
+
+LEXICON PredCopForms
+я<cop><prf>:тир
+я<cop><ptp>:тир
+
+LEXICON PredCopNeg
+я:туш
+
+LEXICON LocalCop
+ава
+гва
+гала
+ква
+ала
+
+LEXICON LocalCopCont
+ава:ама
+гва:гума
+гала:галама
+ква:кума
+ала:алама
+
+LEXICON NegCopForms
+<prf>:ир
+<cvb>:из
+<ptp>:ир
+
+LEXICON CopConverb
+<cvb>:з
+
+LEXICON CopForms
+<prf>:й
+<cvb>:з
+<ptp>:й
