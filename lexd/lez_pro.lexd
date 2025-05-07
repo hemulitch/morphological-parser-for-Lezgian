@@ -1,0 +1,112 @@
+
+PATTERN Pronoun
+((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProAbs)[^[NonBack,Back]] ([>] Add)?
+ProperPersonalPronounsErg 
+((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProGen)[^[NonBack,Back]]
+((ProperPersonalPronouns | PersonalPronoun_You2) [<prn>:] ProErgObl [>] ProDat)[^[NonBack,Back]]
+((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InflEssive ([<essive>:] | ([>] (Directive | Elative))))[^[NonBack,Back]]
+((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)))[^[NonBack,Back]]
+ReflPron [<prn>:] 
+ReflPronObl [<prn>:] [<erg>:] 
+ReflPronObl [<prn>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+ReflPronObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative))
+Demonstrative [<prn>:]
+Demonstrative [<prn>:] [>] DemonstrativeAbs
+Demonstrative [<prn>:] [>] AdjObl [<erg>:]
+Demonstrative [<prn>:] [>] AdjObl [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+Demonstrative [<prn>:] [>] AdjObl [>] InLocalization ([<essive>:] | ([>] Elative))
+Interrogative [<prn>:]
+InterrogativeNoInfl [<prn>:] ([>] Add)?
+InterrogativeObl [<prn>:] ([<erg>:] | ([>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))))
+InterrogativeObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative))
+NegativeNonInfl [<prn>:]
+NegativeObl(1) [<prn>:] [<erg>:] 
+NegativeObl(1) [<prn>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) [>] NegativeObl(2)
+NegativeObl(1) [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)) [>] NegativeObl(2)
+Quantifier [<prn>:] 
+
+LEXICON ProperPersonalPronouns
+з[Back] # я
+в[Back] # ты
+ч[Back] # мы
+
+LEXICON PersonalPronoun_You1
+к[NonBack] # вы
+
+LEXICON PersonalPronoun_You2
+кв[NonBack] # вы
+
+LEXICON ProAbs
+<abs>:ун[Back]
+<abs>:уьн[NonBack]
+
+LEXICON ProperPersonalPronounsErg
+з<prn>><erg>:з>а # я
+в<prn>><erg>:вун>а # ты
+ч<prn>><erg>:чн>а # мы
+к<prn>><erg>:куьн>е # вы
+
+LEXICON ProErgObl
+:а[Back]
+:е[NonBack]
+
+LEXICON ProGen
+<gen>:и[Back]
+<gen>:уь[NonBack]
+
+LEXICON ProDat
+<dat>:з
+
+LEXICON FuncPersPron
+а # он, они
+
+LEXICON ReflPron
+жув # сам (1, 2 лицо)
+вич # сам (3 лицо ед.ч)
+чеб # сами (3лицо мн.ч.)
+
+LEXICON ReflPronObl
+жув:жува
+вич:вичи
+чеб:чпи
+
+LEXICON Demonstrative
+и # this
+а # that
+атӀа # yonder
+гьа # the aforementioned
+вини # that up there
+агъа # that down there
+
+LEXICON DemonstrativeAbs
+<sg><abs>:м
+<pl><abs>:бур
+
+LEXICON Interrogative
+вуж # кто
+вуч # что
+гьи # который
+
+LEXICON InterrogativeNoInfl
+мус # когда
+шумуд # как много
+вучиз # почему
+
+LEXICON InterrogativeObl
+вуж:ни
+вуч:куь
+гьи:хи
+
+LEXICON NegativeNonInfl
+касни # никто
+затӀни # ничто
+садни # ни один, никто
+
+LEXICON NegativeObl(2)
+сада ни # никто
+куьни ни # ничто
+
+LEXICON Quantifier
+вири # все 
+гьар # каждый
+муькуь # другой из двух
