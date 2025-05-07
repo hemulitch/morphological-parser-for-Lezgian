@@ -1,1 +1,10 @@
+Alphabet
+ а б в г д е ё ж з и й к л м н о п р с т у уь ф х ц ч 1 Ӏ ш щ ъ ы ь э ю я
+ %>:%-
+;
+
+Rules
+
+"to make the transducer with surface form separated with -"
+%>:%- <=> _ ; 
 
