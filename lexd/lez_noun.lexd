@@ -1,0 +1,139 @@
+
+PATTERN Noun
+NounStem [<n>:] [<abs>:]
+NounStem [<n>:] [>] Add
+NounStemSg [<n>:] [<abs>:]
+ProperNouns [<n>:] [<abs>:]
+NounExceptionAbs [<n>:] [<abs>:]
+((NounStem | NounStemPL | NounExceptionPl) [<n>:] [>] NounPlural)[^[Back,NonBack,ExceptionNB]]
+((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) [<n>:] [>] NounErg[Decl1] [<erg>:])[^[Labial,I,E,A,U]] 
+((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) NounErg[Decl1] [<n>:])[^[Labial,I,E,A,U]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) NounErg[Decl1] [<n>:])[^[Labial,I,E,A,U]] [>] InLocalization ([<essive>:] | ([>] Elative))
+(NounStem[Decl2] | NounStemSg[Decl2] | ProperNouns[Decl2] | NounExceptionObl[Decl2]) [<n>:] [>] NounErg[Decl2] [<erg>:]
+(NounStem[Decl2] | NounStemSg[Decl2] | ProperNouns[Decl2] | NounExceptionObl[Decl2]) NounErg[Decl2] [<n>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(NounStem[Decl2] | NounStemSg[Decl2] | ProperNouns[Decl2] | NounExceptionObl[Decl2]) NounErg[Decl2] [<n>:] [>] InLocalization ([<essive>:] | ([>] Elative))
+(NounStem[Decl2_1] | NounStemSg[Decl2_1]) [<n>:] [>] NounErg[Decl2_1] [<erg>:]
+(NounStem[Decl2_1] | NounStemSg[Decl2_1]) NounErg[Decl2_1] [<n>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(NounStem[Decl2_1] | NounStemSg[Decl2_1]) NounErg[Decl2_1] [<n>:] [>] InLocalization ([<essive>:] | ([>] Elative))
+((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) [<n>:] [>] NounErg[Decl3] [<erg>:])[^[Back,NonBack],^[Labial,I,U]] 
+((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) NounErg[Decl3] [<n>:])[^[Back,NonBack],^[Labial,I,U]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) NounErg[Decl3] [<n>:])[^[Back,NonBack],^[Labial,I,U]] [>] InLocalization ([<essive>:] | ([>] Elative))
+((NounStem[Decl4] | NounStemSg[Decl4] | NounExceptionObl[Decl4]) [<n>:] [>] NounErg[Decl4] [<erg>:])[^[Back,NonBack]] 
+((NounStem[Decl4] | NounStemSg[Decl4] | NounExceptionObl[Decl4]) NounErg[Decl4] [<n>:])[^[Back,NonBack]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+((NounStem[Decl4] | NounStemSg[Decl4] | NounExceptionObl[Decl4]) NounErg[Decl4] [<n>:])[^[Back,NonBack]] [>] InLocalization ([<essive>:] | ([>] Elative))
+((NounStem[Decl5] | NounStemSg[Decl5]) [<n>:] [>] NounErg[Decl5] [<erg>:])[^[Back,NonBack]] 
+((NounStem[Decl5] | NounStemSg[Decl5]) NounErg[Decl5] [<n>:])[^[Back,NonBack]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+((NounStem[Decl5] | NounStemSg[Decl5]) NounErg[Decl5] [<n>:])[^[Back,NonBack]] [>] InLocalization ([<essive>:] | ([>] Elative))
+((NounStem | NounStemPL | NounExceptionPl) [<n>:] [>] NounOblPlural [<erg>:])[^[Back,NonBack,ExceptionNB]] 
+((NounStem | NounStemPL | NounExceptionPl) [<n>:] [>] NounOblPlural)[^[Back,NonBack,ExceptionNB]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+((NounStem | NounStemPL | NounExceptionPl) [<n>:] [>] NounOblPlural)[^[Back,NonBack,ExceptionNB]] [>] InLocalization ([<essive>:] | ([>] Elative))
+
+LEXICON Case
+<gen>:н
+<dat>:з
+
+LEXICON NounErg[Decl1]
+:а[A]
+:у[U]
+:е[E]
+:и[I]
+:уь[Labial]
+
+LEXICON NounErg[Decl2]
+:ди
+
+LEXICON NounErg[Decl2_1]
+:ци
+
+LEXICON NounErg[Decl3]
+:уни[Back,U]
+:ини[NonBack,I]
+:уьни[NonBack,Labial]
+
+LEXICON NounErg[Decl4]
+:ади[Back]
+:еди[NonBack]
+
+LEXICON NounErg[Decl5]
+:ра[Back]
+:ре[NonBack]
+
+LEXICON NounOblPlural
+<pl>:{а3}ри[Back]
+<pl>:ери[NonBack]
+<pl>:лери[ExceptionNB]
+
+LEXICON Elative
+<elative>:ай
+
+LEXICON Directive
+<directive>:ди
+
+LEXICON InLocalization
+<in>:{а1}
+
+LEXICON InflEssive
+<ad>:в
+<post>:хъ
+<sub>:к
+<super>:л
+
+LEXICON NounPlural
+<pl><abs>:{а2}р[Back]
+<pl><abs>:ер[NonBack]
+<pl><abs>:лер[ExceptionNB]
+
+LEXICON NounExceptionAbs
+дерт # горе
+кар # работа
+кьуьд # зима
+мез # язык
+пад # сторона
+рагъ # солнце
+рехъ # тропа
+свас # невеста
+фу # хлеб
+хва # сын; двоюродный(ая) брат (сестра)
+цуьк # цветок
+цӀай # огонь
+чуьл # равнина, поле
+экв # свет
+югъ # день
+яб # ухо
+
+LEXICON NounExceptionObl
+дерт:дерд[Decl3,NonBack,I]
+кар:кар[Decl2]
+кьуьд:хъуьтӀ[Decl1,NonBack,Labial] # зима
+мез:мец[Decl1,NonBack,I]
+пад:пат[Decl1,Back,A]
+рагъ:ракь[Decl3,NonBack,I]
+рехъ:рекь[Decl1,NonBack,I]
+рехъ:рекь[Decl1,NonBack,E]
+свас:сус[Decl1,Back,A]
+фу:ф[Decl1,Back,A]
+хва:хц[Decl1,NonBack,E]
+цуьк:цуькв[Decl4,NonBack]
+цӀай:цӀ[Decl1,Back,U]
+чуьл:чуьл[Decl2] # равнина, поле
+экв:эк[Decl3,NonBack,Labial]
+югъ:йикъ[Decl1,Back,A]
+яб:яп[Decl1,Back,U]
+
+LEXICON NounExceptionPl
+дерт:дерд[NonBack]
+кар:кр[Back]
+кьуьд:хъуьтӀ[NonBack] # зима
+мез:мец[NonBack]
+пад:пат[Back]
+рагъ:ракъ[Back]
+рехъ:рекь[NonBack]
+свас:сус[NonBack]
+фу:ф[Back]
+хва:рухва[Back]
+цуьк:цуькв[NonBack]
+цӀай:цӀа[Back]
+чуьл:чуьл[ExceptionNB] # равнина, поле
+экв:экв[NonBack]
+югъ:йикъа[Back]
+яб:яп[Back]
