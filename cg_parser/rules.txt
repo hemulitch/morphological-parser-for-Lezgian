@@ -5,13 +5,14 @@ LIST VERB = verb;
 LIST NUM = num;
 LIST PART = part;
 LIST ADJ = adj;
-LIST EOS = eos;
+LIST EOS = "*eos";
 LIST COP = cop;
 LIST CONJ = conj;
 LIST ADV = adv;
 LIST COP = cop;
 LIST particle = "хупӀ";
 LIST copulas = "я" "ава";
+LIST BOS = "*bos";
 
 SELECT NUM IF
         (0 PART)
@@ -31,7 +32,7 @@ SELECT COP IF
 
 SELECT PART IF
         (0 particle) 
-        (-1 EOS) ;
+        (-1 BOS) ;
 
 SELECT COP IF
         (0 copulas)
