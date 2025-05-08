@@ -8,13 +8,21 @@ run: disambiguated_analysis.txt
 disambiguated_analysis.txt: analysis.txt rules.txt
 	cat "./analysis.txt" | vislcg3 -g rules.txt | cg-conv -A > $@
 
-analysis.txt:
-	@echo "generating analysis.txt from input: $(INPUT)"
+analysis.txt: preprocessed.txt
+	cat $^ | hfst-proc -C lez_analyzer_no_sep.hfstol > $@;
+
+preprocessed.txt:
 	@if [ -f "$(INPUT)" ]; then \
-		cat "$(INPUT)" | hfst-proc -C lez_analyzer_no_sep.hfstol > $@; \
+		cat "$(INPUT)" | sed -E 's/([-.!?]+)/\1\n/g' | \
+		while IFS= read -r sentence || [ -n "$$sentence" ]; do \
+			sentence=$$(echo "$$sentence" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$$//'); \
+			if [ -n "$$sentence" ]; then \
+				echo "bos $$sentence eos"; \
+			fi; \
+		done > $@; \
 	else \
-		echo "$(INPUT)" | hfst-proc -C lez_analyzer_no_sep.hfstol > $@; \
+		echo "bos $(INPUT) eos" > $@; \
 	fi
 
 clean:
-	rm -f analysis.txt disambiguated_analysis.txt output.txt 
+	rm -f preprocessed.txt analysis.txt disambiguated_analysis.txt output.txt 
