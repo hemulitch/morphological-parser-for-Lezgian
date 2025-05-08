@@ -3,7 +3,7 @@ import subprocess
 
 def generate_forms(word, analysis):
     analysis = [a.replace("<>", "\\") for a in analysis]
-    if word != "eos":
+    if word != "eos" and word != "bos":
         outputs = {"word": word, "analysis": []}
         for a in analysis:
             proc = subprocess.run(
