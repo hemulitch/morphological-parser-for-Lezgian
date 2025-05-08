@@ -1,6 +1,0 @@
-
-PATTERN EndOfSentence
-Eos
-
-LEXICON Eos
-<eos>:eos
