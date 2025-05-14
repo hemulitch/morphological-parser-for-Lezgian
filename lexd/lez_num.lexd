@@ -17,6 +17,7 @@ NumeralReduplication :BaseException(2) [>] BaseException(1) [<num>:] NumOblSg [>
 NumeralReduplication :BaseException(1) [>] BaseException(1) [<num>:] ([>] NumOblSg [<erg>:])?
 NumeralReduplication :BaseException(1) [>] BaseException(1) [<num>:] NumOblSg [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
 NumeralReduplication :BaseException(1) [>] BaseException(1) [<num>:] NumOblSg [>] InLocalization ([<essive>:] | ([>] Elative))
+OrdinalMarker [<ord>:]
 
 LEXICON NumeralReduplication
 <rdp>:
@@ -24,6 +25,9 @@ LEXICON NumeralReduplication
 LEXICON BaseException(2)
 сад са # 1
 кьвед кьве # 2
+
+LEXICON OrdinalMarker
+лагьай
 
 LEXICON Base
 пуд # 3
@@ -79,4 +83,3 @@ LEXICON NumOblSg
 LEXICON NumOblPl
 <pl>:ри # Субстантивное склонение
 <pl>:буру # Адъективное склонение
-
