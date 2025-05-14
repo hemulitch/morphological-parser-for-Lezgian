@@ -7,13 +7,14 @@ LocalCop [<cop>:] [<imperf>:]
 LocalCop [<cop>:] [>] CopForms 
 PredCopNeg [<cop>:] [<neg>:] ([>] NegCopForms)?
 LocalCop [<cop>:] [>] Negative ([>] NegCopForms)?
-LocalCopCont [<cop>:] [<imc>:] (([>] Negative) | ([>] CopForms))?
+LocalCopCont [<cop>:] (([>] Negative) | ([>] CopForms))?
+(PredCop | LocalCop) [<cop>:] ([>] ConditionalMood )
 
 LEXICON PredCop
 я
 
 LEXICON PredCopForms
-я<cop><prf>:тир
+я<cop><pst>:тир
 я<cop><ptp>:тир
 
 LEXICON PredCopNeg
@@ -27,14 +28,14 @@ LEXICON LocalCop
 ала
 
 LEXICON LocalCopCont
-ава:ама
-гва:гума
-гала:галама
-ква:кума
-ала:алама
+ама
+гума
+галама
+кума
+алама
 
 LEXICON NegCopForms
-<prf>:ир
+<pst>:ир
 <cvb>:из
 <ptp>:ир
 
@@ -42,6 +43,10 @@ LEXICON CopConverb
 <cvb>:з
 
 LEXICON CopForms
-<prf>:й
+<pst>:й
 <cvb>:з
 <ptp>:й
+
+LEXICON ReducedForm
+<be.in>:ва
+<be.on>:ла
