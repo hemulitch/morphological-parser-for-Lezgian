@@ -2,11 +2,10 @@
 INPUT ?= 
 
 run: disambiguated_analysis.txt
-	python3 script.py $^
-	cat "./output.txt"
-
-disambiguated_analysis.txt: analysis.txt rules.txt
-	cat "./analysis.txt" | vislcg3 -g rules.txt | cg-conv -A > $@
+	cat "./disambiguated_analysis.txt"
+	
+disambiguated_analysis.txt: analysis.txt rules.rlx
+	cat "./analysis.txt" | vislcg3 -g rules.rlx | sed '/bos/d;/eos/d' > $@
 
 analysis.txt: preprocessed.txt
 	cat $^ | hfst-proc -C lez_analyzer_no_sep.hfstol > $@;
@@ -25,4 +24,4 @@ preprocessed.txt:
 	fi
 
 clean:
-	rm -f preprocessed.txt analysis.txt disambiguated_analysis.txt output.txt 
+	rm -f preprocessed.txt analysis.txt disambiguated_analysis.txt
