@@ -1,11 +1,11 @@
 
 PATTERN Pronoun
 ((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProAbs)[^[NonBack,Back]] ([>] Add)?
-ProperPersonalPronounsErg 
-((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProGen)[^[NonBack,Back]]
-((ProperPersonalPronouns | PersonalPronoun_You2) [<prn>:] ProErgObl [>] ProDat)[^[NonBack,Back]]
-((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InflEssive ([<essive>:] | ([>] (Directive | Elative))))[^[NonBack,Back]]
-((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)))[^[NonBack,Back]]
+ProperPersonalPronounsErg ([>] Add)?
+((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProGen)[^[NonBack,Back]] ([>] Add)?
+((ProperPersonalPronouns | PersonalPronoun_You2) [<prn>:] ProErgObl [>] ProDat)[^[NonBack,Back]] ([>] Add)?
+((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InflEssive ([<essive>:] | ([>] (Directive | Elative))))[^[NonBack,Back]] ([>] Add)?
+((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)))[^[NonBack,Back]] ([>] Add)?
 ReflPron [<prn>:] 
 ReflPronObl [<prn>:] [<erg>:] 
 ReflPronObl [<prn>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
@@ -56,9 +56,6 @@ LEXICON ProGen
 
 LEXICON ProDat
 <dat>:з
-
-LEXICON FuncPersPron
-а # он, они
 
 LEXICON ReflPron
 жув # сам (1, 2 лицо)
