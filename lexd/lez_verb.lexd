@@ -17,27 +17,27 @@ PATTERN Verb
 (AoristStem [<verb>:] [>] (Aorist | Perfect))[^[Strong,Weak]] [>] Negative ([>] InterrogativeMood)?
 ((ImperfStem | VerbException) [<verb>:] [>] (Imperfective | Future))[^[Strong,Weak]] [>] Negative ([>] InterrogativeMood)?
 Imperative [<verb>:] [<imper>:] 
-(AoristStem [>] (AoristParticiple | PerfParticiple))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # атрибутивная форма
-(AoristStem [>] (AoristParticiple | PerfParticiple) [>] AdjNumber [<abs>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
-(AoristStem [>] (AoristParticiple | PerfParticiple) [>] AdjObl [<erg>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
-(AoristStem [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>](Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
-(AoristStem [>] AoristParticiple [>] TempConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
-(AoristStem [>] PerfParticiple [>] TempConverb)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # атрибутивная форма
+(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjNumber [<abs>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
+(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [<erg>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
+(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>](Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
+(AoristStem [<verb>:] [>] AoristParticiple [>] TempConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
+(AoristStem [<verb>:] [>] PerfParticiple [>] TempConverb)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] ArchaicPreterit)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
-(ImperfStem [>] ImperfParticiple [>] TempConverb)[^[Strong,Weak]]
-(AoristStem [>] AoristParticiple [>] ImmediateAnteriorConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
-(AoristStem [>] AoristParticiple [>] ConditionalMood)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] Add?
+(ImperfStem [<verb>:] [>] ImperfParticiple [>] TempConverb)[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] AoristParticiple [>] ImmediateAnteriorConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
+(AoristStem [<verb>:] [>] AoristParticiple [>] ConditionalMood)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] Add?
 (ImperfStem [<verb>:] [>] (Imperfective | Future) [>] ConditionalMood)[^[Strong,Weak]] Add?
 (AoristStem [<verb>:] [>] (Aorist | Perfect) [>] ConditionalMood)[^[Strong,Weak]] Add?
 (ImperfStem [<verb>:] [>] (Imperfective | Future) [>] InterrogativeMood)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] (Aorist | Perfect) [>] InterrogativeMood)[^[Strong,Weak]]
-(AoristStem [>] AoristParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
-(ImperfStem [>] ImperfParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak]]
-(AoristStem [>] PerfParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak]]
-(ImperfStem [>] ImperfParticiple)[^[Strong,Weak]] # атрибутивная форма
-(ImperfStem [>] ImperfParticiple [>] AdjNumber [<abs>:])[^[Strong,Weak]]
-(ImperfStem [>] ImperfParticiple [>] AdjObl [<erg>:])[^[Strong,Weak]]
-(ImperfStem [>] ImperfParticiple [>] AdjObl [>] (Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] AoristParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
+(ImperfStem [<verb>:] [>] ImperfParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak]]
+(AoristStem [<verb>:] [>] PerfParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak]]
+(ImperfStem [<verb>:] [>] ImperfParticiple)[^[Strong,Weak]] # атрибутивная форма
+(ImperfStem [<verb>:] [>] ImperfParticiple [>] AdjNumber [<abs>:])[^[Strong,Weak]]
+(ImperfStem [<verb>:] [>] ImperfParticiple [>] AdjObl [<erg>:])[^[Strong,Weak]]
+(ImperfStem [<verb>:] [>] ImperfParticiple [>] AdjObl [>] (Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak]]
 VerbException [<verb>:] ([>] (Infinitive | Imperfective | Future))?
 ImperfStem [<verb>:] [>] ArchaicFuture
 ImperfStem [<verb>:] [>] ArchaicImperfPart
@@ -47,7 +47,7 @@ PATTERN DoVerbPattern
 (DoVerb(1) [<verb>:] [>] (Imperfective | Future) ([>] ConditionalMood)?)[^[Strong,Weak]] ([>] Negative)? ([>] InterrogativeMood)?
 (DoVerb(1) [<verb>:] [>] (ImperfConverb | Prohibitive))[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(1) [<verb>:] [>] (Infinitive | Hortative))[^[Strong]] 
-(NegativePrefix [>])? (DoVerb(1) [>] ImperfParticiple ([>] (MannerConverb | CasualConverb))?)[^[Strong]] 
+(NegativePrefix [>])? (DoVerb(1) [<verb>:] [>] ImperfParticiple ([>] (MannerConverb | CasualConverb))?)[^[Strong]] 
 (DoVerb(2) [<verb>:] [>] Infinitive)[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] (Optative | AoristConverb))[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] (([>] Plural) | ([>] (Erg | ErgPl) [<erg>:]))?
@@ -57,7 +57,7 @@ PATTERN DoVerbPattern
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] InLocalization ([<essive>:] | ([>] Elative))
 (DoVerb(3) [<verb>:] [>] Aorist ([>] (InterrogativeMood | ConditionalMood))?)[^[Strong,Weak]] ([>] Negative)?
 (DoVerb(3) [<verb>:] [>] Perfect ([>] (SecondaryImperfectiveConverb | ConditionalMood | InterrogativeMood))?)[^[Strong,Weak]] ([>] Negative)?
-(NegativePrefix [>])? (DoVerb(3) [>] (AoristParticiple | PerfParticiple) ([>] (TempConverb | MannerConverb | CasualConverb))?)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] (AoristParticiple | PerfParticiple) ([>] (TempConverb | MannerConverb | CasualConverb))?)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] AoristParticiple [>] (ImmediateAnteriorConverb | ConditionalMood))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (DoVerb(3) [<verb>:] [>] ArchaicPreterit)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
 DoVerb(1) [<verb>:] [>] ArchaicImperfPart
