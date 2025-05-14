@@ -506,6 +506,7 @@ LEXICON NounStem
 буругъ[Decl2,Back]
 буругъчи[Decl2,Back]
 бустан[Decl2,Back] # огород, бахча
+бустанчи[Decl2,Back] # садовник
 бут[Decl1,Back,A]
 путулка[Decl2,Back]
 бутылка[Decl2,Back]
@@ -1352,6 +1353,8 @@ LEXICON NounStem
 июнь[Decl2,Back] # июнь
 йаргъируш[Decl1,Back,A] # радуга
 йац[Decl5,Back] # вол
+йис[Decl1,Back,U]
+йис[Decl1,Back,A]
 ибадатхана[Decl2,Back]
 ивир[Decl2,Back]
 идея[Decl2,Back]
@@ -3543,6 +3546,7 @@ LEXICON NounStem
 талим[Decl2,Back] # обучение, воспитание
 тамада[Decl2,Back]
 тамарбан[Decl2,Back]
+там[Decl1,Back,U] # лес
 тамаскъа[Decl2,Back]
 тамаша[Decl2,Back] # зрелище; забава; спектакль
 тамашачи[Decl2,Back]
@@ -3566,7 +3570,8 @@ LEXICON NounStem
 тапхур[Decl2,Back]
 тапшуругъ[Decl2,Back] # задание
 тар[Decl2,Back] # дерево; запор, засов
-тар[Decl1,Back,A] # дерево; запор, засов
+тар[Decl2_1,Back]
+тар[Decl1,Back,A] 
 тарагул[Decl2,Back]
 тарагъаж[Decl2,Back]
 таразум[Decl2,Back]
@@ -4533,6 +4538,7 @@ LEXICON NounStem
 шиир[Decl2,Back]
 шиират[Decl2,Back]
 шиит[Decl2,Back]
+шикаят[Decl2,Back]
 шикаятчи[Decl2,Back]
 шикет[Decl2,Back]
 шикетчи[Decl2,Back]
@@ -4770,11 +4776,13 @@ LEXICON NounStem
 # =========================================================================================================
 
 LEXICON ProperNouns
+Азербайжан[Decl2]
+Баку[Decl2]
 Дагъустан[Decl2]
-Eтим[Decl2]
-Эмин[Decl1,Back,A]
+Дербент[Decl2]
 Махачкъала[Decl2]
 Мегьамед[Decl1,Back,A]
+Москва[Decl2]
 
 # =========================================================================================================
 # ===================================== NOUNS (SINGULAR ONLY) =============================================
@@ -4949,7 +4957,6 @@ LEXICON NounStemSg
 калам[Decl2,Back]
 калар[Decl1,NonBack,I]
 камал[Decl2,Back] # разум, совершенство;
-кас[Decl2,Back] # лицо
 катаракта[Decl2,Back]
 кире[Decl2,Back]
 кишпир[Decl2,Back] # медь, бронза
@@ -8728,6 +8735,7 @@ LEXICON MasdarStem
 асун[Weak]
 атад[Weak]
 атирламиш[Weak]
+атӀу[Strong]
 атӀугъ[Weak]
 атӀумар[Weak]
 атӀум[Weak]
@@ -9070,6 +9078,7 @@ LEXICON MasdarStem
 кута[Strong] # ставить
 кутӀун[Weak] # вязать
 кучуд[Weak] # хоронить
+кушкуш[Weak] 
 куькӀуьр[Weak] # зажечь, зажигать
 куьрсар[Weak] # повесить
 куьтягь[Weak] # заканчивать, закончить
@@ -9152,8 +9161,8 @@ LEXICON MasdarStem
 кьакьун[Weak]
 кьарувал[Weak]
 кьасар[Weak]
+кьатӀу[Strong]
 кьатӀ[Weak] # разорвать
-кьатӀун[Weak]
 кьацӀ[Weak]
 кьацӀу[Strong]
 кьацӀур[Weak]
@@ -9447,6 +9456,7 @@ LEXICON MasdarStem
 тӀун[Weak]
 тӀушун[Weak]
 тукӀва[Strong] # бить
+туху[Strong]
 та[Strong] # класть
 тва[Strong] # класть
 туькьуьн[Weak] # глотать
@@ -9454,6 +9464,7 @@ LEXICON MasdarStem
 туьхуь[Strong] # потушить
 туьхуьр[Weak] # гасить, тушить
 тӀалаб[Weak] # просить
+тӀуь[Strong] # eat
 уьлчмиш[Weak] # мерить
 уьцӀве[Strong] # проваливаться, провалиться
 угъривал[Weak]
@@ -9546,7 +9557,7 @@ LEXICON MasdarStem
 хъуьтуьлар[Weak]
 хьу[Strong] 
 цавал[Weak]
-ца[Strong] # шить; лить, наливать; сеять, засевать
+цу[Strong] # шить; лить, наливать; сеять, засевать
 цӀалцӀамур[Weak]
 цӀвех[Weak]
 цӀивцӀив[Weak]
@@ -9575,7 +9586,7 @@ LEXICON MasdarStem
 чукӀур[Weak] # сломать
 чуплахар[Weak]
 чуплах[Weak]
-чура[Strong] # печь
+чуру[Strong] # печь
 чухва[Strong] # рвать
 чухь[Weak]
 чуькь[Weak]
@@ -9854,6 +9865,7 @@ LEXICON ImperfStem
 атад[Weak]
 атирламиш[Weak]
 къве[Strong]
+атӀу[Strong]
 атӀугъ[Weak]
 атӀумар[Weak]
 атӀум[Weak]
@@ -10196,6 +10208,7 @@ LEXICON ImperfStem
 кута[Strong] # ставить
 кутӀун[Weak] # вязать
 кучуд[Weak] # хоронить
+кушкуш[Weak] 
 куькӀуьр[Weak] # зажечь, зажигать
 куьрсар[Weak] # повесить
 куьтягь[Weak] # заканчивать, закончить
@@ -10279,7 +10292,7 @@ LEXICON ImperfStem
 кьарувал[Weak]
 кьасар[Weak]
 кьатӀ[Weak] # разорвать
-кьатӀун[Weak]
+кьатӀи[Strong]
 кьацӀ[Weak]
 кьацӀу[Strong]
 кьацӀур[Weak]
@@ -10548,6 +10561,7 @@ LEXICON ImperfStem
 тумламиш[Weak]
 тупламиш[Weak]
 тухар[Weak]
+туху[Strong]
 тухтатмиш[Weak]
 туьгьметар[Weak]
 туьгьмет[Weak]
@@ -10563,6 +10577,7 @@ LEXICON ImperfStem
 тӀарам[Weak]
 тӀветӀ[Weak]
 тӀун[Weak]
+не[Strong] # eat
 тӀушун[Weak]
 тайинар[Weak] # определить, определять
 тамамар[Weak] # выполнить, выполнять
@@ -10702,10 +10717,11 @@ LEXICON ImperfStem
 чукӀур[Weak] # сломать
 чуплахар[Weak]
 чуплах[Weak]
-чура[Strong] # печь
+чра[Strong] # печь
 чухва[Strong] # рвать
 чухь[Weak]
 чуькь[Weak]
+чуьнуьж[Weak]
 чуьнуьхар[Weak]
 чуьнуьх[Weak] # прятать
 чуьруьтмиш[Weak]
@@ -10840,1131 +10856,1134 @@ LEXICON ImperfStem
 # =========================================================================================================
 # ==================================== VERBS (AORIST) =====================================================
 # =========================================================================================================
-
 LEXICON AoristStem
-абад[Weak]
-авагъар[Weak]
-авагъ[Weak]
-аваданламиш[Weak]
-авадар[Weak] # катать, спускать, спустить
-ават[Weak] # падать, проваливаться, выпадать
-авахь[Weak] # течь, выпадать, кататься
-авуд[Weak] # спускать, снимать
-агажар[Weak]
-агаж[Weak]
-агакьар[Weak]
-агакьр[Weak] # догнать, догонять
-агакь[Weak] # поступать, прибывать, достигать
-агалдар[Weak] # отпускать, отпустить
-агалд[Weak]
-агалт[Weak]
-агал[Weak] # запереть, запират
-агалхь[Weak]
-агалч[Weak]
-агат[Weak] # приблизиться
-агуд[Weak]
-агъавал[Weak]
-агъмиш[Weak]
-агъузар[Weak]
-агъузвал[Weak]
-агъуз[Weak]
-агъуламиш[Weak]
+абад[Weak,NoException]
+авагъар[Weak,NoException]
+авагъ[Weak,NoException]
+аваданламиш[Weak,NoException]
+авадар[Weak,NoException] # катать, спускать, спустить
+ават[Weak,NoException] # падать, проваливаться, выпадать
+авахь[Weak,NoException] # течь, выпадать, кататься
+авуд[Weak,NoException] # спускать, снимать
+агажар[Weak,NoException]
+агаж[Weak,NoException]
+агакьар[Weak,NoException]
+агакьр[Weak,NoException] # догнать, догонять
+агакь[Weak,NoException] # поступать, прибывать, достигать
+агалдар[Weak,NoException] # отпускать, отпустить
+агалд[Weak,NoException]
+агалт[Weak,NoException]
+агал[Weak,NoException] # запереть, запират
+агалхь[Weak,NoException]
+агалч[Weak,NoException]
+агат[Weak,NoException] # приблизиться
+агуд[Weak,NoException]
+агъавал[Weak,NoException]
+агъмиш[Weak,NoException]
+агъузар[Weak,NoException]
+агъузвал[Weak,NoException]
+агъуз[Weak,NoException]
+агъуламиш[Weak,NoException]
 агъа[Strong,Polysyllabic] # входить
-агъур[Weak]
-ажугъламиш[Weak]
-ажузар[Weak]
-ажузвал[Weak]
-ажуз[Weak]
-азад[Weak]
-айибар[Weak] # стыдить
-айиб[Weak]
-айритмиш[Weak]
-айрутмиш[Weak]
-акадар[Weak]
-акад[Weak]
-акал[Weak]
-акат[Weak] # брать, входить
-акахь[Weak] # вступать, вступить
-аксивал[Weak]
-акуд[Weak]
+агъур[Weak,NoException]
+ажугъламиш[Weak,NoException]
+ажузар[Weak,NoException]
+ажузвал[Weak,NoException]
+ажуз[Weak,NoException]
+азад[Weak,NoException]
+айибар[Weak,NoException] # стыдить
+айиб[Weak,NoException]
+айритмиш[Weak,NoException]
+айрутмиш[Weak,NoException]
+акадар[Weak,NoException]
+акад[Weak,NoException]
+акал[Weak,NoException]
+акат[Weak,NoException] # брать, входить
+акахь[Weak,NoException] # вступать, вступить
+аксивал[Weak,NoException]
+акуд[Weak,NoException]
 аку[Strong,Exception] # казаться, появиться, видеть, найти
-акционироват[Weak]
-акъадар[Weak]
-акъад[Weak]
-акъаж[Weak] # таскать
-акъакьар[Weak]
-акъакь[Weak]
-акъат[Weak] # выскакивать, проникать, выступать
-акъах[Weak]
-акъаш[Weak]
-акъвазар[Weak] # ставить, прекратить, перестать
-акъваз[Weak] # перестать, стоять, стоить
-акъугъар[Weak]
-акъугъ[Weak]
-акъуд[Weak] # вынести, вынимать, переводить
-акьадар[Weak] # сажат
-акьалд[Weak]
-акьалж[Weak] # надевать, надеть
-акьалт[Weak] # расти, закончить
-акьалтӀар[Weak] # прекратить, прекращать
-акьалтӀ[Weak] # кончать, кончить
-акьал[Weak] # закрывать
-акьах[Weak] # подниматься, лезть
+акционироват[Weak,NoException]
+акъадар[Weak,NoException]
+акъад[Weak,NoException]
+акъаж[Weak,NoException] # таскать
+акъакьар[Weak,NoException]
+акъакь[Weak,NoException]
+акъат[Weak,NoException] # выскакивать, проникать, выступать
+акъах[Weak,NoException]
+акъаш[Weak,NoException]
+акъвазар[Weak,NoException] # ставить, прекратить, перестать
+акъваз[Weak,NoException] # перестать, стоять, стоить
+акъугъар[Weak,NoException]
+акъугъ[Weak,NoException]
+акъуд[Weak,NoException] # вынести, вынимать, переводить
+акьадар[Weak,NoException] # сажат
+акьалд[Weak,NoException]
+акьалж[Weak,NoException] # надевать, надеть
+акьалт[Weak,NoException] # расти, закончить
+акьалтӀар[Weak,NoException] # прекратить, прекращать
+акьалтӀ[Weak,NoException] # кончать, кончить
+акьал[Weak,NoException] # закрывать
+акьах[Weak,NoException] # подниматься, лезть
 акьу[Strong,Exception] # попадать, попасть
-акьур[Weak]
-акӀадар[Weak]
-акӀажар[Weak] # сгибать
-акӀахь[Weak]
+акьур[Weak,NoException]
+акӀадар[Weak,NoException]
+акӀажар[Weak,NoException] # сгибать
+акӀахь[Weak,NoException]
 акӀа[Strong,Polysyllabic] # сесть, сидеть
-акӀур[Weak] # сажат
-алабар[Weak]
-алагъ[Weak]
-аладар[Weak]
-алад[Weak] # порождать, рождать (об отце)
-алаж[Weak]
-алакьар[Weak]
-алакь[Weak] # уметь
-аламукь[Weak]
-алат[Weak] # пройти
-алах[Weak]
-алахъ[Weak] # стараться
-алахь[Weak]
-алашкӀар[Weak]
-алвер[Weak]
+акӀур[Weak,NoException] # сажат
+алабар[Weak,NoException]
+алагъ[Weak,NoException]
+аладар[Weak,NoException]
+алад[Weak,NoException] # порождать, рождать (об отце)
+алаж[Weak,NoException]
+алакьар[Weak,NoException]
+алакь[Weak,NoException] # уметь
+аламукь[Weak,NoException]
+алат[Weak,NoException] # пройти
+алах[Weak,NoException]
+алахъ[Weak,NoException] # стараться
+алахь[Weak,NoException]
+алашкӀар[Weak,NoException]
+алвер[Weak,NoException]
 алгъа[Strong,Polysyllabic] # нагнуться
-алгъур[Weak]
-алдатмишар[Weak]
-алдатмиш[Weak] # обмануть, обманывать
-алишвериш[Weak]
+алгъур[Weak,NoException]
+алдатмишар[Weak,NoException]
+алдатмиш[Weak,NoException] # обмануть, обманывать
+алишвериш[Weak,NoException]
 алкӀа[Strong,Polysyllabic]
-алкӀур[Weak]
-аллагьламиш[Weak]
-алтад[Weak] # намазать, намазывать
-алтӀумар[Weak]
-алтӀушар[Weak] # собирать, собрать
-алтӀуш[Weak]
-алугар[Weak]
-алуг[Weak]
-алуд[Weak] # снимать, отводить
-алукьар[Weak]
-алукь[Weak] # падать
-алукӀ[Weak] # надевать, одеть
-алхишар[Weak]
-алхиш[Weak]
-алцифар[Weak]
-алциф[Weak]
-алцум[Weak] # взвешивать, мерить
-алцурар[Weak]
-алцур[Weak] # обмануть, обманывать
-алчахар[Weak]
-алчахвал[Weak]
-алчах[Weak]
-алчудар[Weak] # развернуть, повернуть
-алчуд[Weak]
-алчук[Weak] # обертывать
-амалар[Weak]
-амал[Weak]
-амп[Weak]
-амукь[Weak] # оставаться
-анихъ[Weak]
-аннамиш[Weak]
-артмиш[Weak]
-артухар[Weak] # повысить,прибавить
-артух[Weak]
-арут[Weak]
-аруш[Weak]
-аскӀанар[Weak]
-асмиш[Weak] # давить
-астад[Weak]
-асунар[Weak]
-асун[Weak]
-атад[Weak]
-атирламиш[Weak]
+алкӀур[Weak,NoException]
+аллагьламиш[Weak,NoException]
+алтад[Weak,NoException] # намазать, намазывать
+алтӀумар[Weak,NoException]
+алтӀушар[Weak,NoException] # собирать, собрать
+алтӀуш[Weak,NoException]
+алугар[Weak,NoException]
+алуг[Weak,NoException]
+алуд[Weak,NoException] # снимать, отводить
+алукьар[Weak,NoException]
+алукь[Weak,NoException] # падать
+алукӀ[Weak,NoException] # надевать, одеть
+алхишар[Weak,NoException]
+алхиш[Weak,NoException]
+алцифар[Weak,NoException]
+алциф[Weak,NoException]
+алцум[Weak,NoException] # взвешивать, мерить
+алцурар[Weak,NoException]
+алцур[Weak,NoException] # обмануть, обманывать
+алчахар[Weak,NoException]
+алчахвал[Weak,NoException]
+алчах[Weak,NoException]
+алчудар[Weak,NoException] # развернуть, повернуть
+алчуд[Weak,NoException]
+алчук[Weak,NoException] # обертывать
+амалар[Weak,NoException]
+амал[Weak,NoException]
+амп[Weak,NoException]
+амукь[Weak,NoException] # оставаться
+анихъ[Weak,NoException]
+аннамиш[Weak,NoException]
+артмиш[Weak,NoException]
+артухар[Weak,NoException] # повысить,прибавить
+артух[Weak,NoException]
+арут[Weak,NoException]
+аруш[Weak,NoException]
+аскӀанар[Weak,NoException]
+асмиш[Weak,NoException] # давить
+астад[Weak,NoException]
+асунар[Weak,NoException]
+асун[Weak,NoException]
+атад[Weak,NoException]
+атирламиш[Weak,NoException]
 ата[Strong,Polysyllabic]
-атӀугъ[Weak]
-атӀумар[Weak]
-атӀум[Weak]
-афарар[Weak]
-ахвар[Weak]
-ахмакьвал[Weak]
-ахмишар[Weak]
-ахмиш[Weak]
-ахмур[Weak]
-ахтармиш[Weak] # искать
-ацадар[Weak]
-ацалд[Weak]
-ацалт[Weak]
-ацахь[Weak]
-ацукьар[Weak] # ставить
-ацукь[Weak] # сидеть
-аца[Weak] # доить
-ацӀ[Weak] # наполниться
-ацӀур[Weak] # заполнить,покрывать
-ачухар[Weak] # осветить, освещать
-ачух[Weak] # открывать
-ашкъиламиш[Weak]
-ашукьар[Weak]
-аянар[Weak]
-багъишламиш[Weak] # прощать
-багъиш[Weak] # дарить
-бажармиш[Weak]
-бамиш[Weak]
-барабар[Weak]
-барбатӀ[Weak] # разрушать
-барчимар[Weak]
-барчумар[Weak]
-басмаламиш[Weak]
-басмиш[Weak] # давить
-батмишар[Weak]
-батмиш[Weak]
-батӀулар[Weak]
-батӀул[Weak]
-бахтсуз[Weak]
-бахш[Weak]
-башламиш[Weak]
-баянламиш[Weak]
-бегенмишар[Weak]
-бегьемар[Weak] # совершить
-бегьем[Weak]
-бедлем[Weak]
-безеклами[Weak]
-безетмиш[Weak]
-бейабур[Weak]
-бейгьушар[Weak]
-бейкефар[Weak]
-бейкеф[Weak]
-бесар[Weak]
-беябур[Weak] # позорить, срамить
-бигъламиш[Weak]
-бизар[Weak]
-бинеламиш[Weak] # основать, основывать
-битавар[Weak]
-битмишар[Weak]
-битмиш[Weak]
-бубавал[Weak]
-бугъазар[Weak]
-бугъламиш[Weak] # тушить
-буйругъ[Weak]
-булар[Weak]
-буллух[Weak]
-бул[Weak]
-бушар[Weak]
-буюрмиш[Weak] # велеть
-буюр[Weak]
-вагьшивал[Weak]
-вака[Weak]
-ван[Weak]
+атӀа[Strong,Polysyllabic]
+атӀугъ[Weak,NoException]
+атӀумар[Weak,NoException]
+атӀум[Weak,NoException]
+афарар[Weak,NoException]
+ахвар[Weak,NoException]
+ахмакьвал[Weak,NoException]
+ахмишар[Weak,NoException]
+ахмиш[Weak,NoException]
+ахмур[Weak,NoException]
+ахтармиш[Weak,NoException] # искать
+ацадар[Weak,NoException]
+ацалд[Weak,NoException]
+ацалт[Weak,NoException]
+ацахь[Weak,NoException]
+ацукьар[Weak,NoException] # ставить
+ацукь[Weak,NoException] # сидеть
+аца[Weak,NoException] # доить
+ацӀ[Weak,NoException] # наполниться
+ацӀур[Weak,NoException] # заполнить,покрывать
+ачухар[Weak,NoException] # осветить, освещать
+ачух[Weak,NoException] # открывать
+ашкъиламиш[Weak,NoException]
+ашукьар[Weak,NoException]
+аянар[Weak,NoException]
+багъишламиш[Weak,NoException] # прощать
+багъиш[Weak,NoException] # дарить
+бажармиш[Weak,NoException]
+бамиш[Weak,NoException]
+барабар[Weak,NoException]
+барбатӀ[Weak,NoException] # разрушать
+барчимар[Weak,NoException]
+барчумар[Weak,NoException]
+басмаламиш[Weak,NoException]
+басмиш[Weak,NoException] # давить
+батмишар[Weak,NoException]
+батмиш[Weak,NoException]
+батӀулар[Weak,NoException]
+батӀул[Weak,NoException]
+бахтсуз[Weak,NoException]
+бахш[Weak,NoException]
+башламиш[Weak,NoException]
+баянламиш[Weak,NoException]
+бегенмишар[Weak,NoException]
+бегьемар[Weak,NoException] # совершить
+бегьем[Weak,NoException]
+бедлем[Weak,NoException]
+безеклами[Weak,NoException]
+безетмиш[Weak,NoException]
+бейабур[Weak,NoException]
+бейгьушар[Weak,NoException]
+бейкефар[Weak,NoException]
+бейкеф[Weak,NoException]
+бесар[Weak,NoException]
+беябур[Weak,NoException] # позорить, срамить
+бигъламиш[Weak,NoException]
+бизар[Weak,NoException]
+бинеламиш[Weak,NoException] # основать, основывать
+битавар[Weak,NoException]
+битмишар[Weak,NoException]
+битмиш[Weak,NoException]
+бубавал[Weak,NoException]
+бугъазар[Weak,NoException]
+бугъламиш[Weak,NoException] # тушить
+буйругъ[Weak,NoException]
+булар[Weak,NoException]
+буллух[Weak,NoException]
+бул[Weak,NoException]
+бушар[Weak,NoException]
+буюрмиш[Weak,NoException] # велеть
+буюр[Weak,NoException]
+вагьшивал[Weak,NoException]
+вака[Weak,NoException]
+ван[Weak,NoException]
 вегье[Strong,Polysyllabic] # ронять
-векилвал[Weak]
-вердишар[Weak]
-вердиш[Weak]
-веревирд[Weak]
-веремар[Weak]
-верем[Weak]
-вешреш[Weak]
-вилербур[Weak]
-вилер[Weak]
-виликд[Weak]
-вилик[Weak]
-виниз[Weak]
-вишриш[Weak]
+векилвал[Weak,NoException]
+вердишар[Weak,NoException]
+вердиш[Weak,NoException]
+веревирд[Weak,NoException]
+веремар[Weak,NoException]
+верем[Weak,NoException]
+вешреш[Weak,NoException]
+вилербур[Weak,NoException]
+вилер[Weak,NoException]
+виликд[Weak,NoException]
+вилик[Weak,NoException]
+виниз[Weak,NoException]
+вишриш[Weak,NoException]
 вуга[Strong,Polysyllabic] # давать
-вутӀ[Weak]
-гадар[Weak] # метать
-галадар[Weak]
-галат[Weak] # оторваться
-галах[Weak]
-галкӀа[Weak]
-галкӀур[Weak] # прикрепить,соединить
-галтуг[Weak] # преследовать
-галуд[Weak] # отрезать, отрезать
-галукьар[Weak]
-галукь[Weak] # схватить
-галчук[Weak]
-галчӀур[Weak]
+вутӀ[Weak,NoException]
+гадар[Weak,NoException] # метать
+галадар[Weak,NoException]
+галат[Weak,NoException] # оторваться
+галах[Weak,NoException]
+галкӀа[Weak,NoException]
+галкӀур[Weak,NoException] # прикрепить,соединить
+галтуг[Weak,NoException] # преследовать
+галуд[Weak,NoException] # отрезать, отрезать
+галукьар[Weak,NoException]
+галукь[Weak,NoException] # схватить
+галчук[Weak,NoException]
+галчӀур[Weak,NoException]
 гата[Strong,Polysyllabic] # бить
-гатӀумар[Weak]
-гатӀум[Weak] # начать, начаться
+гатӀумар[Weak,NoException]
+гатӀум[Weak,NoException] # начать, начаться
 гатӀа[Strong,Polysyllabic]
-гатӀунар[Weak]
-гатӀу[Weak]
-гацумар[Weak]
-гват[Weak]
-гвягъ[Weak]
-гегьеншар[Weak]
-геж[Weak]
-гекъиг[Weak]
+гатӀунар[Weak,NoException]
+гатӀу[Weak,NoException]
+гацумар[Weak,NoException]
+гват[Weak,NoException]
+гвягъ[Weak,NoException]
+гегьеншар[Weak,NoException]
+геж[Weak,NoException]
+гекъиг[Weak,NoException]
 гелкъве[Strong,Polysyllabic] # выходить
-гелкъуьр[Weak]
-гел[Weak]
-гелягъ[Weak]
-гелячӀ[Weak]
-гециф[Weak]
-гзафар[Weak] # умножать, умножить
+гелкъуьр[Weak,NoException]
+гел[Weak,NoException]
+гелягъ[Weak,NoException]
+гелячӀ[Weak,NoException]
+гециф[Weak,NoException]
+гзафар[Weak,NoException] # умножать, умножить
 гиге[Strong,Polysyllabic]
-гизлемиш[Weak]
-гилиг[Weak] # соединить,дополнить
-гиликьар[Weak]
-гиликь[Weak]
-гирнагъ[Weak] # жевать
-гугрумар[Weak]
-гугрум[Weak]
+гизлемиш[Weak,NoException]
+гилиг[Weak,NoException] # соединить,дополнить
+гиликьар[Weak,NoException]
+гиликь[Weak,NoException]
+гирнагъ[Weak,NoException] # жевать
+гугрумар[Weak,NoException]
+гугрум[Weak,NoException]
 гага[Strong,Polysyllabic]
-гуд[Weak] # расколоть
-гуллеламиш[Weak]
-гумукь[Weak]
+гуд[Weak,NoException] # расколоть
+гуллеламиш[Weak,NoException]
+гумукь[Weak,NoException]
 га[Strong,Monosyllabic] # давать 
-гупгуп[Weak]
-гурмагъ[Weak]
-гур[Weak]
+гупгуп[Weak,NoException]
+гурмагъ[Weak,NoException]
+гур[Weak,NoException]
 гуту[Strong,Exception]
-гуьзетмиш[Weak]
-гуьзет[Weak] # наблюдать
-гуьзлемиш[Weak] # ожидать
-гуьзчивал[Weak]
-гуькь[Weak]
+гуьзетмиш[Weak,NoException]
+гуьзет[Weak,NoException] # наблюдать
+гуьзлемиш[Weak,NoException] # ожидать
+гуьзчивал[Weak,NoException]
+гуькь[Weak,NoException]
 гве[Strong,Monosyllabic] # сжать
-гуьрчегар[Weak]
-гуьцӀ[Weak]
-гъазабламиш[Weak]
-гъалатсар[Weak]
-гъалатӀ[Weak]
-гъарикӀар[Weak]
-гъафилар[Weak]
-гъварч[Weak]
-гъилик[Weak]
+гуьрчегар[Weak,NoException]
+гуьцӀ[Weak,NoException]
+гъазабламиш[Weak,NoException]
+гъалатсар[Weak,NoException]
+гъалатӀ[Weak,NoException]
+гъарикӀар[Weak,NoException]
+гъафилар[Weak,NoException]
+гъварч[Weak,NoException]
+гъилик[Weak,NoException]
 гъа[Strong,Monosyllabic] # подать
-гъургъур[Weak]
-гьазур[Weak] # варить
-гьакьар[Weak]
-гьакь[Weak]
-гьалалар[Weak]
-гьалал[Weak]
-гьалдар[Weak]
-гьалд[Weak]
-гьалс[Weak]
-гьалт[Weak] # встретить, встречать
-гьал[Weak] # надевать,водить, гнать
-гьалч[Weak] # хлопать
-гьалчӀ[Weak]
-гьарай[Weak] # кричать
-гьарамар[Weak]
-гьарам[Weak]
-гьасил[Weak]
-гьат[Weak] # проникать, проникнуть
-гьахъар[Weak]
-гьахь[Weak] # входить, войти
-гьевесламиш[Weak]
-гьейранар[Weak]
-гьейранвал[Weak]
-гьелекар[Weak]
-гьелек[Weak]
-гьерекат[Weak] # стремиться
-гьиниз[Weak]
-гьиргьир[Weak]
-гьисаб[Weak] # думать, считать
-гьисс[Weak]
-гьич[Weak]
-гьужум[Weak]
-гьуьжетар[Weak]
-гьуьжет[Weak]
-гьуьрмет[Weak]
-гьял[Weak] # решить
-дакъур[Weak]
-давамар[Weak] # продолжаться, длиться
-давам[Weak]
-дадмиш[Weak]
-дакӀур[Weak]
-далдаламиш[Weak] # скрывать, скрыть
-дамахар[Weak]
-дамах[Weak]
-дарбадагъ[Weak]
-дарихмиш[Weak]
-дарих[Weak]
-дарманд[Weak]
-дар[Weak]
-дашкъалагъ[Weak]
-дашмиш[Weak]
-даязар[Weak]
-дегишар[Weak] # заменить, заменять
-дегиш[Weak]
-делилламиш[Weak]
-деринар[Weak] # углубить, углублять
-дертламиш[Weak]
-диндирмиш[Weak]
-динжар[Weak]
-динж[Weak]
-дуванар[Weak]
-дуван[Weak]
+гъургъур[Weak,NoException]
+гьазур[Weak,NoException] # варить
+гьакьар[Weak,NoException]
+гьакь[Weak,NoException]
+гьалалар[Weak,NoException]
+гьалал[Weak,NoException]
+гьалдар[Weak,NoException]
+гьалд[Weak,NoException]
+гьалс[Weak,NoException]
+гьалт[Weak,NoException] # встретить, встречать
+гьал[Weak,NoException] # надевать,водить, гнать
+гьалч[Weak,NoException] # хлопать
+гьалчӀ[Weak,NoException]
+гьарай[Weak,NoException] # кричать
+гьарамар[Weak,NoException]
+гьарам[Weak,NoException]
+гьасил[Weak,NoException]
+гьат[Weak,NoException] # проникать, проникнуть
+гьахъар[Weak,NoException]
+гьахь[Weak,NoException] # входить, войти
+гьевесламиш[Weak,NoException]
+гьейранар[Weak,NoException]
+гьейранвал[Weak,NoException]
+гьелекар[Weak,NoException]
+гьелек[Weak,NoException]
+гьерекат[Weak,NoException] # стремиться
+гьиниз[Weak,NoException]
+гьиргьир[Weak,NoException]
+гьисаб[Weak,NoException] # думать, считать
+гьисс[Weak,NoException]
+гьич[Weak,NoException]
+гьужум[Weak,NoException]
+гьуьжетар[Weak,NoException]
+гьуьжет[Weak,NoException]
+гьуьрмет[Weak,NoException]
+гьял[Weak,NoException] # решить
+дакъур[Weak,NoException]
+давамар[Weak,NoException] # продолжаться, длиться
+давам[Weak,NoException]
+дадмиш[Weak,NoException]
+дакӀур[Weak,NoException]
+далдаламиш[Weak,NoException] # скрывать, скрыть
+дамахар[Weak,NoException]
+дамах[Weak,NoException]
+дарбадагъ[Weak,NoException]
+дарихмиш[Weak,NoException]
+дарих[Weak,NoException]
+дарманд[Weak,NoException]
+дар[Weak,NoException]
+дашкъалагъ[Weak,NoException]
+дашмиш[Weak,NoException]
+даязар[Weak,NoException]
+дегишар[Weak,NoException] # заменить, заменять
+дегиш[Weak,NoException]
+делилламиш[Weak,NoException]
+деринар[Weak,NoException] # углубить, углублять
+дертламиш[Weak,NoException]
+диндирмиш[Weak,NoException]
+динжар[Weak,NoException]
+динж[Weak,NoException]
+дуванар[Weak,NoException]
+дуван[Weak,NoException]
 дига[Strong,Polysyllabic]
-дугур[Weak] # посылать
-дуланмишар[Weak]
-дустагъ[Weak]
-душманвал[Weak]
-дуьзар[Weak] # поправить, поправлять
-дуьзмишар[Weak]
-дуьзмиш[Weak]
-дуьнмишар[Weak]
-дуьнмиш[Weak]
-еримиш[Weak]
-есир[Weak]
-етимар[Weak]
-етим[Weak]
+дугур[Weak,NoException] # посылать
+дуланмишар[Weak,NoException]
+дустагъ[Weak,NoException]
+душманвал[Weak,NoException]
+дуьзар[Weak,NoException] # поправить, поправлять
+дуьзмишар[Weak,NoException]
+дуьзмиш[Weak,NoException]
+дуьнмишар[Weak,NoException]
+дуьнмиш[Weak,NoException]
+еримиш[Weak,NoException]
+есир[Weak,NoException]
+етимар[Weak,NoException]
+етим[Weak,NoException]
 жагъа[Strong,Polysyllabic] # найти
-жагъур[Weak] # находить
-жазаламиш[Weak]
-жакьракь[Weak]
+жагъур[Weak,NoException] # находить
+жазаламиш[Weak,NoException]
+жакьракь[Weak,NoException]
 жакьва[Strong,Polysyllabic] # жевать
-жебир[Weak]
-жегьилвал[Weak]
-желб[Weak]
+жебир[Weak,NoException]
+жегьилвал[Weak,NoException]
+желб[Weak,NoException]
 жузу[Strong,Exception] # спрашивать, спросить
-жузунар[Weak]
-жуфтар[Weak]
-жуфт[Weak]
-жуьрэт[Weak]
-завал[Weak]
-загьир[Weak]
-заказ[Weak]
-запаб[Weak]
-зарафатар[Weak]
-зарафат[Weak]
-зарб[Weak]
-звер[Weak] # бегать, бежать
-зегьерламиш[Weak]
-зенг[Weak]
-зибилламиш[Weak]
-зигрингар[Weak]
-зигринг[Weak]
-зикир[Weak]
-зиярат[Weak]
-зулумламиш[Weak]
-зулум[Weak]
-зурламиш[Weak]
-ибадат[Weak]
-игисар[Weak]
-игис[Weak]
-иесивал[Weak]
-изитӀ[Weak]
-икис[Weak]
-икрагь[Weak]
-икрам[Weak]
-илиг[Weak]
-илиз[Weak]
-илисар[Weak]
-илис[Weak] # сжать
-илифар[Weak]
-илиф[Weak]
-илих[Weak]
-илич[Weak]
-инад[Weak]
-инанмишар[Weak]
-инанмиш[Weak]
-индустрияламиш[Weak]
-инжитмиш[Weak]
-инкарвал[Weak]
-инкар[Weak]
-инсансузвилер[Weak]
-инсафсузвал[Weak]
-иринламиш[Weak]
-истемиш[Weak]
+жузунар[Weak,NoException]
+жуфтар[Weak,NoException]
+жуфт[Weak,NoException]
+жуьрэт[Weak,NoException]
+завал[Weak,NoException]
+загьир[Weak,NoException]
+заказ[Weak,NoException]
+запаб[Weak,NoException]
+зарафатар[Weak,NoException]
+зарафат[Weak,NoException]
+зарб[Weak,NoException]
+звер[Weak,NoException] # бегать, бежать
+зегьерламиш[Weak,NoException]
+зенг[Weak,NoException]
+зибилламиш[Weak,NoException]
+зигрингар[Weak,NoException]
+зигринг[Weak,NoException]
+зикир[Weak,NoException]
+зиярат[Weak,NoException]
+зулумламиш[Weak,NoException]
+зулум[Weak,NoException]
+зурламиш[Weak,NoException]
+ибадат[Weak,NoException]
+игисар[Weak,NoException]
+игис[Weak,NoException]
+иесивал[Weak,NoException]
+изитӀ[Weak,NoException]
+икис[Weak,NoException]
+икрагь[Weak,NoException]
+икрам[Weak,NoException]
+илиг[Weak,NoException]
+илиз[Weak,NoException]
+илисар[Weak,NoException]
+илис[Weak,NoException] # сжать
+илифар[Weak,NoException]
+илиф[Weak,NoException]
+илих[Weak,NoException]
+илич[Weak,NoException]
+инад[Weak,NoException]
+инанмишар[Weak,NoException]
+инанмиш[Weak,NoException]
+индустрияламиш[Weak,NoException]
+инжитмиш[Weak,NoException]
+инкарвал[Weak,NoException]
+инкар[Weak,NoException]
+инсансузвилер[Weak,NoException]
+инсафсузвал[Weak,NoException]
+иринламиш[Weak,NoException]
+истемиш[Weak,NoException]
 ифе[Strong,Polysyllabic] # пылать
-ифир[Weak]
-ихлиф[Weak]
-ихтибар[Weak]
-ихтилатар[Weak]
-ихтилат[Weak]
-ицис[Weak]
-ицитӀ[Weak]
-ициф[Weak]
-ичӀир[Weak] # сыпать
-ишехь[Weak]
-ишигълаван[Weak]
-ишин[Weak] # месить (тесто)
-ишлемиш[Weak] # пользоваться
-иштарак[Weak]
-иш[Weak]
-йигинар[Weak]
-йиф[Weak]
-йуькламиш[Weak]
-кабаб[Weak]
-кагьулвал[Weak]
-какадар[Weak] # помешать (ложкой)
-какахь[Weak]
-какур[Weak]
-калтуг[Weak]
-капӀ[Weak]
-караг[Weak]
-кармаш[Weak]
-кар[Weak]
-катар[Weak]
-кат[Weak] # бегать, бежать
-квадар[Weak] # терять
-кват[Weak] # пробудиться, пробуждаться
-квахь[Weak] # потерять
-квя[Weak]
-кегькир[Weak]
-кекягъ[Weak]
-керчекар[Weak]
-кеф[Weak]
-кецягъ[Weak]
-кечирмиш[Weak]
-килиг[Weak] # посмотреть
-кинар[Weak]
-кинер[Weak]
-кисар[Weak]
-кис[Weak] # молчать
-кицягъ[Weak]
+ифир[Weak,NoException]
+ихлиф[Weak,NoException]
+ихтибар[Weak,NoException]
+ихтилатар[Weak,NoException]
+ихтилат[Weak,NoException]
+ицис[Weak,NoException]
+ицитӀ[Weak,NoException]
+ициф[Weak,NoException]
+ичӀир[Weak,NoException] # сыпать
+ишехь[Weak,NoException]
+ишигълаван[Weak,NoException]
+ишин[Weak,NoException] # месить (тесто)
+ишлемиш[Weak,NoException] # пользоваться
+иштарак[Weak,NoException]
+иш[Weak,NoException]
+йигинар[Weak,NoException]
+йиф[Weak,NoException]
+йуькламиш[Weak,NoException]
+кабаб[Weak,NoException]
+кагьулвал[Weak,NoException]
+какадар[Weak,NoException] # помешать (ложкой)
+какахь[Weak,NoException]
+какур[Weak,NoException]
+калтуг[Weak,NoException]
+капӀ[Weak,NoException]
+караг[Weak,NoException]
+кармаш[Weak,NoException]
+кар[Weak,NoException]
+катар[Weak,NoException]
+кат[Weak,NoException] # бегать, бежать
+квадар[Weak,NoException] # терять
+кват[Weak,NoException] # пробудиться, пробуждаться
+квахь[Weak,NoException] # потерять
+квя[Weak,NoException]
+кегькир[Weak,NoException]
+кекягъ[Weak,NoException]
+керчекар[Weak,NoException]
+кеф[Weak,NoException]
+кецягъ[Weak,NoException]
+кечирмиш[Weak,NoException]
+килиг[Weak,NoException] # посмотреть
+кинар[Weak,NoException]
+кинер[Weak,NoException]
+кисар[Weak,NoException]
+кис[Weak,NoException] # молчать
+кицягъ[Weak,NoException]
 кса[Strong,Monosyllabic] # спать
-ктад[Weak] # мешать (кому, чему)
-кукӀвар[Weak] # рвать; рубить; разбивать
+ктад[Weak,NoException] # мешать (кому, чему)
+кукӀвар[Weak,NoException] # рвать; рубить; разбивать
 кикӀа[Strong,Polysyllabic] # ссориться
-кукӀур[Weak] # клеить
+кукӀур[Weak,NoException] # клеить
 ка[Strong,Monosyllabic] # гореть
 куту[Strong,Exception] # ставить
-кутӀун[Weak] # вязать
-кучуд[Weak] # хоронить
-куькӀуьр[Weak] # зажечь, зажигать
-куьрсар[Weak] # повесить
-куьтягь[Weak] # заканчивать, закончить
+кутӀун[Weak,NoException] # вязать
+кучуд[Weak,NoException] # хоронить
+куькӀуьр[Weak,NoException] # зажечь, зажигать
+куьрсар[Weak,NoException] # повесить
+куьтягь[Weak,NoException] # заканчивать, закончить
 кхье[Strong,Polysyllabic] # писать
-къавламиш[Weak]
-къавурмиш[Weak] # жарить
-къадгъун[Weak] # скрести, тереть
-къадимар[Weak]
+къавламиш[Weak,NoException]
+къавурмиш[Weak,NoException] # жарить
+къадгъун[Weak,NoException] # скрести, тереть
+къадимар[Weak,NoException]
 къажгъа[Strong,Polysyllabic]
-къазанмиш[Weak] # завоевать, завоевывать
-къазун[Weak] # рвать
-къайдаламиш[Weak]
-къакъаж[Weak] # убирать, убрать
-къакъуд[Weak] # отобрать
-къалинар[Weak]
-къалмакъал[Weak]
-къалумар[Weak]
-къалум[Weak]
-къал[Weak]
+къазанмиш[Weak,NoException] # завоевать, завоевывать
+къазун[Weak,NoException] # рвать
+къайдаламиш[Weak,NoException]
+къакъаж[Weak,NoException] # убирать, убрать
+къакъуд[Weak,NoException] # отобрать
+къалинар[Weak,NoException]
+къалмакъал[Weak,NoException]
+къалумар[Weak,NoException]
+къалум[Weak,NoException]
+къал[Weak,NoException]
 къала[Strong,Polysyllabic]
-къалур[Weak] # подать
-къандирмиш[Weak]
-къанунламиш[Weak]
-къарагъар[Weak] # поднимать, поднять
-къарагъ[Weak] # вставать, встать
-къаргъишар[Weak]
-къаргъиш[Weak]
-къаришмиш[Weak]
-къарсатмиш[Weak]
+къалур[Weak,NoException] # подать
+къандирмиш[Weak,NoException]
+къанунламиш[Weak,NoException]
+къарагъар[Weak,NoException] # поднимать, поднять
+къарагъ[Weak,NoException] # вставать, встать
+къаргъишар[Weak,NoException]
+къаргъиш[Weak,NoException]
+къаришмиш[Weak,NoException]
+къарсатмиш[Weak,NoException]
 къарса[Strong,Polysyllabic]
-къарсур[Weak]
-къаршиламиш[Weak] # встретить, встречать
-къаст[Weak]
-къатад[Weak]
+къарсур[Weak,NoException]
+къаршиламиш[Weak,NoException] # встретить, встречать
+къаст[Weak,NoException]
+къатад[Weak,NoException]
 къатка[Strong,Polysyllabic] # лежать
-къаткур[Weak]
-къатламиш[Weak]
+къаткур[Weak,NoException]
+къатламиш[Weak,NoException]
 къахчу[Strong,Exception] # отобрать
-къачагъвилер[Weak]
+къачагъвилер[Weak,NoException]
 къачу[Strong,Exception] # покупать
-къваз[Weak]
-къекъечӀ[Weak]
-къекъиф[Weak]
+къваз[Weak,NoException]
+къекъечӀ[Weak,NoException]
+къекъиф[Weak,NoException]
 къекъве[Strong,Polysyllabic] # плыть
-къекъуьр[Weak] # водить
-къелет[Weak]
-къерех[Weak]
-къехуьнар[Weak]
-къехуьн[Weak] # пилить
+къекъуьр[Weak,NoException] # водить
+къелет[Weak,NoException]
+къерех[Weak,NoException]
+къехуьнар[Weak,NoException]
+къехуьн[Weak,NoException] # пилить
 къече[Strong,Polysyllabic]
-къизгъинар[Weak]
-къизмишар[Weak]
-къизмиш[Weak]
-къилемиш[Weak]
-къирмиш[Weak]
-къувунар[Weak]
-къувун[Weak]
+къизгъинар[Weak,NoException]
+къизмишар[Weak,NoException]
+къизмиш[Weak,NoException]
+къилемиш[Weak,NoException]
+къирмиш[Weak,NoException]
+къувунар[Weak,NoException]
+къувун[Weak,NoException]
 къугъва[Strong,Polysyllabic] # играть
-къугъур[Weak]
-къудгъунар[Weak]
-къудгъун[Weak] # вскакивать,  вскочить
-къужахламиш[Weak] # обнимать, обнять
-къукърумар[Weak]
-къукърум[Weak]
-къуллугь[Weak]
+къугъур[Weak,NoException]
+къудгъунар[Weak,NoException]
+къудгъун[Weak,NoException] # вскакивать,  вскочить
+къужахламиш[Weak,NoException] # обнимать, обнять
+къукърумар[Weak,NoException]
+къукърум[Weak,NoException]
+къуллугь[Weak,NoException]
 къва[Strong,Monosyllabic] # усваивать, усвоить
-къунагъламиш[Weak] # угостить, угощать
-къунагъ[Weak]
-къундармиш[Weak]
-къурбанд[Weak]
-къурмиш[Weak] # задавать, задать
-къур[Weak] # охладить, охлаждать
-къурхутар[Weak]
-къусмиш[Weak]
-къутармиш[Weak] # спасать
-къягъ[Weak]
-кьабул[Weak] # признават, признат
-кьакъат[Weak]
-кьакьанар[Weak]
-кьакьун[Weak]
-кьарувал[Weak]
-кьасар[Weak]
-кьатӀ[Weak] # разорвать
-кьатӀун[Weak]
-кьацӀ[Weak]
+къунагъламиш[Weak,NoException] # угостить, угощать
+къунагъ[Weak,NoException]
+къундармиш[Weak,NoException]
+къурбанд[Weak,NoException]
+къурмиш[Weak,NoException] # задавать, задать
+къур[Weak,NoException] # охладить, охлаждать
+къурхутар[Weak,NoException]
+къусмиш[Weak,NoException]
+къутармиш[Weak,NoException] # спасать
+къягъ[Weak,NoException]
+кьабул[Weak,NoException] # признават, признат
+кьакъат[Weak,NoException]
+кьакьанар[Weak,NoException]
+кьакьун[Weak,NoException]
+кьарувал[Weak,NoException]
+кьасар[Weak,NoException]
+кьатӀ[Weak,NoException] # разорвать
+кьатӀа[Strong,Polysyllabic]
+кьацӀ[Weak,NoException]
 кьацӀа[Strong,Polysyllabic]
-кьацӀур[Weak]
-кьвечӀилар[Weak]
-кьежир[Weak]
-кьелечӀар[Weak]
-кьенят[Weak]
-кьетӀ[Weak]
+кьацӀур[Weak,NoException]
+кьвечӀилар[Weak,NoException]
+кьежир[Weak,NoException]
+кьелечӀар[Weak,NoException]
+кьенят[Weak,NoException]
+кьетӀ[Weak,NoException]
 кьечӀе[Strong,Polysyllabic]
 кьи[Strong,Monosyllabic] # убивать, убить
 рекьи[Strong,Polysyllabic] # убивать, убить
-кьисметар[Weak]
-кьисмет[Weak]
+кьисметар[Weak,NoException]
+кьисмет[Weak,NoException]
 кьу[Strong,Exception] # схватить
 кьуру[Strong,Exception] # сохнуть
-кьурур[Weak] # сушить
-кьуьлер[Weak]
-кьуьл[Weak] # танцевать
-кя[Weak] # касаться
-кӀас[Weak] # кусать
-кӀвадар[Weak] # сыпать
-кӀвалах[Weak] # трудиться
-кӀват[Weak] # собирать, собрать
-кӀватӀ[Weak] # складывать; соединять, собирать
-кӀвах[Weak] # сыпать
-кӀевир[Weak] # покрывать, покрыть
-кӀев[Weak] # преградить, преграждать
-кӀел[Weak] # читать, учить, узнавать
-кӀамукь[Weak]
-кӀанар[Weak]
-кӀаник[Weak]
-кӀар[Weak]
-кӀвалахар[Weak]
-кӀвахь[Weak]
-кӀвачик[Weak]
-кӀвачинар[Weak]
-кӀевивал[Weak]
-кӀелер[Weak]
-кӀехвир[Weak]
-кӀубанар[Weak]
-кӀуд[Weak]
-лабиалламиш[Weak]
-лагълагъар[Weak]
-лагълагъ[Weak]
-ланхъ[Weak]
-ларп[Weak]
-лархъ[Weak]
-лезгиламиш[Weak]
-лекеламиш[Weak]
-лигимар[Weak]
-лигим[Weak]
-лишанламиш[Weak] # определить, определять
+кьурур[Weak,NoException] # сушить
+кьуьлер[Weak,NoException]
+кьуьл[Weak,NoException] # танцевать
+кушкуш[Weak,NoException] 
+кя[Weak,NoException] # касаться
+кӀас[Weak,NoException] # кусать
+кӀвадар[Weak,NoException] # сыпать
+кӀвалах[Weak,NoException] # трудиться
+кӀват[Weak,NoException] # собирать, собрать
+кӀватӀ[Weak,NoException] # складывать; соединять, собирать
+кӀвах[Weak,NoException] # сыпать
+кӀевир[Weak,NoException] # покрывать, покрыть
+кӀев[Weak,NoException] # преградить, преграждать
+кӀел[Weak,NoException] # читать, учить, узнавать
+кӀамукь[Weak,NoException]
+кӀанар[Weak,NoException]
+кӀаник[Weak,NoException]
+кӀар[Weak,NoException]
+кӀвалахар[Weak,NoException]
+кӀвахь[Weak,NoException]
+кӀвачик[Weak,NoException]
+кӀвачинар[Weak,NoException]
+кӀевивал[Weak,NoException]
+кӀелер[Weak,NoException]
+кӀехвир[Weak,NoException]
+кӀубанар[Weak,NoException]
+кӀуд[Weak,NoException]
+лабиалламиш[Weak,NoException]
+лагълагъар[Weak,NoException]
+лагълагъ[Weak,NoException]
+ланхъ[Weak,NoException]
+ларп[Weak,NoException]
+лархъ[Weak,NoException]
+лезгиламиш[Weak,NoException]
+лекеламиш[Weak,NoException]
+лигимар[Weak,NoException]
+лигим[Weak,NoException]
+лишанламиш[Weak,NoException] # определить, определять
 лагьа[Strong,Polysyllabic] # сказать
-лугьунар[Weak]
-луьгьуьмламиш[Weak]
-луькӀуьн[Weak] # говорить
-лянетламиш[Weak]
-лянет[Weak]
-магълубар[Weak]
-магълуб[Weak]
-магьрумар[Weak]
-магьрум[Weak]
-мажбур[Weak]
-майилвал[Weak]
-майил[Weak]
-манийвал[Weak]
-машат[Weak]
-машинламиш[Weak]
-маяламиш[Weak]
-мезземет[Weak]
-мейилвал[Weak]
-мел[Weak]
-мемекьуьр[Weak]
-меслятар[Weak]
-меслят[Weak]
-механизмламиш[Weak]
-мехъер[Weak]
-мешат[Weak]
-микьнатӀисламиш[Weak]
-минетар[Weak]
-минет[Weak]
-мисал[Weak]
-мискьивал[Weak]
-миянар[Weak]
-муаллимвал[Weak]
-мубарак[Weak]
-муг[Weak]
-мугьманар[Weak]
-мукьвал[Weak]
-мурмур[Weak]
-муьтӀуьгъар[Weak]
-муьтӀуьгъвал[Weak]
-мягьтелар[Weak]
-малумар[Weak] # объявлять
-машгъулар[Weak] # развлекать, развлечь
-михь[Weak] # чистить
-мягькемар[Weak] # укрепить, укреплять
-набутар[Weak]
-нагьахъар[Weak]
-надинжвал[Weak]
-назар[Weak]
-назназ[Weak]
-негь[Weak]
-некягь[Weak]
-нехишламиш[Weak]
-нифрет[Weak]
-нурламиш[Weak]
-нянеламиш[Weak]
-отказ[Weak]
-пад[Weak]
-патахъар[Weak]
-патриотвал[Weak]
-пачагьвал[Weak]
-пашманар[Weak]
-паяр[Weak]
-пелешар[Weak]
-перделамиш[Weak]
-перевод[Weak]
-перт[Weak]
-пехилар[Weak]
-пехилвал[Weak]
-писар[Weak]
-пислемиш[Weak]
-пиянар[Weak]
-планламиш[Weak]
-пузмишар[Weak]
-пузмиш[Weak]
-пурх[Weak]
-пуспус[Weak]
-пуф[Weak]
-пӀакьракь[Weak]
-пӀив[Weak]
-пӀир[Weak]
-пай[Weak] # делить
-пишкеш[Weak] # дарить
-пуч[Weak] # губить, уничтожать; упразднять
-рабочийвал[Weak]
-рагъулар[Weak]
-радиоламиш[Weak]
-разивал[Weak]
-разисузвал[Weak]
-районламиш[Weak]
+лугьунар[Weak,NoException]
+луьгьуьмламиш[Weak,NoException]
+луькӀуьн[Weak,NoException] # говорить
+лянетламиш[Weak,NoException]
+лянет[Weak,NoException]
+магълубар[Weak,NoException]
+магълуб[Weak,NoException]
+магьрумар[Weak,NoException]
+магьрум[Weak,NoException]
+мажбур[Weak,NoException]
+майилвал[Weak,NoException]
+майил[Weak,NoException]
+манийвал[Weak,NoException]
+машат[Weak,NoException]
+машинламиш[Weak,NoException]
+маяламиш[Weak,NoException]
+мезземет[Weak,NoException]
+мейилвал[Weak,NoException]
+мел[Weak,NoException]
+мемекьуьр[Weak,NoException]
+меслятар[Weak,NoException]
+меслят[Weak,NoException]
+механизмламиш[Weak,NoException]
+мехъер[Weak,NoException]
+мешат[Weak,NoException]
+микьнатӀисламиш[Weak,NoException]
+минетар[Weak,NoException]
+минет[Weak,NoException]
+мисал[Weak,NoException]
+мискьивал[Weak,NoException]
+миянар[Weak,NoException]
+муаллимвал[Weak,NoException]
+мубарак[Weak,NoException]
+муг[Weak,NoException]
+мугьманар[Weak,NoException]
+мукьвал[Weak,NoException]
+мурмур[Weak,NoException]
+муьтӀуьгъар[Weak,NoException]
+муьтӀуьгъвал[Weak,NoException]
+мягьтелар[Weak,NoException]
+малумар[Weak,NoException] # объявлять
+машгъулар[Weak,NoException] # развлекать, развлечь
+михь[Weak,NoException] # чистить
+мягькемар[Weak,NoException] # укрепить, укреплять
+набутар[Weak,NoException]
+нагьахъар[Weak,NoException]
+надинжвал[Weak,NoException]
+назар[Weak,NoException]
+назназ[Weak,NoException]
+негь[Weak,NoException]
+некягь[Weak,NoException]
+нехишламиш[Weak,NoException]
+нифрет[Weak,NoException]
+нурламиш[Weak,NoException]
+нянеламиш[Weak,NoException]
+отказ[Weak,NoException]
+пад[Weak,NoException]
+патахъар[Weak,NoException]
+патриотвал[Weak,NoException]
+пачагьвал[Weak,NoException]
+пашманар[Weak,NoException]
+паяр[Weak,NoException]
+пелешар[Weak,NoException]
+перделамиш[Weak,NoException]
+перевод[Weak,NoException]
+перт[Weak,NoException]
+пехилар[Weak,NoException]
+пехилвал[Weak,NoException]
+писар[Weak,NoException]
+пислемиш[Weak,NoException]
+пиянар[Weak,NoException]
+планламиш[Weak,NoException]
+пузмишар[Weak,NoException]
+пузмиш[Weak,NoException]
+пурх[Weak,NoException]
+пуспус[Weak,NoException]
+пуф[Weak,NoException]
+пӀакьракь[Weak,NoException]
+пӀив[Weak,NoException]
+пӀир[Weak,NoException]
+пай[Weak,NoException] # делить
+пишкеш[Weak,NoException] # дарить
+пуч[Weak,NoException] # губить, уничтожать; упразднять
+рабочийвал[Weak,NoException]
+рагъулар[Weak,NoException]
+радиоламиш[Weak,NoException]
+разивал[Weak,NoException]
+разисузвал[Weak,NoException]
+районламиш[Weak,NoException]
 ракъа[Strong,Polysyllabic]
-рам[Weak]
-рапрап[Weak]
-рахк[Weak]
-рахунар[Weak]
-рахшандар[Weak]
-рахшанд[Weak]
-регъуьвал[Weak]
-регъуьвилер[Weak]
-регъуьхбанвал[Weak]
-регьбервал[Weak]
-регьятар[Weak]
-редактироват[Weak]
-резинламиш[Weak]
-рекӀврекӀ[Weak]
-ремонт[Weak]
-рифламиш[Weak]
+рам[Weak,NoException]
+рапрап[Weak,NoException]
+рахк[Weak,NoException]
+рахунар[Weak,NoException]
+рахшандар[Weak,NoException]
+рахшанд[Weak,NoException]
+регъуьвал[Weak,NoException]
+регъуьвилер[Weak,NoException]
+регъуьхбанвал[Weak,NoException]
+регьбервал[Weak,NoException]
+регьятар[Weak,NoException]
+редактироват[Weak,NoException]
+резинламиш[Weak,NoException]
+рекӀврекӀ[Weak,NoException]
+ремонт[Weak,NoException]
+рифламиш[Weak,NoException]
 риче[Strong,Polysyllabic]
-рув[Weak]
-русвагь[Weak]
+рув[Weak,NoException]
+русвагь[Weak,NoException]
 ритӀа[Strong,Polysyllabic]
 руша[Strong,Polysyllabic]
-руьгьламиш[Weak]
-руьхъ[Weak]
-ракъур[Weak] # ввести, вводить
-рангламиш[Weak] # раскрасить, раскрашивать
-рас[Weak] # делать
-рахкур[Weak] # возвратить, возвращать
+руьгьламиш[Weak,NoException]
+руьхъ[Weak,NoException]
+ракъур[Weak,NoException] # ввести, вводить
+рангламиш[Weak,NoException] # раскрасить, раскрашивать
+рас[Weak,NoException] # делать
+рахкур[Weak,NoException] # возвратить, возвращать
 раха[Strong,Polysyllabic] # говорить
 регъве[Strong,Polysyllabic] # молотить молоть
 рекьи[Strong,Polysyllabic] # погибать, погибнуть
-руг[Weak] # варить
+руг[Weak,NoException] # варить
 руга[Strong,Polysyllabic] # варить
-сабур[Weak]
-сакитар[Weak]
-санайиламиш[Weak]
-сархушар[Weak]
-саф[Weak]
-себ[Weak]
-секинсузар[Weak]
-секин[Weak]
-сел[Weak]
-сеперар[Weak]
-сергьятламиш[Weak]
-серенжем[Weak]
-серинар[Weak]
-серин[Weak]
-серсер[Weak]
-серф[Weak]
-сес[Weak]
-сефилар[Weak]
-сигъалар[Weak]
-синагъламиш[Weak]
-синемиш[Weak]
-синих[Weak]
-сириштаяр[Weak]
-сиягьар[Weak]
-сиясатламиш[Weak]
-страховат[Weak]
-суал[Weak]
-субутар[Weak]
-субут[Weak]
-сувагъар[Weak]
-сувагъ[Weak]
-сугъулар[Weak]
-суймиш[Weak]
-суракь[Weak]
-сустар[Weak]
-суст[Weak]
-сух[Weak]
-суьгьбетар[Weak]
-суьгьбет[Weak]
-суьгьуьрламиш[Weak]
-суьргуьн[Weak]
-суьрнет[Weak]
-сагъар[Weak] # лечить, лечиться
-саймиш[Weak] # почтить
-сахламиш[Weak] # беречь
-секинар[Weak] # успокаивать, успокоить
-сирнав[Weak] # приплывать, приплыть
-суьзмиш[Weak] # просеивать, процеживать
-суьретламиш[Weak] # отражать, отразить
-суьртмиш[Weak] # вытереть, вытирать
-табагъ[Weak]
-табиар[Weak]
-таб[Weak]
-тавазивал[Weak]
-тавламиш[Weak]
-тагъмаламиш[Weak]
-тагъ[Weak]
-тагькимар[Weak]
-тагькимвал[Weak]
-тагьким[Weak]
-тадаракламиш[Weak]
-тажубар[Weak]
-тажуб[Weak]
-тай[Weak]
+сабур[Weak,NoException]
+сакитар[Weak,NoException]
+санайиламиш[Weak,NoException]
+сархушар[Weak,NoException]
+саф[Weak,NoException]
+себ[Weak,NoException]
+секинсузар[Weak,NoException]
+секин[Weak,NoException]
+сел[Weak,NoException]
+сеперар[Weak,NoException]
+сергьятламиш[Weak,NoException]
+серенжем[Weak,NoException]
+серинар[Weak,NoException]
+серин[Weak,NoException]
+серсер[Weak,NoException]
+серф[Weak,NoException]
+сес[Weak,NoException]
+сефилар[Weak,NoException]
+сигъалар[Weak,NoException]
+синагъламиш[Weak,NoException]
+синемиш[Weak,NoException]
+синих[Weak,NoException]
+сириштаяр[Weak,NoException]
+сиягьар[Weak,NoException]
+сиясатламиш[Weak,NoException]
+страховат[Weak,NoException]
+суал[Weak,NoException]
+субутар[Weak,NoException]
+субут[Weak,NoException]
+сувагъар[Weak,NoException]
+сувагъ[Weak,NoException]
+сугъулар[Weak,NoException]
+суймиш[Weak,NoException]
+суракь[Weak,NoException]
+сустар[Weak,NoException]
+суст[Weak,NoException]
+сух[Weak,NoException]
+суьгьбетар[Weak,NoException]
+суьгьбет[Weak,NoException]
+суьгьуьрламиш[Weak,NoException]
+суьргуьн[Weak,NoException]
+суьрнет[Weak,NoException]
+сагъар[Weak,NoException] # лечить, лечиться
+саймиш[Weak,NoException] # почтить
+сахламиш[Weak,NoException] # беречь
+секинар[Weak,NoException] # успокаивать, успокоить
+сирнав[Weak,NoException] # приплывать, приплыть
+суьзмиш[Weak,NoException] # просеивать, процеживать
+суьретламиш[Weak,NoException] # отражать, отразить
+суьртмиш[Weak,NoException] # вытереть, вытирать
+табагъ[Weak,NoException]
+табиар[Weak,NoException]
+таб[Weak,NoException]
+тавазивал[Weak,NoException]
+тавламиш[Weak,NoException]
+тагъмаламиш[Weak,NoException]
+тагъ[Weak,NoException]
+тагькимар[Weak,NoException]
+тагькимвал[Weak,NoException]
+тагьким[Weak,NoException]
+тадаракламиш[Weak,NoException]
+тажубар[Weak,NoException]
+тажуб[Weak,NoException]
+тай[Weak,NoException]
 такьа[Strong,Polysyllabic]
-такӀанар[Weak]
-таламиш[Weak]
-талукьар[Weak]
-тамадавал[Weak]
-тамам[Weak]
-тапарар[Weak]
-тараш[Weak]
-тарифар[Weak]
-тариф[Weak]
-тармар[Weak]
-тафакур[Weak]
-тахсиркар[Weak]
-таъсир[Weak]
-тебрик[Weak]
-телеф[Weak]
-темпелвал[Weak]
-темягькарвал[Weak]
-темягь[Weak]
-терг[Weak]
-тесниф[Weak]
-тестикьар[Weak]
-тестикь[Weak]
-тешкил[Weak]
-тикмиш[Weak]
-тулкӀ[Weak]
-тумламиш[Weak]
-тупламиш[Weak]
-тухар[Weak]
-тухтатмиш[Weak]
-туьгьметар[Weak]
-туьгьмет[Weak]
-туькьуьлар[Weak]
+такӀанар[Weak,NoException]
+таламиш[Weak,NoException]
+талукьар[Weak,NoException]
+тамадавал[Weak,NoException]
+тамам[Weak,NoException]
+тапарар[Weak,NoException]
+тараш[Weak,NoException]
+тарифар[Weak,NoException]
+тариф[Weak,NoException]
+тармар[Weak,NoException]
+тафакур[Weak,NoException]
+тахсиркар[Weak,NoException]
+таъсир[Weak,NoException]
+тебрик[Weak,NoException]
+телеф[Weak,NoException]
+темпелвал[Weak,NoException]
+темягькарвал[Weak,NoException]
+темягь[Weak,NoException]
+терг[Weak,NoException]
+тесниф[Weak,NoException]
+тестикьар[Weak,NoException]
+тестикь[Weak,NoException]
+тешкил[Weak,NoException]
+тикмиш[Weak,NoException]
+тулкӀ[Weak,NoException]
+тумламиш[Weak,NoException]
+тупламиш[Weak,NoException]
+тухва[Strong]
+тухар[Weak,NoException]
+тухтатмиш[Weak,NoException]
+туьгьметар[Weak,NoException]
+туьгьмет[Weak,NoException]
+туькьуьлар[Weak,NoException]
 туькӀве[Strong,Polysyllabic]
-туьлек[Weak]
-туьмер[Weak]
-туьнтар[Weak]
-туьретмиш[Weak]
+туьлек[Weak,NoException]
+туьмер[Weak,NoException]
+туьнтар[Weak,NoException]
+туьретмиш[Weak,NoException]
 туьхкӀве[Strong,Polysyllabic]
 тӀакьа[Strong,Polysyllabic]
-тӀарамар[Weak]
-тӀарам[Weak]
-тӀветӀ[Weak]
-тӀун[Weak]
-тӀушун[Weak]
-тайинар[Weak] # определить, определять
-тамамар[Weak] # выполнить, выполнять
-тамаш[Weak] # наблюдать
-танишар[Weak] # знакомить
-тапшурмиш[Weak] # поручить, поручить
-таъминар[Weak] # обеспечивать, обеспечить
-теклиф[Weak] # звать
-тербияламиш[Weak] # воспитать, воспитывать
-тикрар[Weak] # повторять
+тӀарамар[Weak,NoException]
+тӀарам[Weak,NoException]
+тӀветӀ[Weak,NoException]
+тӀун[Weak,NoException]
+тӀушун[Weak,NoException]
+тайинар[Weak,NoException] # определить, определять
+тамамар[Weak,NoException] # выполнить, выполнять
+тамаш[Weak,NoException] # наблюдать
+танишар[Weak,NoException] # знакомить
+тапшурмиш[Weak,NoException] # поручить, поручить
+таъминар[Weak,NoException] # обеспечивать, обеспечить
+теклиф[Weak,NoException] # звать
+тербияламиш[Weak,NoException] # воспитать, воспитывать
+тикрар[Weak,NoException] # повторять
 тукӀу[Strong,Exception] # бить
 тва[Strong,Monosyllabic] # класть
 ту[Strong,Exception] # класть
-туькьуьн[Weak] # глотать
-туькӀуьр[Weak] # строить
+туькьуьн[Weak,NoException] # глотать
+туькӀуьр[Weak,NoException] # строить
 туьхве[Strong,Polysyllabic] # потушить
-туьхуьр[Weak] # гасить, тушить
-тӀалаб[Weak] # просить
-угъривал[Weak]
-ужузар[Weak]
-умуд[Weak]
-умумиламиш[Weak]
-умунар[Weak]
-уртахвал[Weak]
-урусламиш[Weak]
-усалар[Weak]
-успат[Weak]
-устӀарвал[Weak]
-усун[Weak]
-ухшамиш[Weak]
-ухшатмиш[Weak]
-уьгретмиш[Weak]
-уьдмиш[Weak]
-уьзягъар[Weak]
-уьпмиш[Weak]
-уьркуьтмиш[Weak]
-уьтмишар[Weak]
-уяхар[Weak]
-уьлчмиш[Weak] # мерить
+туьхуьр[Weak,NoException] # гасить, тушить
+тӀалаб[Weak,NoException] # просить
+тӀуь[Strong] # eat
+угъривал[Weak,NoException]
+ужузар[Weak,NoException]
+умуд[Weak,NoException]
+умумиламиш[Weak,NoException]
+умунар[Weak,NoException]
+уртахвал[Weak,NoException]
+урусламиш[Weak,NoException]
+усалар[Weak,NoException]
+успат[Weak,NoException]
+устӀарвал[Weak,NoException]
+усун[Weak,NoException]
+ухшамиш[Weak,NoException]
+ухшатмиш[Weak,NoException]
+уьгретмиш[Weak,NoException]
+уьдмиш[Weak,NoException]
+уьзягъар[Weak,NoException]
+уьпмиш[Weak,NoException]
+уьркуьтмиш[Weak,NoException]
+уьтмишар[Weak,NoException]
+уяхар[Weak,NoException]
+уьлчмиш[Weak,NoException] # мерить
 уьцӀве[Strong,Polysyllabic] # проваливаться, провалиться
-уьцӀуьр[Weak] # разрушить
-фагьумар[Weak]
-фагьум[Weak]
-фаракъат[Weak]
-фараш[Weak]
-фекьивал[Weak]
-феряд[Weak]
-финансламиш[Weak]
-фитнеяр[Weak]
-фурсар[Weak]
-фурс[Weak]
-фуф[Weak]
-фикир[Weak] # думать
+уьцӀуьр[Weak,NoException] # разрушить
+фагьумар[Weak,NoException]
+фагьум[Weak,NoException]
+фаракъат[Weak,NoException]
+фараш[Weak,NoException]
+фекьивал[Weak,NoException]
+феряд[Weak,NoException]
+финансламиш[Weak,NoException]
+фитнеяр[Weak,NoException]
+фурсар[Weak,NoException]
+фурс[Weak,NoException]
+фуф[Weak,NoException]
+фикир[Weak,NoException] # думать
 фе[Strong,Monosyllabic] # ходить
-фитӀин[Weak] # сосать, впитывать
-хабардар[Weak]
-хабар[Weak]
-хажалат[Weak]
-халкь[Weak]
-харапӀ[Weak]
-харж[Weak]
-хатур[Weak]
-хиялар[Weak]
-хиял[Weak]
-хкечӀ[Weak]
-хкис[Weak]
-хкуькь[Weak]
-хкьур[Weak]
-хкякь[Weak]
-хтӀун[Weak]
-хукӀур[Weak]
-хулинганвал[Weak]
-хур[Weak]
-хутх[Weak]
-хуькуькь[Weak]
-хуькуьр[Weak]
-хцел[Weak]
-хчел[Weak]
-хъвер[Weak]
-хъел[Weak]
-хъивегь[Weak]
-хъиткьин[Weak]
-хъиягъ[Weak]
-хълагь[Weak]
-хъсанвал[Weak]
-хъукъур[Weak]
-хъукьур[Weak]
-хъуткьунар[Weak]
-хъуьруьнар[Weak]
-хъуьтуьлар[Weak]
-хкадар[Weak] # скакать
-хкаж[Weak] # подбирать, поднимать
-хкат[Weak] # освободиться
-хкатӀ[Weak] # вырезать, вырезать
-хкахь[Weak] # гаснуть
-хкуд[Weak] # выбирать
+фитӀин[Weak,NoException] # сосать, впитывать
+хабардар[Weak,NoException]
+хабар[Weak,NoException]
+хажалат[Weak,NoException]
+халкь[Weak,NoException]
+харапӀ[Weak,NoException]
+харж[Weak,NoException]
+хатур[Weak,NoException]
+хиялар[Weak,NoException]
+хиял[Weak,NoException]
+хкечӀ[Weak,NoException]
+хкис[Weak,NoException]
+хкуькь[Weak,NoException]
+хкьур[Weak,NoException]
+хкякь[Weak,NoException]
+хтӀун[Weak,NoException]
+хукӀур[Weak,NoException]
+хулинганвал[Weak,NoException]
+хур[Weak,NoException]
+хутх[Weak,NoException]
+хуькуькь[Weak,NoException]
+хуькуьр[Weak,NoException]
+хцел[Weak,NoException]
+хчел[Weak,NoException]
+хъвер[Weak,NoException]
+хъел[Weak,NoException]
+хъивегь[Weak,NoException]
+хъиткьин[Weak,NoException]
+хъиягъ[Weak,NoException]
+хълагь[Weak,NoException]
+хъсанвал[Weak,NoException]
+хъукъур[Weak,NoException]
+хъукьур[Weak,NoException]
+хъуткьунар[Weak,NoException]
+хъуьруьнар[Weak,NoException]
+хъуьтуьлар[Weak,NoException]
+хкадар[Weak,NoException] # скакать
+хкаж[Weak,NoException] # подбирать, поднимать
+хкат[Weak,NoException] # освободиться
+хкатӀ[Weak,NoException] # вырезать, вырезать
+хкахь[Weak,NoException] # гаснуть
+хкуд[Weak,NoException] # выбирать
 хка[Strong,Monosyllabic] # принести
-хкуьр[Weak] # мешать (кому, чему)
-хкягъ[Weak] # отобрать
+хкуьр[Weak,NoException] # мешать (кому, чему)
+хкягъ[Weak,NoException] # отобрать
 ха[Strong,Monosyllabic] # рубить
-хутах[Weak] # отнести
-хутӀун[Weak] # снимать, снять
+хутах[Weak,NoException] # отнести
+хутӀун[Weak,NoException] # снимать, снять
 хве[Strong,Monosyllabic] # хранить
-хчӀал[Weak] # собирать, собрать
+хчӀал[Weak,NoException] # собирать, собрать
 хъва[Strong] # пить
-хъиткьинар[Weak] # взорвать, взрывать
-хъсанар[Weak] # улучшать, улучшить
-хъуткъун[Weak] # вздрогнуть
+хъиткьинар[Weak,NoException] # взорвать, взрывать
+хъсанар[Weak,NoException] # улучшать, улучшить
+хъуткъун[Weak,NoException] # вздрогнуть
 хъфе[Strong,Polysyllabic] # уходить
 хьа[Strong,Monosyllabic] # быть
-цавал[Weak]
+цавал[Weak,NoException]
 ца[Strong,Monosyllabic] # шить; лить, наливать; сеять, засевать
-цӀалцӀамур[Weak]
-цӀвех[Weak]
-цӀивцӀив[Weak]
-цӀинкь[Weak]
-цӀугъ[Weak] # визжать
-цӀур[Weak] # таять
-цӀурур[Weak] # топить
-цӀутхун[Weak]
-цӀуьдгъуьнар[Weak]
-цӀуьдгъуьн[Weak] # скользить
-чабалмиш[Weak]
-чалишмишвал[Weak]
-чал[Weak]
-чамарар[Weak]
-чамар[Weak]
-чам[Weak]
-чап[Weak]
-чапх[Weak]
-чапхун[Weak]
-чекмечивал[Weak]
-четинар[Weak]
-чим[Weak]
-чиркинар[Weak] # сорить
-чир[Weak] # учить
-чукур[Weak] # гнать
-чукӀур[Weak] # сломать
-чуплахар[Weak]
-чуплах[Weak]
-чура[Strong,Polysyllabic] # печь
+цӀалцӀамур[Weak,NoException]
+цӀвех[Weak,NoException]
+цӀивцӀив[Weak,NoException]
+цӀинкь[Weak,NoException]
+цӀугъ[Weak,NoException] # визжать
+цӀур[Weak,NoException] # таять
+цӀурур[Weak,NoException] # топить
+цӀутхун[Weak,NoException]
+цӀуьдгъуьнар[Weak,NoException]
+цӀуьдгъуьн[Weak,NoException] # скользить
+чабалмиш[Weak,NoException]
+чалишмишвал[Weak,NoException]
+чал[Weak,NoException]
+чамарар[Weak,NoException]
+чамар[Weak,NoException]
+чам[Weak,NoException]
+чап[Weak,NoException]
+чапх[Weak,NoException]
+чапхун[Weak,NoException]
+чекмечивал[Weak,NoException]
+четинар[Weak,NoException]
+чим[Weak,NoException]
+чиркинар[Weak,NoException] # сорить
+чир[Weak,NoException] # учить
+чукур[Weak,NoException] # гнать
+чукӀур[Weak,NoException] # сломать
+чуплахар[Weak,NoException]
+чуплах[Weak,NoException]
+чра[Strong,Polysyllabic] # печь
 чухва[Strong,Polysyllabic] # рвать
-чухь[Weak]
-чуькьв[Weak] # давить
-чуьнуьхар[Weak]
-чуьнуьх[Weak] # прятать
-чуьруьтмиш[Weak]
+чухь[Weak,NoException]
+чуькьв[Weak,NoException] # давить
+чуьнуьхар[Weak,NoException]
+чуьнуьх[Weak,NoException] # прятать
+чуьруьтмиш[Weak,NoException]
 чуьхуь[Strong,Polysyllabic] # мыть
-чуьхуьнагар[Weak]
-чуьхуьнар[Weak]
-чӀагур[Weak]
-чӀакьракь[Weak]
-чӀалахъар[Weak] # убедить, убежать
-чӀалахъ[Weak]
-чӀивчӀив[Weak]
-чӀигъ[Weak]
-чӀих[Weak]
+чуьхуьнагар[Weak,NoException]
+чуьхуьнар[Weak,NoException]
+чӀагур[Weak,NoException]
+чӀакьракь[Weak,NoException]
+чӀалахъар[Weak,NoException] # убедить, убежать
+чӀалахъ[Weak,NoException]
+чӀивчӀив[Weak,NoException]
+чӀигъ[Weak,NoException]
+чӀих[Weak,NoException]
 чӀугу[Strong,Exception] # тянуть; сосать, впитывать
-чӀулавар[Weak]
-чӀулав[Weak]
-чӀур[Weak] # портить; разрушать
-чӀух[Weak]
-шагьидвал[Weak]
-шадар[Weak]
-шадвал[Weak]
-шадвилер[Weak]
-шад[Weak]
-шак[Weak]
-шандакьар[Weak]
-шандакьвилер[Weak]
-шартӀламиш[Weak]
-шевривал[Weak]
-шейтӀанвал[Weak]
-шелар[Weak]
-шерзум[Weak]
-шериквал[Weak]
-шехь[Weak] # плакать
-шикаят[Weak]
-ширинар[Weak]
-ширин[Weak]
-шир[Weak]
-шитар[Weak]
-шит[Weak]
-штӀумар[Weak]
-шулугъар[Weak]
-шулугь[Weak]
-шупӀ[Weak]
+чӀулавар[Weak,NoException]
+чӀулав[Weak,NoException]
+чӀур[Weak,NoException] # портить; разрушать
+чӀух[Weak,NoException]
+шагьидвал[Weak,NoException]
+шадар[Weak,NoException]
+шадвал[Weak,NoException]
+шадвилер[Weak,NoException]
+шад[Weak,NoException]
+шак[Weak,NoException]
+шандакьар[Weak,NoException]
+шандакьвилер[Weak,NoException]
+шартӀламиш[Weak,NoException]
+шевривал[Weak,NoException]
+шейтӀанвал[Weak,NoException]
+шелар[Weak,NoException]
+шерзум[Weak,NoException]
+шериквал[Weak,NoException]
+шехь[Weak,NoException] # плакать
+шикаят[Weak,NoException]
+ширинар[Weak,NoException]
+ширин[Weak,NoException]
+шир[Weak,NoException]
+шитар[Weak,NoException]
+шит[Weak,NoException]
+штӀумар[Weak,NoException]
+шулугъар[Weak,NoException]
+шулугь[Weak,NoException]
+шупӀ[Weak,NoException]
 штка[Strong,Monosyllabic] # подмести, подметат
-шуткьунар[Weak]
-шуткьун[Weak] # выжимать
-шуьрбет[Weak]
+шуткьунар[Weak,NoException]
+шуткьун[Weak,NoException] # выжимать
+шуьрбет[Weak,NoException]
 шуьткьве[Strong,Polysyllabic] # вянуть
-шуьткьуьр[Weak]
-эвезар[Weak]
-эвез[Weak]
-эвекьар[Weak]
-эвер[Weak] # требовать
-эвис[Weak]
-эвичӀ[Weak] # сойти
-эвленмиш[Weak]
-эвягъ[Weak] # расчесать, расчесывать
-эгечӀ[Weak] # браться
-эглешар[Weak]
-эглеш[Weak]
-эгьуьн[Weak]
-эзбер[Weak] # учить наизусть
-экечӀ[Weak]
-экис[Weak]
-эксикар[Weak]
-экъетӀ[Weak]
-экъечӀ[Weak] # подниматься, восходить, выходить, расти
-экъис[Weak]
-экъич[Weak] # выливать, вылить
-экъуьгъ[Weak] # ругать, ругаться
-экъуьр[Weak]
-экъуьчар[Weak]
-экъуьч[Weak] # рвать
-экъягъ[Weak]
-экӀягъ[Weak]
-элгъуьн[Weak]
-электрикламиш[Weak]
-элекьар[Weak]
-элекь[Weak]
-элесалмиш[Weak]
-элецӀ[Weak]
-элечӀ[Weak]
-элкъуьр[Weak] # отвернуть
-элуькьар[Weak]
-элуькь[Weak] # лаять
-элуьхъар[Weak]
-элуьхъ[Weak]
-элчуьх[Weak] # завянуть
-элягъ[Weak] # переписать, переписывать
-эляд[Weak]
-эляс[Weak]
-элячӀ[Weak] # стать
-эмир[Weak]
-энгелар[Weak]
-энгел[Weak]
-эркинар[Weak]
-эсер[Weak]
-эх[Weak] # терпеть
+шуьткьуьр[Weak,NoException]
+эвезар[Weak,NoException]
+эвез[Weak,NoException]
+эвекьар[Weak,NoException]
+эвер[Weak,NoException] # требовать
+эвис[Weak,NoException]
+эвичӀ[Weak,NoException] # сойти
+эвленмиш[Weak,NoException]
+эвягъ[Weak,NoException] # расчесать, расчесывать
+эгечӀ[Weak,NoException] # браться
+эглешар[Weak,NoException]
+эглеш[Weak,NoException]
+эгьуьн[Weak,NoException]
+эзбер[Weak,NoException] # учить наизусть
+экечӀ[Weak,NoException]
+экис[Weak,NoException]
+эксикар[Weak,NoException]
+экъетӀ[Weak,NoException]
+экъечӀ[Weak,NoException] # подниматься, восходить, выходить, расти
+экъис[Weak,NoException]
+экъич[Weak,NoException] # выливать, вылить
+экъуьгъ[Weak,NoException] # ругать, ругаться
+экъуьр[Weak,NoException]
+экъуьчар[Weak,NoException]
+экъуьч[Weak,NoException] # рвать
+экъягъ[Weak,NoException]
+экӀягъ[Weak,NoException]
+элгъуьн[Weak,NoException]
+электрикламиш[Weak,NoException]
+элекьар[Weak,NoException]
+элекь[Weak,NoException]
+элесалмиш[Weak,NoException]
+элецӀ[Weak,NoException]
+элечӀ[Weak,NoException]
+элкъуьр[Weak,NoException] # отвернуть
+элуькьар[Weak,NoException]
+элуькь[Weak,NoException] # лаять
+элуьхъар[Weak,NoException]
+элуьхъ[Weak,NoException]
+элчуьх[Weak,NoException] # завянуть
+элягъ[Weak,NoException] # переписать, переписывать
+эляд[Weak,NoException]
+эляс[Weak,NoException]
+элячӀ[Weak,NoException] # стать
+эмир[Weak,NoException]
+энгелар[Weak,NoException]
+энгел[Weak,NoException]
+эркинар[Weak,NoException]
+эсер[Weak,NoException]
+эх[Weak,NoException] # терпеть
 эхъве[Strong,Polysyllabic] # купаться
-эхъуьр[Weak]
-эцекьар[Weak]
-эцекь[Weak]
-эциг[Weak] # положить
-эцигунар[Weak]
-эцягъ[Weak] # задевать, задеть
-эчӀигъ[Weak]
+эхъуьр[Weak,NoException]
+эцекьар[Weak,NoException]
+эцекь[Weak,NoException]
+эциг[Weak,NoException] # положить
+эцигунар[Weak,NoException]
+эцягъ[Weak,NoException] # задевать, задеть
+эчӀигъ[Weak,NoException]
 эчӀе[Strong,Polysyllabic] # полоть
-эчӀягъ[Weak] # качать
+эчӀягъ[Weak,NoException] # качать
 югъа[Strong,Polysyllabic]
 юза[Strong,Polysyllabic] # двигаться, двинуться
-юзур[Weak] # двинуть
-юмшагъар[Weak]
-явашар[Weak]
-ягъалмишар[Weak]
-ягъламиш[Weak]
-ягъ[Weak] # бить
-ягьанатар[Weak]
-ягьанат[Weak]
-якъалдар[Weak]
-якъалд[Weak]
-ялвармиш[Weak]
-ялвар[Weak]
-ялгъузар[Weak]
-ял[Weak] # тянуть
-ян[Weak]
-яракьламиш[Weak]
-яратмиш[Weak] # делать
-яргъаз[Weak]
-яргъияр[Weak]
-ярхар[Weak]
+юзур[Weak,NoException] # двинуть
+юмшагъар[Weak,NoException]
+явашар[Weak,NoException]
+ягъалмишар[Weak,NoException]
+ягъламиш[Weak,NoException]
+ягъ[Weak,NoException] # бить
+ягьанатар[Weak,NoException]
+ягьанат[Weak,NoException]
+якъалдар[Weak,NoException]
+якъалд[Weak,NoException]
+ялвармиш[Weak,NoException]
+ялвар[Weak,NoException]
+ялгъузар[Weak,NoException]
+ял[Weak,NoException] # тянуть
+ян[Weak,NoException]
+яракьламиш[Weak,NoException]
+яратмиш[Weak,NoException] # делать
+яргъаз[Weak,NoException]
+яргъияр[Weak,NoException]
+ярхар[Weak,NoException]
 
 # =========================================================================================================
 # ===================================== IMPERATIVE ========================================================
@@ -12154,6 +12173,7 @@ LEXICON Imperative
 атада
 атирламиша
 ша
+атӀутӀ
 атӀугъ
 атӀугъа
 атӀумара
@@ -12246,7 +12266,7 @@ LEXICON Imperative
 ваце
 вана
 вегьа # ронять
-вегьи # ронять
+вегь # ронять
 векилвала
 векилвалая
 вердишара
@@ -12602,6 +12622,7 @@ LEXICON Imperative
 кутӀуна # вязать
 кучуд # хоронить
 кучуда # хоронить
+кушкуша
 куькӀуьра # зажечь, зажигать
 куьрсара # повесить
 куьтягьа # заканчивать, закончить
@@ -12694,6 +12715,7 @@ LEXICON Imperative
 кьарувала
 кьарувалая
 кьатӀа # разорвать
+кьатӀутӀ
 кьацӀа
 кьацӀецӀ
 кьацӀура
@@ -12831,6 +12853,7 @@ LEXICON Imperative
 некягьа
 некягьая
 нехишламиша
+неъ[Strong] # eat
 нифрета
 нифретая
 нурламиша
@@ -13103,6 +13126,7 @@ LEXICON Imperative
 тукӀукӀ # бить
 туд # класть
 тур # класть
+тухвах
 туькӀуьра # строить
 туьхуьх # потушить
 туьхуьра # гасить, тушить
