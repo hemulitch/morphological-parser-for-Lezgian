@@ -1,6 +1,11 @@
 .DEFAULT_GOAL := run
 INPUT ?= 
 
+make_table: disambiguated_analysis.txt 
+	cat $< | cg-conv -A > tempfile
+	python3 make_table.py tempfile
+	rm -f tempfile
+
 run: disambiguated_analysis.txt
 	cat "./disambiguated_analysis.txt"
 	
