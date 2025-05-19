@@ -44,15 +44,3 @@ Rules
 
 "remove the plural ergative/oblative suffix in masdar to form In + (elative | essive) "
 и:0 <=> _ %> а ;
-
-"vowel change at the end of the stem in <super><essive>"
-и:а <=> _ %> л # ;
-
-"vowel change at the end of the stem in <super><essive>"
-у:а <=> _ %> л # ;
-
-"vowel change at the end of the stem in <super><directive>"
-и:а <=> _ %> л %> д ;
-
-"vowel change at the end of the plural suffix in <super><elative>"
-и:а <=> (а | е ) р _ %> л %> а ; 
