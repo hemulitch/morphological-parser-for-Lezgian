@@ -6,18 +6,18 @@ NounStemSg [<n>:] [<abs>:]
 ProperNouns [<n>:] [<abs>:]
 NounExceptionAbs [<n>:] [<abs>:]
 ((NounStem | NounStemPL | NounExceptionPl) [<n>:] [>] NounPlural)[^[Back,NonBack,ExceptionNB,ExceptionB]] ([>] Add)?
-((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) [<n>:] [>] NounErg[Decl1] [<erg>:])[^[Labial,I,E,A,U]] ([>] Add)?
-((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) NounErg[Decl1] [<n>:])[^[Labial,I,E,A,U]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
-((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) NounErg[Decl1] [<n>:])[^[Labial,I,E,A,U]] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
+((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) [<n>:] [>] NounErg[Decl1] [<erg>:])[^[NB1,NB2,NB3,B1,B2]] ([>] Add)?
+((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) NounErg[Decl1] [<n>:])[^[NB1,NB2,NB3,B1,B2]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
+((NounStem[Decl1] | NounStemSg[Decl1] | ProperNouns[Decl1] | NounExceptionObl[Decl1]) NounErg[Decl1] [<n>:])[^[NB1,NB2,NB3,B1,B2]] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
 (NounStem[Decl2] | NounStemSg[Decl2] | ProperNouns[Decl2] | NounExceptionObl[Decl2]) [<n>:] [>] NounErg[Decl2] [<erg>:] ([>] Add)?
 (NounStem[Decl2] | NounStemSg[Decl2] | ProperNouns[Decl2] | NounExceptionObl[Decl2]) NounErg[Decl2] [<n>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
 (NounStem[Decl2] | NounStemSg[Decl2] | ProperNouns[Decl2] | NounExceptionObl[Decl2]) NounErg[Decl2] [<n>:] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
 (NounStem[Decl2_1] | NounStemSg[Decl2_1]) [<n>:] [>] NounErg[Decl2_1] [<erg>:] ([>] Add)?
 (NounStem[Decl2_1] | NounStemSg[Decl2_1]) NounErg[Decl2_1] [<n>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
 (NounStem[Decl2_1] | NounStemSg[Decl2_1]) NounErg[Decl2_1] [<n>:] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
-((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) [<n>:] [>] NounErg[Decl3] [<erg>:])[^[Back,NonBack],^[Labial,I,U]] ([>] Add)?
-((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) NounErg[Decl3] [<n>:])[^[Back,NonBack],^[Labial,I,U]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
-((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) NounErg[Decl3] [<n>:])[^[Back,NonBack],^[Labial,I,U]] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
+((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) [<n>:] [>] NounErg[Decl3] [<erg>:])[^[Back,NonBack],^[NB2,NB3,B2]] ([>] Add)?
+((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) NounErg[Decl3] [<n>:])[^[Back,NonBack],^[NB2,NB3,B2]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
+((NounStem[Decl3] | NounStemSg[Decl3] | NounExceptionObl[Decl3]) NounErg[Decl3] [<n>:])[^[Back,NonBack],^[NB2,NB3,B2]] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
 ((NounStem[Decl4] | NounStemSg[Decl4] | NounExceptionObl[Decl4]) [<n>:] [>] NounErg[Decl4] [<erg>:])[^[Back,NonBack]] ([>] Add)?
 ((NounStem[Decl4] | NounStemSg[Decl4] | NounExceptionObl[Decl4]) NounErg[Decl4] [<n>:])[^[Back,NonBack]] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
 ((NounStem[Decl4] | NounStemSg[Decl4] | NounExceptionObl[Decl4]) NounErg[Decl4] [<n>:])[^[Back,NonBack]] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] ReducedForm ([>] CopForms)?)? ([>] Add)?
@@ -33,11 +33,11 @@ LEXICON Case
 <dat>:з
 
 LEXICON NounErg[Decl1]
-:а[A]
-:у[U]
-:е[E]
-:и[I]
-:уь[Labial]
+:а[B1]
+:у[B2]
+:е[NB1]
+:и[NB2]
+:уь[NB3]
 
 LEXICON NounErg[Decl2]
 :ди
@@ -46,9 +46,9 @@ LEXICON NounErg[Decl2_1]
 :ци
 
 LEXICON NounErg[Decl3]
-:уни[Back,U]
-:ини[NonBack,I]
-:уьни[NonBack,Labial]
+:уни[Back,B2]
+:ини[NonBack,NB2]
+:уьни[NonBack,NB3]
 
 LEXICON NounErg[Decl4]
 :ади[Back]
@@ -106,25 +106,25 @@ LEXICON NounExceptionAbs
 яб # ухо
 
 LEXICON NounExceptionObl
-гад:гат[Decl1,Back,U] # лето
+гад:гат[Decl1,Back,B2] # лето
 дерт:дерд[Decl3,NonBack,I]
 кар:кар[Decl2]
 кас:кас[Decl2] # лицо
-кьуьд:хъуьтӀ[Decl1,NonBack,Labial] # зима
-мез:мец[Decl1,NonBack,I]
-пад:пат[Decl1,Back,A]
-рагъ:ракь[Decl3,NonBack,I]
-рехъ:рекь[Decl1,NonBack,I]
-рехъ:рекь[Decl1,NonBack,E]
-свас:сус[Decl1,Back,A]
-фу:ф[Decl1,Back,A]
-хва:хц[Decl1,NonBack,E]
+кьуьд:хъуьтӀ[Decl1,NonBack,NB3] # зима
+мез:мец[Decl1,NonBack,NB2]
+пад:пат[Decl1,Back,B1]
+рагъ:ракь[Decl3,NonBack,NB2]
+рехъ:рекь[Decl1,NonBack,NB2]
+рехъ:рекь[Decl1,NonBack,NB1]
+свас:сус[Decl1,Back,B1]
+фу:ф[Decl1,Back,B1]
+хва:хц[Decl1,NonBack,NB1]
 цуьк:цуькв[Decl4,NonBack]
-цӀай:цӀ[Decl1,Back,U]
+цӀай:цӀ[Decl1,Back,B2]
 чуьл:чуьл[Decl2] # равнина, поле
-экв:эк[Decl3,NonBack,Labial]
-югъ:йикъ[Decl1,Back,A]
-яб:яп[Decl1,Back,U]
+экв:эк[Decl3,NonBack,NB3]
+югъ:йикъ[Decl1,Back,B1]
+яб:яп[Decl1,Back,B2]
 
 LEXICON NounExceptionPl
 гад:гат[Back] # лето
