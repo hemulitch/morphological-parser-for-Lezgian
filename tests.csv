@@ -176,7 +176,7 @@ analysis,form,form_glosses,mustpass,source,description
 раха<verb>><prf>><neg>,раханвач,раха-нва-ч,pass,Haspelmath 1993,verb
 раха<verb>><imperf>><neg>,рахазвач,раха-зва-ч,pass,Haspelmath 1993,verb
 рахун<verb><imper>,рахух,рахух,pass,Haspelmath 1993,verb
-раха><imperf><ptp>,рахазвай,раха-зва-й,pass,Haspelmath 1993,participle
+раха<verb>><imperf><ptp>,рахазвай,раха-зва-й,pass,Haspelmath 1993,participle
 кат<verb>><inf>,катиз,кат-из,pass,Haspelmath 1993,verb
 кат<verb>><hort>,катин,кат-ин,pass,Haspelmath 1993,verb
 кат<verb>><imperf>,катзава,кат-зава,pass,Haspelmath 1993,verb
@@ -191,7 +191,7 @@ analysis,form,form_glosses,mustpass,source,description
 кат<verb>><prf>><neg>,катнавач,кат-нава-ч,pass,Haspelmath 1993,verb
 кат<verb>><imperf>><neg>,катзавач,кат-зава-ч,pass,Haspelmath 1993,verb
 катун<verb><imper>,кат,кат,pass,Haspelmath 1993,verb
-кат><imperf><ptp>,катзавай,кат-зава-й,pass,Haspelmath 1993,participle
+кат<verb>><imperf><ptp>,катзавай,кат-зава-й,pass,Haspelmath 1993,participle
 я<cop><imperf>,я,я,pass,Haspelmath 1993,standard copula
 я<cop><prf>,тир,тир,pass,Haspelmath 1993,standard copula
 я<cop>><cvb>,яз,я-з,pass,Haspelmath 1993,standard copula
