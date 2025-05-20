@@ -1,20 +1,20 @@
 
 PATTERN Pronoun
-((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProAbs)[^[NonBack,Back]] ([>] Add)?
-ProperPersonalPronounsErg ([>] Add)?
-((ProperPersonalPronouns | PersonalPronoun_You1) [<prn>:] [>] ProGen)[^[NonBack,Back]] ([>] Add)?
-((ProperPersonalPronouns | PersonalPronoun_You2) [<prn>:] ProErgObl [>] ProDat)[^[NonBack,Back]] ([>] Add)?
-((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InflEssive ([<essive>:] | ([>] (Directive | Elative))))[^[NonBack,Back]] ([>] Add)?
-((ProperPersonalPronouns | PersonalPronoun_You2) ProErgObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)))[^[NonBack,Back]] ([>] Add)?
+PersonalPronounsAbs [<prn>:] ([>] Add)?
+PersonalPronounsErg ([>] Add)?
+PersonalPronounsGen ([>] Add)?
+PersonalPronounsObl [<prn>:] [>] ProDat ([>] Add)?
+PersonalPronounsObl [<prn>:] [>] InflEssive ([<essive>:] | ([>] (Directive | Elative))) ([>] Add)?
+PersonalPronounsObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)) ([>] Add)?
 ReflPron [<prn>:] 
 ReflPronObl [<prn>:] [<erg>:] 
 ReflPronObl [<prn>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
 ReflPronObl [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative))
 Demonstrative [<prn>:]
-Demonstrative [<prn>:] [>] DemonstrativeAbs
-Demonstrative [<prn>:] [>] AdjObl [<erg>:]
-Demonstrative [<prn>:] [>] AdjObl [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
-Demonstrative [<prn>:] [>] AdjObl [>] InLocalization ([<essive>:] | ([>] Elative))
+Demonstrative [<prn>:] DemonstrativeAbs
+Demonstrative [<prn>:] AdjObl [<erg>:]
+Demonstrative [<prn>:] AdjObl [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+Demonstrative [<prn>:] AdjObl [>] InLocalization ([<essive>:] | ([>] Elative))
 Interrogative [<prn>:]
 InterrogativeNoInfl [<prn>:] ([>] Add)?
 InterrogativeObl [<prn>:] ([<erg>:] | ([>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))))
@@ -25,34 +25,29 @@ NegativeObl(1) [<prn>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive 
 NegativeObl(1) [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)) [>] NegativeObl(2)
 Quantifier [<prn>:] 
 
-LEXICON ProperPersonalPronouns
-з[Back] # я
-в[Back] # ты
-ч[Back] # мы
+LEXICON PersonalPronounsAbs
+зун # я
+вун # ты
+чун # мы
+куьн # вы
 
-LEXICON PersonalPronoun_You1
-к[NonBack] # вы
+LEXICON PersonalPronounsErg
+зун<prn><erg>:за # я
+вун<prn><erg>:вуна # ты
+чун<prn><erg>:чна # мы
+куьн<prn><erg>:куьне # вы
 
-LEXICON PersonalPronoun_You2
-кв[NonBack] # вы
+LEXICON PersonalPronounsGen
+зун<prn><gen>:зи # я
+вун<prn><gen>:ви # ты
+чун<prn><gen>:чи # мы
+куьн<prn><gen>:куь # вы
 
-LEXICON ProAbs
-<abs>:ун[Back]
-<abs>:уьн[NonBack]
-
-LEXICON ProperPersonalPronounsErg
-з<prn>><erg>:з>а # я
-в<prn>><erg>:вун>а # ты
-ч<prn>><erg>:чн>а # мы
-к<prn>><erg>:куьн>е # вы
-
-LEXICON ProErgObl
-:а[Back]
-:е[NonBack]
-
-LEXICON ProGen
-<gen>:и[Back]
-<gen>:уь[NonBack]
+LEXICON PersonalPronounsObl
+зун:за # я
+вун:ва # ты
+чун:ча # мы
+куьн:кве # вы
 
 LEXICON ProDat
 <dat>:з
