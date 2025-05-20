@@ -51,8 +51,8 @@ PATTERN DoVerbPattern
 (DoVerb(2) [<verb>:] [>] Infinitive)[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] (Optative | AoristConverb))[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] (([>] Plural) | ([>] (Erg | ErgPl) [<erg>:]))?
-(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
-(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] InLocalization ([<essive>:] | ([>] Elative))
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] InLocalization ([<essive>:] | ([>] Elative))
 (DoVerb(3) [<verb>:] [>] Aorist ([>] (InterrogativeMood | ConditionalMood))?)[^[Strong,Weak]] ([>] Negative)?
@@ -70,10 +70,6 @@ LEXICON Erg
 
 LEXICON ErgPl
 <pl>:ри
-
-LEXICON MasdarInfl
-<gen>:н
-<dat>:з
 
 LEXICON MasdarInflEssive
 <ad>:в
