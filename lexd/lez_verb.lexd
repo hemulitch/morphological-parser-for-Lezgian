@@ -26,9 +26,9 @@ Imperative [<verb>:] [<imper>:]
 (AoristStem [<verb>:] [>] ArchaicPreterit)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
 (ImperfStem [<verb>:] [>] ImperfParticiple [>] TempConverb)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] AoristParticiple [>] ImmediateAnteriorConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
-(AoristStem [<verb>:] [>] AoristParticiple [>] ConditionalMood)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] Add?
-(ImperfStem [<verb>:] [>] (Imperfective | Future) [>] ConditionalMood)[^[Strong,Weak]] Add?
-(AoristStem [<verb>:] [>] (Aorist | Perfect) [>] ConditionalMood)[^[Strong,Weak]] Add?
+(AoristStem [<verb>:] [>] AoristParticiple [>] ConditionalMood)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] ([>] Add)?
+(ImperfStem [<verb>:] [>] (Imperfective | Future) [>] ConditionalMood)[^[Strong,Weak]] ([>] Add)?
+(AoristStem [<verb>:] [>] (Aorist | Perfect) [>] ConditionalMood)[^[Strong,Weak]] ([>] Add)?
 (ImperfStem [<verb>:] [>] (Imperfective | Future) [>] InterrogativeMood)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] (Aorist | Perfect) [>] InterrogativeMood)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] AoristParticiple [>] (MannerConverb | CasualConverb))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
@@ -79,7 +79,7 @@ LEXICON MasdarInflEssive
 <ad>:в
 <post>:хъ
 <sub>:к
-<super>:ал
+<super>:а>л
 
 LEXICON MasdarDerived
 <msd>:н[Strong]
