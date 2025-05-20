@@ -9,8 +9,8 @@ PATTERN Verb
 (AoristStem [<verb>:] [>] Aorist)[^[Strong,Weak]] 
 (AoristStem [<verb>:] [>] Perfect)[^[Strong,Weak]] 
 (AoristStem [<verb>:] [>] Perfect [>] SecondaryImperfectiveConverb)[^[Strong,Weak]]
-(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
-(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
 (MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] InLocalization ([<essive>:] | ([>] Elative))
 (MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] InLocalization ([<essive>:] | ([>] Elative))
 (MasdarStem [<verb>:] [>] Optative)[^[Strong,Weak]]
@@ -20,7 +20,7 @@ Imperative [<verb>:] [<imper>:]
 (AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # атрибутивная форма
 (AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjNumber [<abs>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
 (AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [<erg>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
-(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>](Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
+(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>] (Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
 (AoristStem [<verb>:] [>] AoristParticiple [>] TempConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
 (AoristStem [<verb>:] [>] PerfParticiple [>] TempConverb)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] ArchaicPreterit)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
