@@ -41,7 +41,7 @@ Imperative [<verb>:] [<imper>:]
 VerbException [<verb>:] ([>] (Infinitive | Imperfective | Future))?
 ImperfStem [<verb>:] [>] ArchaicFuture
 ImperfStem [<verb>:] [>] ArchaicImperfPart
-MasdarStem [<verb>:]
+(MasdarStem [<verb>:] Periphrasis)[^[Strong,Weak]]
 
 PATTERN DoVerbPattern
 (DoVerb(1) [<verb>:] [>] (Imperfective | Future) ([>] ConditionalMood)?)[^[Strong,Weak]] ([>] Negative)? ([>] InterrogativeMood)?
@@ -174,6 +174,10 @@ LEXICON ArchaicImperfPart
 LEXICON Past
 <pst>:й
 <neg>><pst>:ч>ир
+
+LEXICON Periphrasis
+<per>:н[Strong]
+<per>:[Weak]
 
 LEXICON ImmediateAnteriorConverb
 <immant>:валди
