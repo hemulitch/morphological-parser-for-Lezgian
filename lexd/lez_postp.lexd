@@ -1,6 +1,6 @@
 
 PATTERN Postposition
-Postp [<post>:]
+Postp [<postp>:]
 
 LEXICON Postp
 авай
