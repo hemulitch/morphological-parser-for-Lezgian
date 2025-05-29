@@ -77,7 +77,7 @@ LEXICON InflEssive
 <ad>:в
 <post>:хъ
 <sub>:к
-<super>:{а1}л
+<super>:{а1}>л
 
 LEXICON NounPlural
 <pl><abs>:{а2}р[Back]
@@ -86,6 +86,7 @@ LEXICON NounPlural
 <pl><abs>:лар[ExceptionB]
 
 LEXICON NounExceptionAbs
+варз # месяц
 гад # лето
 дерт # горе
 кар # работа
@@ -98,6 +99,7 @@ LEXICON NounExceptionAbs
 свас # невеста
 фу # хлеб
 хва # сын; двоюродный(ая) брат (сестра)
+хев # горло
 цуьк # цветок
 цӀай # огонь
 чуьл # равнина, поле
@@ -106,6 +108,7 @@ LEXICON NounExceptionAbs
 яб # ухо
 
 LEXICON NounExceptionObl
+варз:вацр[Decl1,Back,B1]
 гад:гат[Decl1,Back,B2] # лето
 дерт:дерд[Decl3,NonBack,I]
 кар:кар[Decl2]
@@ -119,6 +122,7 @@ LEXICON NounExceptionObl
 свас:сус[Decl1,Back,B1]
 фу:ф[Decl1,Back,B1]
 хва:хц[Decl1,NonBack,NB1]
+хев:хив[Decl1,NonBack,NB1]
 цуьк:цуькв[Decl4,NonBack]
 цӀай:цӀ[Decl1,Back,B2]
 чуьл:чуьл[Decl2] # равнина, поле
@@ -127,6 +131,7 @@ LEXICON NounExceptionObl
 яб:яп[Decl1,Back,B2]
 
 LEXICON NounExceptionPl
+варз:варц[Decl1,Back,B1]
 гад:гат[Back] # лето
 дерт:дерд[NonBack]
 кар:кр[Back]
@@ -139,9 +144,11 @@ LEXICON NounExceptionPl
 свас:сус[NonBack]
 фу:ф[Back]
 хва:рухва[Back]
+хев:хив[NonBack]
 цуьк:цуькв[NonBack]
 цӀай:цӀа[Back]
 чуьл:чуьл[ExceptionNB] # равнина, поле
 экв:экв[NonBack]
-югъ:йикъа[Back]
+югъ:йикъ[Back]
 яб:яп[Back]
+
