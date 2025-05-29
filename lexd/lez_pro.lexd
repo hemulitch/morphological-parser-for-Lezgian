@@ -24,6 +24,8 @@ NegativeObl(1) [<prn>:] [<erg>:]
 NegativeObl(1) [<prn>:] [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative))))) [>] NegativeObl(2)
 NegativeObl(1) [<prn>:] [>] InLocalization ([<essive>:] | ([>] Elative)) [>] NegativeObl(2)
 Quantifier [<prn>:] 
+Quantifier [<prn>:] AdjObl [>] (Case | (InflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+Quantifier [<prn>:] AdjObl [>] InLocalization ([<essive>:] | ([>] Elative))
 
 LEXICON PersonalPronounsAbs
 зун # я
