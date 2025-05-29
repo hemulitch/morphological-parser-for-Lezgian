@@ -9,8 +9,8 @@ PATTERN Verb
 (AoristStem [<verb>:] [>] Aorist)[^[Strong,Weak]] 
 (AoristStem [<verb>:] [>] Perfect)[^[Strong,Weak]] 
 (AoristStem [<verb>:] [>] Perfect [>] SecondaryImperfectiveConverb)[^[Strong,Weak]]
-(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
-(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
 (MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] InLocalization ([<essive>:] | ([>] Elative))
 (MasdarStem [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] InLocalization ([<essive>:] | ([>] Elative))
 (MasdarStem [<verb>:] [>] Optative)[^[Strong,Weak]]
@@ -20,7 +20,7 @@ Imperative [<verb>:] [<imper>:]
 (AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # атрибутивная форма
 (AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjNumber [<abs>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
 (AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [<erg>:])[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
-(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>] (Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
+(AoristStem [<verb>:] [>] (AoristParticiple | PerfParticiple) [>] AdjObl [>](Case | (InflEssive ([>] (Elative | Directive))?)))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]] # субстантивированная
 (AoristStem [<verb>:] [>] AoristParticiple [>] TempConverb)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
 (AoristStem [<verb>:] [>] PerfParticiple [>] TempConverb)[^[Strong,Weak]]
 (AoristStem [<verb>:] [>] ArchaicPreterit)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
@@ -51,8 +51,8 @@ PATTERN DoVerbPattern
 (DoVerb(2) [<verb>:] [>] Infinitive)[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] (Optative | AoristConverb))[^[Strong,Weak]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] (([>] Plural) | ([>] (Erg | ErgPl) [<erg>:]))?
-(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
-(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (Case | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
+(NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] (MasdarInfl | (MasdarInflEssive ( [<essive>:] | ([>] (Directive | Elative)))))
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] Erg [>] InLocalization ([<essive>:] | ([>] Elative))
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] MasdarDerived)[^[Strong,Weak]] [>] ErgPl [>] InLocalization ([<essive>:] | ([>] Elative))
 (DoVerb(3) [<verb>:] [>] Aorist ([>] (InterrogativeMood | ConditionalMood))?)[^[Strong,Weak]] ([>] Negative)?
@@ -60,7 +60,7 @@ PATTERN DoVerbPattern
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] (AoristParticiple | PerfParticiple) ([>] (TempConverb | MannerConverb | CasualConverb))?)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (NegativePrefix [>])? (DoVerb(3) [<verb>:] [>] AoristParticiple [>] (ImmediateAnteriorConverb | ConditionalMood))[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception]]
 (DoVerb(3) [<verb>:] [>] ArchaicPreterit)[^[Strong,Weak],^[Polysyllabic,Monosyllabic,Exception,NoException]]
-DoVerb(1) [<verb>:] [>] ArchaicImperfPart
+(NegativePrefix [>])? DoVerb(1) [<verb>:] [>] ArchaicImperfPart
 
 LEXICON Plural
 <pl>:ар
@@ -70,6 +70,10 @@ LEXICON Erg
 
 LEXICON ErgPl
 <pl>:ри
+
+LEXICON MasdarInfl
+<gen>:н
+<dat>:з
 
 LEXICON MasdarInflEssive
 <ad>:в
@@ -115,6 +119,10 @@ LEXICON Prohibitive
 
 LEXICON Aorist
 <aor>:на # прошедшее определенное
+
+LEXICON Periphrasis
+<per>:н[Strong]
+<per>:[Weak]
 
 LEXICON Perfect
 <prf>:нва[Strong]
@@ -174,10 +182,6 @@ LEXICON ArchaicImperfPart
 LEXICON Past
 <pst>:й
 <neg>><pst>:ч>ир
-
-LEXICON Periphrasis
-<per>:н[Strong]
-<per>:[Weak]
 
 LEXICON ImmediateAnteriorConverb
 <immant>:валди
