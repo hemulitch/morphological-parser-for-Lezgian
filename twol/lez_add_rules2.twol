@@ -3,6 +3,9 @@ Alphabet
   а:0 %- %>
 ;
 
+Sets
+Vowel = а е ё и о у ь ы э ю я ;
+
 Rules
 
 "change Elative form when In localization form is а to avoid vowel hiatus"
@@ -13,3 +16,6 @@ Rules
 
 "change Elative form when In localization form is у to avoid vowel hiatus"
 а:0 <=> у %> _ й ;
+
+"change morpheme boundaries in Super localization"
+%>:0 <=> _ Vowel %> л ;
