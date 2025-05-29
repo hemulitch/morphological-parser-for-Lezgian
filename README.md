@@ -37,7 +37,7 @@ in this file the metrics (precision, recall, f1-score) can be calculated for two
 - predictions made with the analyzer and filtered with CG-parser (command `make metrics`)
 - predictions made with the analyzer only (command `make metrics_unfiltered_corpus`).
 
-the gold dataset is stored [here]([the analyzer](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/accuracy/corpus_gold)). 
+the gold dataset is stored [here](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/accuracy/corpus_gold). 
 
 the average metrics for filtered texts:
 | type       | precision | recall | f1 score |
@@ -51,7 +51,8 @@ the average metrics for filtered texts:
 ## Coverage
 [./coverage](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/coverage)
 
-calculate coverage of the parser on preprocessed corpus
+scripts to calculate coverage of the analyzer on preprocessed corpus
+
 | source            | coverage1 | coverage2 |
 | :---------------- | :-------: | :-------: |
 | bible.txt         |   87.55%  |   64.71%  |
