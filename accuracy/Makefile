@@ -1,27 +1,28 @@
-GOLD_DIR=corpus_gold
-PRED_DIR=corpus_predicted
-SCRIPT=./accuracy.sh
+OUTDIR := filtered_results
+OUTDIR_UNFILT := unfiltered_results
 
-INDICES := $(shell ls $(GOLD_DIR)/gold_*.csv | xargs -n1 basename | sed 's/^gold_//' | sed 's/\.csv$$//')
+$(OUTDIR):
+	mkdir -p $(OUTDIR)
 
-RESULTS=results.tsv
+$(OUTDIR_UNFILT):
+	mkdir -p $(OUTDIR_UNFILT)
 
-.PHONY: all clean summary
+metrics:
+	python3 accuracy.py corpus_gold/gold_1.csv corpus_predicted/predicted_1.csv $(OUTDIR) 1 
+	python3 accuracy.py corpus_gold/gold_2.csv corpus_predicted/predicted_2.csv $(OUTDIR) 2 
+	python3 accuracy.py corpus_gold/gold_3.csv corpus_predicted/predicted_3.csv $(OUTDIR) 3 
+	python3 accuracy.py corpus_gold/gold_4.csv corpus_predicted/predicted_4.csv $(OUTDIR) 4 
+	python3 accuracy.py corpus_gold/gold_5.csv corpus_predicted/predicted_5.csv $(OUTDIR) 5 
+	python3 accuracy.py corpus_gold/gold_6.csv corpus_predicted/predicted_6.csv $(OUTDIR) 6 
 
-all: $(RESULTS) summary
-
-$(RESULTS): $(foreach i,$(INDICES),$(GOLD_DIR)/gold_$(i).csv) $(SCRIPT)
-	@echo "source  full_acc  ana_acc  pos_acc  seg_acc  stem_acc"
-	@for i in $(INDICES); do \
-		echo -n "$$i\t" >> $@; \
-		$(SCRIPT) --csv $(GOLD_DIR)/gold_$$i.csv $(PRED_DIR)/predicted_$$i.csv >> $@; \
-	done
-
-summary: $(RESULTS)
-	@echo
-	@column -t -s $$'\t' $(RESULTS)
-	@echo
-	@awk -F'\t' 'NR>1 {for(i=2;i<=NF;i++) sum[i]+=$$i; count++} END {printf "avg"; for(i=2;i<=NF;i++) printf "\t%.2f", sum[i]/count; print ""}' $(RESULTS)
+metrics_unfiltered_corpus:
+	python3 accuracy.py corpus_gold/gold_1.csv corpus_unfiltered_predicted/unfilter_predicted_1.csv $(OUTDIR_UNFILT) 1 
+	python3 accuracy.py corpus_gold/gold_2.csv corpus_unfiltered_predicted/unfilter_predicted_2.csv $(OUTDIR_UNFILT) 2 
+	python3 accuracy.py corpus_gold/gold_3.csv corpus_unfiltered_predicted/unfilter_predicted_3.csv $(OUTDIR_UNFILT) 3 
+	python3 accuracy.py corpus_gold/gold_4.csv corpus_unfiltered_predicted/unfilter_predicted_4.csv $(OUTDIR_UNFILT) 4 
+	python3 accuracy.py corpus_gold/gold_5.csv corpus_unfiltered_predicted/unfilter_predicted_5.csv $(OUTDIR_UNFILT) 5 
+	python3 accuracy.py corpus_gold/gold_6.csv corpus_unfiltered_predicted/unfilter_predicted_6.csv $(OUTDIR_UNFILT) 6 
 
 clean:
-	rm -f $(RESULTS)
+	rm results/*
+	rm unfiltered_results/*
