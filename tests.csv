@@ -26,7 +26,7 @@ analysis,form,form_glosses,mustpass,source,description
 фикир<n>><pl>><ad>><directive>,фикираривди,фикир-ари-в-ди,pass,Гайдаров и др. (2009),noun
 фикир<n>><pl>><post><essive>,фикирарихъ,фикир-ари-хъ,pass,Гайдаров и др. (2009),noun
 фикир<n>><pl>><post>><elative>,фикирарихъай,фикир-ари-хъ-ай,pass,Гайдаров и др. (2009),noun
-фикир<n>><pl>><post>><directive>,фикирарихъди,фикир-ари-хъ-ди,pass,Гайдаров и др. (2009),noun
+фикир<n>><pl>><post>><directive>,фикир-ари-хъ-ди,pass,Гайдаров и др. (2009),noun
 фикир<n>><pl>><sub><essive>,фикирарик,фикир-ари-к,pass,Гайдаров и др. (2009),noun
 фикир<n>><pl>><sub>><elative>,фикирарикай,фикир-ари-к-ай,pass,Гайдаров и др. (2009),noun
 фикир<n>><pl>><sub>><directive>,фикирарикди,фикир-ари-к-ди,pass,Гайдаров и др. (2009),noun
@@ -107,24 +107,24 @@ analysis,form,form_glosses,mustpass,source,description
 вад<num>><pl>><super>><elative>,вадрилай,вад-ри-л-ай,pass,Гайдаров и др. (2009),numeral
 вад<num>><pl>><in><essive>,вадра,вад-р-а,pass,Гайдаров и др. (2009),numeral
 вад<num>><pl>><in>><elative>,вадрай,вадр-а-й,pass,Гайдаров и др. (2009),numeral
-в<prn>><abs>,вун,в-ун,pass,Гайдаров и др. (2009),pronoun
-в<prn><erg>,вуна,вун-а,pass,Гайдаров и др. (2009),pronoun
-в<prn>><gen>,ви,в-и,pass,Гайдаров и др. (2009),pronoun
-в<prn>><dat>,ваз,ва-з,pass,Гайдаров и др. (2009),pronoun
-в<prn>><ad><essive>,вав,ва-в,pass,Гайдаров и др. (2009),pronoun
-в<prn>><ad>><elative>,вавай,ва-в-ай,pass,Гайдаров и др. (2009),pronoun
-в<prn>><ad>><directive>,вавди,ва-в-ди,pass,Гайдаров и др. (2009),pronoun
-в<prn>><post><essive>,вахъ,ва-хъ,pass,Гайдаров и др. (2009),pronoun
-в<prn>><post>><elative>,вахъай,ва-хъ-ай,pass,Гайдаров и др. (2009),pronoun
-в<prn>><post>><directive>,вахъди,ва-хъ-ди,pass,Гайдаров и др. (2009),pronoun
-в<prn>><sub><essive>,вак,ва-к,pass,Гайдаров и др. (2009),pronoun
-в<prn>><sub>><directive>,вакди,ва-к-ди,pass,Гайдаров и др. (2009),pronoun
-в<prn>><sub>><elative>,вакай,ва-к-ай,pass,Гайдаров и др. (2009),pronoun
-в<prn>><super><essive>,вал,ва-л,pass,Гайдаров и др. (2009),pronoun
-в<prn>><super>><elative>,валай,ва-л-ай,pass,Гайдаров и др. (2009),pronoun
-в<prn>><super>><directive>,валди,ва-л-ди,pass,Гайдаров и др. (2009),pronoun
-в<prn>><in><essive>,ва,в-а,pass,Гайдаров и др. (2009),pronoun
-в<prn>><in>><elative>,вай,в-а-й,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><abs>,вун,вун,pass,Гайдаров и др. (2009),pronoun
+вун<prn><erg>,вуна,вуна,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><gen>,ви,ви,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><dat>,ваз,ва-з,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><ad><essive>,вав,ва-в,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><ad>><elative>,вавай,ва-в-ай,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><ad>><directive>,вавди,ва-в-ди,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><post><essive>,вахъ,ва-хъ,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><post>><elative>,вахъай,ва-хъ-ай,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><post>><directive>,вахъди,ва-хъ-ди,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><sub><essive>,вак,ва-к,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><sub>><directive>,вакди,ва-к-ди,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><sub>><elative>,вакай,ва-к-ай,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><super><essive>,вал,ва-л,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><super>><elative>,валай,ва-л-ай,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><super>><directive>,валди,ва-л-ди,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><in><essive>,ва,в-а,pass,Гайдаров и др. (2009),pronoun
+вун<prn>><in>><elative>,вай,в-а-й,pass,Гайдаров и др. (2009),pronoun
 гу<verb>><msd>,гун,гу-н,pass,Haspelmath 1993,verb
 гу<verb>><msd>><pl>,гунар,гу-н-ар,pass,Haspelmath 1993,verb
 гу<verb>><msd>><erg>,гуни,гу-н-и,pass,Haspelmath 1993,verb
@@ -176,7 +176,7 @@ analysis,form,form_glosses,mustpass,source,description
 раха<verb>><prf>><neg>,раханвач,раха-нва-ч,pass,Haspelmath 1993,verb
 раха<verb>><imperf>><neg>,рахазвач,раха-зва-ч,pass,Haspelmath 1993,verb
 рахун<verb><imper>,рахух,рахух,pass,Haspelmath 1993,verb
-раха<verb>><imperf><ptp>,рахазвай,раха-зва-й,pass,Haspelmath 1993,participle
+раха<verb>><imperf>><ptp>,рахазвай,раха-зва-й,pass,Haspelmath 1993,participle
 кат<verb>><inf>,катиз,кат-из,pass,Haspelmath 1993,verb
 кат<verb>><hort>,катин,кат-ин,pass,Haspelmath 1993,verb
 кат<verb>><imperf>,катзава,кат-зава,pass,Haspelmath 1993,verb
@@ -191,20 +191,20 @@ analysis,form,form_glosses,mustpass,source,description
 кат<verb>><prf>><neg>,катнавач,кат-нава-ч,pass,Haspelmath 1993,verb
 кат<verb>><imperf>><neg>,катзавач,кат-зава-ч,pass,Haspelmath 1993,verb
 катун<verb><imper>,кат,кат,pass,Haspelmath 1993,verb
-кат<verb>><imperf><ptp>,катзавай,кат-зава-й,pass,Haspelmath 1993,participle
+кат<verb>><imperf>><ptp>,катзавай,кат-зава-й,pass,Haspelmath 1993,participle
 я<cop><imperf>,я,я,pass,Haspelmath 1993,standard copula
-я<cop><prf>,тир,тир,pass,Haspelmath 1993,standard copula
+я<cop><pst>,тир,тир,pass,Haspelmath 1993,standard copula
 я<cop>><cvb>,яз,я-з,pass,Haspelmath 1993,standard copula
 я<cop><ptp>,тир,тир,pass,Haspelmath 1993,standard copula
 я<cop><neg>,туш,туш,pass,Haspelmath 1993,standard copula
-я<cop><neg>><prf>,тушир,туш-ир,pass,Haspelmath 1993,standard copula
+я<cop><neg>><pst>,тушир,туш-ир,pass,Haspelmath 1993,standard copula
 я<cop><neg>><cvb>,тушиз,туш-из,pass,Haspelmath 1993,standard copula
 я<cop><neg>><ptp>,тушир,туш-ир,pass,Haspelmath 1993,standard copula
 ава<cop><imperf>,ава,ава,pass,Haspelmath 1993,local copula
-ава<cop>><prf>,авай,ава-й,pass,Haspelmath 1993,local copula
+ава<cop>><pst>,авай,ава-й,pass,Haspelmath 1993,local copula
 ава<cop>><cvb>,аваз,ава-з,pass,Haspelmath 1993,local copula
 ава<cop>><ptp>,авай,ава-й,pass,Haspelmath 1993,local copula
 ава<cop>><neg>,авач,ава-ч,pass,Haspelmath 1993,local copula
-ава<cop>><neg>><prf>,авачир,ава-ч-ир,pass,Haspelmath 1993,local copula
+ава<cop>><neg>><pst>,авачир,ава-ч-ир,pass,Haspelmath 1993,local copula
 ава<cop>><neg>><cvb>,авачиз,ава-ч-из,pass,Haspelmath 1993,local copula
 ава<cop>><neg>><ptp>,авачир,ава-ч-ир,pass,Haspelmath 1993,local copula
