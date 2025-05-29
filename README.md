@@ -1,12 +1,18 @@
+# Creating the Morphological Parser for Lezgian in lexd and twol: Building a Glossing Tool 
+
 ## Parser
-in [`/lexd`](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/lexd) folder the files with dictionary and grammatical rules are stored
-in `/twol` folder the files with phonological changes are stored
-they are compiled by running Makefile to create 4 transducers:
-- `lez_analyzer_no_sep.hfstol`
-- `lez_analyzer_sep.hfstol`
-- `lez_generator_no_sep.hfstol`
-- `lez_generator_sep.hfstol`
-  
+[/lexd](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/lexd) folder: the files with lexical material and grammatical rules 
+[/twol](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/twol) folder: the files with phonological changes to accomodate inflection
+
+all the files describing Lezgian morphology and phonology were based on grammatical descriptions by Haspelmath (1993) and Gajdarov et al. (2009)
+
+files are compiled by running Makefile to create 4 transducers:
+- `lez_analyzer_no_sep.hfstol`: takes the surface forms and gives analysis for them
+- `lez_analyzer_sep.hfstol`: takes the surface forms with separators on morphemic boundaries and gives analysis for them (not frequently used)
+- `lez_generator_no_sep.hfstol`: takes the analyses and generates surface forms for them
+- `lez_generator_sep.hfstol`: takes the analyses and generates for them surface with separators on morphemic boundaries
+
+
 ## CG parser
 [./cg_parser](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/cg_parser)
 
