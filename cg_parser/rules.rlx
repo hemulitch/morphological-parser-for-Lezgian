@@ -1,48 +1,84 @@
-DELIMITERS = "<$.>" ;
+DELIMITERS = "<.>" "<!>" "<?>" ;
 
-LIST NOUN = n;
-LIST VERB = verb;
-LIST NUM = num;
-LIST PART = part;
-LIST ADJ = adj;
-LIST EOS = "*eos";
-LIST COP = cop;
-LIST CONJ = conj;
-LIST ADV = adv;
-LIST COP = cop;
-LIST particle = "хупӀ";
+SETS
+# parts of speech
+LIST Noun = n;
+LIST Verb = verb cop;
+LIST Num = num;
+LIST Postp = post;
+LIST Part = part;
+LIST Adj = adj;
+LIST Cop = cop;
+LIST Conj = conj;
+LIST Adv = adv; 
+LIST Aor = aor;
+LIST Aoc = aoc;
+
+# certain lexems
 LIST copulas = "я" "ава";
-LIST BOS = "*bos";
+LIST particle = "хупӀ";
 
-SELECT NUM IF
-        (0 PART)
-        (0 ADJ)
-        (1 NOUN) ;
+# lists of forms
+LIST Pst = (cop > neg > pst) (verb > prf > pst) (cop > pst) (cop pst) (verb > fut > pst) (verb > imperf > pst) (be.on > pst);
+LIST Ptp = (cop > neg > ptp) (verb > prf > ptp) (cop > ptp) (cop ptp) (verb > fut > ptp) (verb > imperf > ptp) (be.on > ptp);
 
-SELECT NOUN IF 
-        (0 NOUN) 
-        (0 ADJ)
-        (1 EOS) ;
+SET VerbAor = Verb + Aor;
+SET VerbAoc = Verb + Aoc;
+SET Pos = Verb | Cop | Adv | Conj | Adj | Part | Postp | Num | Noun;
 
-SELECT COP IF 
-        (0 COP) 
-        (0 PART)
-        (0 CONJ)
-        (1 EOS) ;
+# select aor if there are no other verbs in the sentence on the right
+SELECT VerbAor IF
+        (0 VerbAor)
+        (0 VerbAoc)
+        (NOT 1* Verb OR Cop); 
 
-SELECT PART IF
-        (0 particle) 
-        (-1 BOS) ;
+# select aoc if there is another verb in the sentence on the right
+SELECT VerbAoc IF
+        (0 VerbAor)
+        (0 VerbAoc)
+        (1* Verb OR Cop); 
 
-SELECT COP IF
+# select ptp if there is another verbal form in the sentence on the right
+SELECT Ptp IF
+        (0 Ptp)
+        (0 Pst)
+        (1* Verb); 
+
+# select pst if there no other verb in the sentence on the right
+SELECT Pst IF
+        (0 Ptp)
+        (0 Pst)
+        (NOT 1* Verb);   
+
+# if "хупӀ" in the beginning of sentence, it's particle
+SELECT Part IF
+        (0 particle)
+        (NOT -1 Pos) ;
+
+# if adj is before "я" or "ава", "я" and "ава" are copulas
+SELECT Cop IF
         (0 copulas)
-        (-1 ADJ);
+        (-1 Adj);
 
-SELECT COP IF
+# if noun is before "я" or "ава", "я" and "ава" are copulas
+SELECT Cop IF
         (0 copulas)
-        (-1 NOUN);
+        (-1 Noun);
+        
+# if copula is after the wordform, it's adj, not adv 
+SELECT Adj IF
+        (0 Adj)
+        (0 Adv)
+        (1 Cop);
 
-SELECT ADJ IF
-        (0 ADJ)
-        (0 ADV)
-        (1 COP);
+# "я" at the end of sentence is copula
+SELECT Cop IF 
+        (0 Cop) 
+        (0 Part)
+        (0 Conj)
+        (NOT 1 Pos) ;
+
+SELECT Num IF
+        (0 Part)
+        (0 Adj)
+        (1 Noun) ;
