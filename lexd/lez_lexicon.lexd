@@ -914,6 +914,7 @@ LEXICON NounStem
 давла[Decl2,Back]
 давление[Decl2,Back]
 давугъа[Decl2,Back] # товга (род рисового супа)
+дагъ[Decl2,ExceptionB]
 дагъви[Decl2,Back] # горец
 дагълу[Decl2,Back] # горец
 дагьар[Decl2,Back] # пещера
@@ -1655,6 +1656,8 @@ LEXICON NounStem
 кукупӀ[Decl2,Back] # кукушка
 кукуцӀул[Decl2,Back]
 кукӀва[Decl2,Back]
+кӀвач[Decl1,NonBack,NB2]
+кӀвач[Decl1,NonBack,NB1]
 кукӀвал[Decl2,Back]
 кукӀрух[Decl2,Back]
 кукӀуш[Decl2,Back] # макушка
@@ -4168,6 +4171,7 @@ LEXICON NounStem
 хьур[Decl1,NonBack,NB1] # село
 хьуртӀун[Decl2,Back]
 хьухь[Decl2,Back]
+цав[Decl1,Back,NB2] # небо
 цавяр[Decl2,Back]
 цагъ[Decl4,Back]
 цагъам[Decl2,Back]
@@ -4523,6 +4527,7 @@ LEXICON NounStem
 шашлик[Decl2,Back]
 шашликӀ[Decl2,Back]
 шегьре[Decl2,Back]
+шегьер[Decl2,NonBack]
 шеле[Decl2,Back]
 шелечи[Decl2,Back]
 шем[Decl3,NonBack,NB2] # свеча
@@ -4776,13 +4781,20 @@ LEXICON NounStem
 # =========================================================================================================
 
 LEXICON ProperNouns
-Азербайжан[Decl2]
-Баку[Decl2]
-Дагъустан[Decl2]
-Дербент[Decl2]
-Махачкъала[Decl2]
-Мегьамед[Decl1,Back,B1]
-Москва[Decl2]
+али[Decl2]
+аслан[Decl1,Back,B1]
+азербайжан[Decl2]
+баку[Decl2]
+варис[Decl1,Back,B1]
+дагъустан[Decl2]
+дербент[Decl2]
+иса[Decl2]
+махачкъала[Decl2]
+мегьамед[Decl1,Back,B1]
+москва[Decl2]
+рагьим[Decl1,Back,B1]
+сажидин[Decl1,Back,B1]
+сулейман[Decl1,Back,B1]
 
 # =========================================================================================================
 # ===================================== NOUNS (SINGULAR ONLY) =============================================
@@ -5298,6 +5310,7 @@ LEXICON AdjStem
 ашер
 ашкара # очевидный, явный
 ашкъилу
+ахьтин
 ашукь # влюбленный,
 аялрин # детский
 багълу
@@ -5532,6 +5545,7 @@ LEXICON AdjStem
 гьевеслу
 гьейран # изумленный, очарованный
 гьинавачир
+гьихьтин
 гьйаркьуь # широкий
 гьукуматдин # государственный
 гьулдандин  # стальной
@@ -5753,6 +5767,7 @@ LEXICON AdjStem
 ихлас # подлинный, истинный
 ихтибарлу # надежный
 ихтибарсуз
+ихьтин # such
 ицӀи # сырой
 ичин # яблочный
 ичӀи # пустой
@@ -8756,6 +8771,7 @@ LEXICON MasdarStem
 ацӀур[Weak] # заполнить,покрывать
 ачухар[Weak] # осветить, освещать
 ачух[Weak] # открывать
+ахъай[Weak] # открывать
 ашкъиламиш[Weak]
 ашукьар[Weak]
 аянар[Weak]
@@ -9517,6 +9533,7 @@ LEXICON MasdarStem
 хчӀал[Weak] # собирать, собрать
 хъиткьинар[Weak] # взорвать, взрывать
 хъсанар[Weak] # улучшать, улучшить
+хъуву[Strong]
 хъуткъун[Weak] # вздрогнуть
 хъфи[Strong] # уходить
 хабардар[Weak]
@@ -9533,6 +9550,8 @@ LEXICON MasdarStem
 хкуькь[Weak]
 хкьур[Weak]
 хкякь[Weak]
+хту[Strong]
+хъфи[Strong]
 хтӀун[Weak]
 хукӀур[Weak]
 хулинганвал[Weak]
@@ -9876,6 +9895,7 @@ LEXICON ImperfStem
 ахмиш[Weak]
 ахмур[Weak]
 ахтармиш[Weak] # искать
+ахъай[Weak] # открывать
 ацадар[Weak]
 ацалд[Weak]
 ацалт[Weak]
@@ -10654,6 +10674,7 @@ LEXICON ImperfStem
 хуькуькь[Weak]
 хуькуьр[Weak]
 хцел[Weak]
+хкве[Strong]
 хчел[Weak]
 хъвер[Weak]
 хъел[Weak]
@@ -10682,6 +10703,7 @@ LEXICON ImperfStem
 хуь[Strong] # хранить
 хчӀал[Weak] # собирать, собрать
 хъва[Strong] # пить
+хъийи[Strong]
 хъиткьинар[Weak] # взорвать, взрывать
 хъсанар[Weak] # улучшать, улучшить
 хъуткъун[Weak] # вздрогнуть
@@ -11007,6 +11029,7 @@ LEXICON AoristStem
 ахмиш[Weak,NoException]
 ахмур[Weak,NoException]
 ахтармиш[Weak,NoException] # искать
+ахъай[Weak] # открывать
 ацадар[Weak,NoException]
 ацалд[Weak,NoException]
 ацалт[Weak,NoException]
@@ -11780,6 +11803,7 @@ LEXICON AoristStem
 хкьур[Weak,NoException]
 хкякь[Weak,NoException]
 хтӀун[Weak,NoException]
+хта[Strong]
 хукӀур[Weak,NoException]
 хулинганвал[Weak,NoException]
 хур[Weak,NoException]
@@ -11819,6 +11843,7 @@ LEXICON AoristStem
 хъсанар[Weak,NoException] # улучшать, улучшить
 хъуткъун[Weak,NoException] # вздрогнуть
 хъфе[Strong,Polysyllabic] # уходить
+хъуву[Strong,Polysyllabic]
 хьа[Strong,Monosyllabic] # быть
 цавал[Weak,NoException]
 ца[Strong,Monosyllabic] # шить; лить, наливать; сеять, засевать
@@ -12184,6 +12209,7 @@ LEXICON Imperative
 ахмишара
 ахмиша
 ахмура
+ахъая # открывать
 ахтармиша # искать
 ацадара
 ацалд
@@ -13091,6 +13117,7 @@ LEXICON Imperative
 хуькуьра
 хцела
 хчела
+хьша
 хъвера
 хъела
 хъивегьа
@@ -13160,6 +13187,7 @@ LEXICON Imperative
 хъсанара # улучшать, улучшить
 хъуткъуна # вздрогнуть
 хъвач # уходить
+хъия
 хъухъ # пить
 хьухь # быть
 цавала
