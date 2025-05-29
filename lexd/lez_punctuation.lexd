@@ -1,0 +1,13 @@
+
+PATTERN Punctuation
+PunctuationSymbols [<punct>:]
+
+LEXICON PunctuationSymbols
+?
+! 
+, 
+— 
+. 
+: 
+; 
+?
