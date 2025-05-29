@@ -56,9 +56,13 @@ lez_add_rules2.twol.hfst: twol/lez_add_rules2.twol
 # tests
 test.pass.txt: tests.csv
 	awk -F, '$$4 == "pass" {print $$1 ":" $$2}' $^ | sort -u > $@
+test2.pass.txt: tests.csv
+	awk -F, '$$4 == "pass" {print $$1 ":" $$3}' $^ | sort -u > $@
+
 check: lez_generator_no_sep.hfst test.pass.txt
 	bash compare.sh $< test.pass.txt
-
+check_sep: lez_generator_sep.hfst test2.pass.txt
+	bash compare.sh $< test2.pass.txt
 # delete all
 clean:
 	rm *.hfst
