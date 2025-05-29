@@ -1,5 +1,12 @@
 ## Parser
-
+in `/lexd` folder the files with dictionary and grammatical rules are stored
+in `/twol` folder the files with phonological changes are stored
+they are compiled by running Makefile to create 4 transducers:
+- `lez_analyzer_no_sep.hfstol`
+- `lez_analyzer_sep.hfstol`
+- `lez_generator_no_sep.hfstol`
+- `lez_generator_sep.hfstol`
+- 
 ## CG parser
 [./cg_parser](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/cg_parser)
 
@@ -14,6 +21,19 @@ where `x`:
 - sentence: `make run INPUT="Чуьллера хъваз таза къайи булахар."`
 
 the disambiguated output is saved in `disambiguated_analysis.txt`
+
+## Metrics
+[./accuracy](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/accuracy)
+in this file the metrics (precision, recall, f1-score) can be calculated for predictions of the analyzer filtered with CG-parser (command `make metrics`) and not filtered with CG-parser (command `make metrics_unfiltered_corpus`). the gold dataset is stored here. 
+
+the average metrics for filtered texts:
+| type       | precision | recall | f1 score |
+| :--------- | :-------: | :----: | :------: |
+| stem       |   90.63%  | 92.75% |  91.65%  |
+| pos        |   77.3%   | 91.67% |  83.81%  |
+| tag        |   78.32%  | 91.81% |  84.46%  |
+| segments   |   88.76%  | 92.63% |  90.62%  |
+| full_match |   71.83%  | 91.12% |  80.23%  |
 
 ## Coverage
 [./coverage](https://github.com/hemulitch/morphological-parser-for-Lezgian/tree/main/coverage)
